@@ -1,0 +1,198 @@
+{
+  "packet": {
+    "schema_version": 2,
+    "slug": "shimabara-different-volcanoes",
+    "title": "島原半島の地層を、火山の違いから読む",
+    "region": "長崎県",
+    "checked_at": "2026-10-14",
+    "angle": "半島初期の噴火、阿蘇由来の火砕流、初期の雲仙を比較する。半島内の岩を全て雲仙由来にしない。",
+    "sources": [
+      {
+        "id": "official",
+        "url": "https://geopark.jp/geopark/shimabara/",
+        "label": "日本ジオパークネットワーク・公式紹介",
+        "checked_at": "2026-10-14"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact-1",
+        "text": "早崎海岸は島原半島をつくり始めた噴火の場所として紹介され、海岸の地層が半島の成り立ちを示す。",
+        "source_ids": [
+          "official"
+        ]
+      },
+      {
+        "id": "fact-2",
+        "text": "原城跡が載る丘には阿蘇山の噴火による火砕流堆積物がある。地形の由来と城の歴史は別の時間の話である。",
+        "source_ids": [
+          "official"
+        ]
+      },
+      {
+        "id": "fact-3",
+        "text": "龍石海岸の火山扇状地の端には、雲仙火山の活動初期に由来する地層が露出している。",
+        "source_ids": [
+          "official"
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "place-1",
+        "name": "早崎海岸",
+        "lat": 32.5924444,
+        "lng": 130.1742222,
+        "location_status": "representative",
+        "role": "半島の始まり",
+        "visit_note": "地図は公式案内の代表位置です。現地の入口や観察場所は公式情報で確認してください。",
+        "fact_ids": [
+          "fact-1"
+        ],
+        "coordinate_source_url": "https://goo.gl/maps/gbBs9sUw5t42",
+        "coordinate_scope": "official-map-marker",
+        "coordinate_checked_at": "2026-10-14"
+      },
+      {
+        "id": "place-2",
+        "name": "原城跡",
+        "lat": 32.6289722,
+        "lng": 130.2541667,
+        "location_status": "representative",
+        "role": "遠くの火山の堆積物",
+        "visit_note": "地図は公式案内の代表位置です。現地の入口や観察場所は公式情報で確認してください。",
+        "fact_ids": [
+          "fact-2"
+        ],
+        "coordinate_source_url": "https://goo.gl/maps/zDaHLySJatN2",
+        "coordinate_scope": "official-map-marker",
+        "coordinate_checked_at": "2026-10-14"
+      },
+      {
+        "id": "place-3",
+        "name": "龍石海岸",
+        "lat": 32.65275,
+        "lng": 130.28075,
+        "location_status": "representative",
+        "role": "初期の雲仙",
+        "visit_note": "地図は公式案内の代表位置です。現地の入口や観察場所は公式情報で確認してください。",
+        "fact_ids": [
+          "fact-3"
+        ],
+        "coordinate_source_url": "https://goo.gl/maps/nEYdFLRK12R2",
+        "coordinate_scope": "official-map-marker",
+        "coordinate_checked_at": "2026-10-14"
+      }
+    ],
+    "relations": [
+      {
+        "id": "relation-1",
+        "from": "place-1",
+        "to": "place-2",
+        "kind": "thematic",
+        "note": "テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。",
+        "fact_ids": [
+          "fact-1",
+          "fact-2"
+        ]
+      },
+      {
+        "id": "relation-2",
+        "from": "place-2",
+        "to": "place-3",
+        "kind": "thematic",
+        "note": "テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。",
+        "fact_ids": [
+          "fact-2",
+          "fact-3"
+        ]
+      }
+    ],
+    "forbidden_phrases": [
+      "ぜひ訪れて",
+      "歴史を感じる",
+      "魅力を感じる"
+    ]
+  },
+  "draft": {
+    "error": "",
+    "title": "島原半島の地層を、火山の違いから読む",
+    "lead": "半島の始まりを示す海岸、阿蘇の火砕流が残る丘、初期の雲仙の地層。島原半島で、異なる火山の記録を見比べます。",
+    "intro": "早崎海岸、原城跡、龍石海岸の公式解説では、それぞれ違う火山活動が地形の由来として紹介されています。半島の中にあるという近さだけで、一つの噴火の結果として結ばずに読みます。",
+    "reading_title": "地層から読み解く火山の成り立ち",
+    "places": [
+      {
+        "id": "place-1",
+        "body": "早崎海岸の地層に目を向けると、島原半島を作り始めた噴火の様子を知ることができます。この場所の地層は、半島の成り立ちを示す重要な手がかりとなります。",
+        "evidence_ids": [
+          "fact-1"
+        ]
+      },
+      {
+        "id": "place-2",
+        "body": "原城跡が載る丘の地層は、阿蘇山の噴火による火砕流堆積物です。この地形の成り立ちと、そこに築かれた城の歴史は、異なる時間の出来事として区別されます。",
+        "evidence_ids": [
+          "fact-2"
+        ]
+      },
+      {
+        "id": "place-3",
+        "body": "龍石海岸の火山扇状地の端には、雲仙火山の活動初期に由来する地層が露出しています。この地層から、雲仙火山の初期の活動を読み取ることができます。",
+        "evidence_ids": [
+          "fact-3"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "id": "relation-1",
+        "title": "半島の成り立ちと遠方の火砕流",
+        "body": "早崎海岸の地層は半島をつくり始めた噴火の記録として、原城跡の丘は阿蘇山の火砕流堆積物として紹介されています。近い場所にある地層でも、公式解説が示す由来は異なります。半島の始まりと、別の火山から届いた堆積物を見比べる関係です。",
+        "evidence_ids": [
+          "fact-1",
+          "fact-2"
+        ]
+      },
+      {
+        "id": "relation-2",
+        "title": "遠方の火砕流と初期の雲仙",
+        "body": "原城跡では阿蘇山に由来する火砕流堆積物、龍石海岸では初期の雲仙火山の地層が紹介されています。地層の見た目だけで由来を決めるのではなく、公式解説を手がかりに、異なる火山の活動が残した記録として読みます。",
+        "evidence_ids": [
+          "fact-2",
+          "fact-3"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "relation_id": "relation-1",
+        "label": "半島を形作った火山の違いはどこにありますか？"
+      },
+      {
+        "relation_id": "relation-2",
+        "label": "雲仙火山の初期の活動はどこで確認できますか？"
+      }
+    ]
+  },
+  "provenance": {
+    "editorial_status": "edited-for-publication",
+    "editorial_actor": "AI-assisted source verification and editing; no human review-time claim",
+    "authorization": "User requested replacing current story selection with generated articles",
+    "checked_at": "2026-10-14",
+    "model": "gemma4:12b",
+    "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+    "generated_at": "2026-10-14T13:30:33.405004085Z",
+    "original_draft_sha256": "e8a30b79fce048e410b88f0f46fd794925a232fe632ac6eddbb756e2b54353ba",
+    "original_packet_sha256": "55f95ee3fb14517a705a391a9ec38dabc51148223694e8518a5d1a2a829a57bb",
+    "edits": [
+      "lead",
+      "intro",
+      "verified representative coordinates",
+      "location notes",
+      "questions edited where needed",
+      "relations/0/body: source-grounded comparison",
+      "relations/1/body: distinguish source explanation from visual identification"
+    ],
+    "coordinate_policy": "Nine points use coordinates in official JGN map-link place labels; Muroto uses official site map centers explicitly labelled as representative, not exact outcrops."
+  }
+}

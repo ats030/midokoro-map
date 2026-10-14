@@ -1171,6 +1171,71 @@
       "path": "docs/story-packets/kawagoe-festival.json",
       "sha256": "cd1dddab675b83b49401ba2a26b60551e649854a6279430df3b27c397006505c",
       "mode": "100644"
+    },
+    {
+      "path": "DESIGN.md",
+      "sha256": "3ddace7df6071f1f493d355352c4fb09a6b727c1c7729e0fcb48f376ced3efbe",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/sitemap.xml",
+      "sha256": "7c23bc727af512448de9b7713b2b999190b277436cbb427298c53f479cdb16a6",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/publish-story-pages.py",
+      "sha256": "774e4e6d8b7d2e0d8b685d6ab02f1595af88d4db5a0db3f919e0d331b9eaeb8b",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/test_publish_story_pages.py",
+      "sha256": "aa0fed6c9ab1e90a982a3aaf84a0fbf0ec7d5f45c67c150919952452b13d7bde",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/generated-story-publication.md",
+      "sha256": "3ccddf911b413666c37bc1b4ece73d5eadbf4f7b08757e212d80d7f0a1e95db4",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/muroto-sea-and-land.html",
+      "sha256": "a6724852913a9a0d895a77bcb505e56cd6f16ef8a205f44cc78443aadbb75b46",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/oki-erosion-comparison.html",
+      "sha256": "5d1b93166fb74b9e4a547d12e31b106a25fedb41da94d0d8cb5f32a14fb05dc6",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/shimabara-different-volcanoes.html",
+      "sha256": "abd30a669fb5c7a51fb46e3e4cff58cd7d05e9f05f0d195b1494c82339eeae02",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/hakusan-rock-and-water.html",
+      "sha256": "c1cb57ff4c2509a51fb1d6a705be62d50c552a6b573b64d2d92c92d5f20a2923",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/published-stories/generated/muroto-sea-and-land.json",
+      "sha256": "6d12c16a646bd59d2480ffe34a600e1b6e81c09e48a515ada5a798a45a4379e4",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/published-stories/generated/oki-erosion-comparison.json",
+      "sha256": "b6337fc116d53caa99994d9dd1649b84a5d128712247322c167149ceb3aa7bc8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/published-stories/generated/shimabara-different-volcanoes.json",
+      "sha256": "c94d460a9ea04dcaeae0a274ed073799187ab8e9d6b8503ed874829a4992e565",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/published-stories/generated/hakusan-rock-and-water.json",
+      "sha256": "1961952eda2ee1761d40d81ce10fbde9f307b5218509229b8d71aba78085c56c",
+      "mode": "100644"
     }
   ],
   "publication_adjustments": [
@@ -1186,8 +1251,8 @@
     },
     {
       "path": "cloudflare/worker.mjs",
-      "reason": "Identify the new standalone project in the existing public User-Agent contact URL. No request/runtime logic changed.",
-      "published_sha256": "421feb04764eada0decbb8b37f93d0ce40cbb8adb9ca07b6366f6eeb21bed9cd"
+      "reason": "Replace story selection with four sourced edited generated articles and retain legacy routes; preserve standalone project User-Agent where applicable.",
+      "published_sha256": "c6981b1b8ae1d780b6a2a2b9e241f646633a01d50f1957d57a4133a27af323fc"
     },
     {
       "path": "scripts/generate-story.py",
@@ -1198,6 +1263,26 @@
       "path": "scripts/story-template.html",
       "reason": "Dynamic place count; local draft preview omits LAN telemetry and disables unverified map coordinates.",
       "published_sha256": "c79102a60f265ab52b78f3622036350f8eb37c7bc29c1aa4cdd585f7d28cca7b"
+    },
+    {
+      "path": "cmd/server/stories.go",
+      "reason": "Replace story selection with four sourced edited generated articles and retain legacy routes; preserve standalone project User-Agent where applicable.",
+      "published_sha256": "672fd08eb453cf4730250b169648470d55bac67d7700afd6ace24edc6290bb97"
+    },
+    {
+      "path": "cmd/server/stories_test.go",
+      "reason": "Replace story selection with four sourced edited generated articles and retain legacy routes; preserve standalone project User-Agent where applicable.",
+      "published_sha256": "7a1785247faa80c1b73b69eee020d490df118e66b77611cc1010a8426fd8901d"
+    },
+    {
+      "path": "frontend/stories/index.html",
+      "reason": "Replace story selection with four sourced edited generated articles and retain legacy routes; preserve standalone project User-Agent where applicable.",
+      "published_sha256": "91bde2dde905a897a494b1c5263f28eabbda72b706f1d3d99c49a274a49f4e2c"
+    },
+    {
+      "path": "docs/generated-story-publication.md",
+      "reason": "Describe runnable standalone checks separately from the operational snapshot-dependent Worker checks.",
+      "published_sha256": "8642c30d9a177d9a55c49f167a9f50d95dd3061d281b136effee40c41395dfe2"
     }
   ],
   "excluded_tests": [

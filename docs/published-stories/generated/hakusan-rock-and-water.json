@@ -1,0 +1,199 @@
+{
+  "packet": {
+    "schema_version": 2,
+    "slug": "hakusan-rock-and-water",
+    "title": "手取川で、運ばれる石と削られる岩を読む",
+    "region": "石川県",
+    "checked_at": "2026-10-14",
+    "angle": "化石を含む地層、洪水で動いた岩、川が削った峡谷を比較する。巨岩と化石壁の岩を同一由来と結ばない。",
+    "sources": [
+      {
+        "id": "official",
+        "url": "https://geopark.jp/geopark/hakusan/",
+        "label": "日本ジオパークネットワーク・公式紹介",
+        "checked_at": "2026-10-14"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact-1",
+        "text": "桑島化石壁では動物と植物の化石が産出し、昔の生物や環境を考える材料になる。",
+        "source_ids": [
+          "official"
+        ]
+      },
+      {
+        "id": "fact-2",
+        "text": "百万貫の岩は手取川の巨礫で、洪水のときに支流から運ばれてきたと紹介されている。",
+        "source_ids": [
+          "official"
+        ]
+      },
+      {
+        "id": "fact-3",
+        "text": "手取峡谷は石や砂を運ぶ手取川が大地を削ってできた峡谷で、河床には甌穴が見られる。",
+        "source_ids": [
+          "official"
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "place-1",
+        "name": "桑島化石壁",
+        "lat": 36.2039444,
+        "lng": 136.6303889,
+        "location_status": "representative",
+        "role": "地層が残す生物",
+        "visit_note": "地図は公式案内の代表位置です。現地の入口や観察場所は公式情報で確認してください。",
+        "fact_ids": [
+          "fact-1"
+        ],
+        "coordinate_source_url": "https://goo.gl/maps/7XszqMjnSGQ2",
+        "coordinate_scope": "official-map-marker",
+        "coordinate_checked_at": "2026-10-14"
+      },
+      {
+        "id": "place-2",
+        "name": "百万貫の岩",
+        "lat": 36.1323333,
+        "lng": 136.6610278,
+        "location_status": "representative",
+        "role": "洪水が動かした岩",
+        "visit_note": "地図は公式案内の代表位置です。現地の入口や観察場所は公式情報で確認してください。",
+        "fact_ids": [
+          "fact-2"
+        ],
+        "coordinate_source_url": "https://goo.gl/maps/GKdUZYzLet52",
+        "coordinate_scope": "official-map-marker",
+        "coordinate_checked_at": "2026-10-14"
+      },
+      {
+        "id": "place-3",
+        "name": "手取峡谷",
+        "lat": 36.3443889,
+        "lng": 136.6310833,
+        "location_status": "representative",
+        "role": "川が削った地形",
+        "visit_note": "点は公式案内が示す不老橋付近の代表位置です。峡谷全体の範囲や見学入口を示すものではありません。",
+        "fact_ids": [
+          "fact-3"
+        ],
+        "coordinate_source_url": "https://goo.gl/maps/HtaZm4L77KM2",
+        "coordinate_scope": "official-map-marker",
+        "coordinate_checked_at": "2026-10-14"
+      }
+    ],
+    "relations": [
+      {
+        "id": "relation-1",
+        "from": "place-1",
+        "to": "place-2",
+        "kind": "thematic",
+        "note": "テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。",
+        "fact_ids": [
+          "fact-1",
+          "fact-2"
+        ]
+      },
+      {
+        "id": "relation-2",
+        "from": "place-2",
+        "to": "place-3",
+        "kind": "thematic",
+        "note": "テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。",
+        "fact_ids": [
+          "fact-2",
+          "fact-3"
+        ]
+      }
+    ],
+    "forbidden_phrases": [
+      "ぜひ訪れて",
+      "歴史を感じる",
+      "魅力を感じる"
+    ]
+  },
+  "draft": {
+    "error": "",
+    "title": "手取川で、運ばれる石と削られる岩を読む",
+    "lead": "化石が残る地層、洪水で動いた巨岩、川が削った峡谷。手取川の周辺で、石に残る記録と水が動かしたものを読み分けます。",
+    "intro": "桑島化石壁、百万貫の岩、手取峡谷を、記録が残る・岩が運ばれる・地形が削られるという三つの見方で比較します。岩そのもののでき方と、後から起きた移動や侵食は分けて考えます。",
+    "reading_title": "地層の記憶と、水の動きが刻む形",
+    "places": [
+      {
+        "id": "place-1",
+        "body": "桑島化石壁では、動物や植物の化石が産出しています。これらの化石を見比べることで、かつてこの地がどのような生物や環境に包まれていたのかを考える材料となります。",
+        "evidence_ids": [
+          "fact-1"
+        ]
+      },
+      {
+        "id": "place-2",
+        "body": "百万貫の岩は、手取川の巨礫として存在しています。この岩は、洪水の際に支流から運ばれてきたものと紹介されており、水の動きによって移動した岩の姿を捉えることができます。",
+        "evidence_ids": [
+          "fact-2"
+        ]
+      },
+      {
+        "id": "place-3",
+        "body": "手取峡谷は、石や砂を運ぶ手取川が大地を削ってできた峡谷です。河床には甌穴が見られます。峡谷の形と、川に運ばれた百万貫の岩を見比べると、水による侵食と岩の運搬を分けて考えられます。",
+        "evidence_ids": [
+          "fact-3"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "id": "relation-1",
+        "title": "化石の記録と、洪水による移動",
+        "body": "桑島化石壁の化石は昔の生物や環境を考える材料になり、百万貫の岩は洪水による移動を伝えます。比べるのは、地層に残された記録と、岩が運ばれた出来事です。この比較だけで、両地点の岩の成因が同じか違うかを確定することはできません。",
+        "evidence_ids": [
+          "fact-1",
+          "fact-2"
+        ]
+      },
+      {
+        "id": "relation-2",
+        "title": "巨礫と峡谷の対比",
+        "body": "百万貫の岩は洪水によって運ばれてきた巨礫であり、手取峡谷は川が大地を削ってできた地形です。運ばれてきた個々の岩の存在と、川の浸食によって形作られた地形の広がりを比較することで、水がもたらす異なる変化を捉えられます。",
+        "evidence_ids": [
+          "fact-2",
+          "fact-3"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "relation_id": "relation-1",
+        "label": "化石と洪水の記録は、それぞれ何を残す？"
+      },
+      {
+        "relation_id": "relation-2",
+        "label": "運ばれた岩と削られた地形には、どのような違いがありますか？"
+      }
+    ]
+  },
+  "provenance": {
+    "editorial_status": "edited-for-publication",
+    "editorial_actor": "AI-assisted source verification and editing; no human review-time claim",
+    "authorization": "User requested replacing current story selection with generated articles",
+    "checked_at": "2026-10-14",
+    "model": "gemma4:12b",
+    "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+    "generated_at": "2026-10-14T13:33:52.788319488Z",
+    "original_draft_sha256": "92d825361b6c28b86ad4f9e84ac2b21021c7dac37379db2bc9512df353e0eeb8",
+    "original_packet_sha256": "b6af1bde3e4efb6c3948edcc758b6b2793c2a2c458a083fb078d16c42633d6bb",
+    "edits": [
+      "lead",
+      "intro",
+      "relations/0/title",
+      "relations/0/body",
+      "verified representative coordinates",
+      "location notes",
+      "questions edited where needed",
+      "places/2/body: omit unsupported erosion timescale"
+    ],
+    "coordinate_policy": "Nine points use coordinates in official JGN map-link place labels; Muroto uses official site map centers explicitly labelled as representative, not exact outcrops."
+  }
+}

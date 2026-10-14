@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>手取川で、運ばれる石と削られる岩を読む｜みどころマップ</title>
+  <meta name="description" content="桑島化石壁、百万貫の岩、手取峡谷を、記録が残る・岩が運ばれる・地形が削られるという三つの見方で比較します。岩そのもののでき方と、後から起きた移動や侵食は分けて考えます。">
+  <meta property="og:title" content="手取川で、運ばれる石と削られる岩を読む">
+  <meta property="og:description" content="化石が残る地層、洪水で動いた巨岩、川が削った峡谷。手取川の周辺で、石に残る記録と水が動かしたものを読み分けます。">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" href="/vendor/leaflet.css">
+  <link rel="stylesheet" href="/stories/story.css">
+  <script src="/vendor/leaflet.js" defer></script>
+  <script src="/stories/story.js" defer></script>
+  <script src="http://ubuntu-server-app:8526/v.js" data-site="midokoro-map" defer></script>
+  <link rel="canonical" href="https://midokoro-map.ats030.workers.dev/stories/hakusan-rock-and-water">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://midokoro-map.ats030.workers.dev/stories/hakusan-rock-and-water">
+</head>
+<body class="story-page" data-story="hakusan-rock-and-water">
+  <a class="skip-link" href="#story-main">本文へ</a>
+  <header class="site-header">
+    <a class="brand" href="/"><img src="/favicon.svg" alt="" width="28" height="28"><span>みどころマップ</span></a>
+  <nav class="story-nav" aria-label="サイト"><a href="/stories">テーマを選ぶ</a><a href="/">全国の地図</a></nav></header>
+  <main id="story-main">
+    <section class="story-lead" aria-labelledby="story-title">
+      <p class="eyebrow">土地のつながりをたどる / 石川県</p>
+      <h1 id="story-title">手取川で、運ばれる石と削られる岩を読む</h1>
+      <p class="lead-copy">化石が残る地層、洪水で動いた巨岩、川が削った峡谷。手取川の周辺で、石に残る記録と水が動かしたものを読み分けます。</p>
+      <p>桑島化石壁、百万貫の岩、手取峡谷を、記録が残る・岩が運ばれる・地形が削られるという三つの見方で比較します。岩そのもののでき方と、後から起きた移動や侵食は分けて考えます。</p>
+      <nav class="question-links" aria-label="気になる問いから探す"><a href="#relation-1" data-relation="relation-1">化石と洪水の記録は、それぞれ何を残す？ <span aria-hidden="true">→</span></a>
+<a href="#relation-2" data-relation="relation-2">運ばれた岩と削られた地形には、どのような違いがありますか？ <span aria-hidden="true">→</span></a></nav>
+    </section>
+    <section class="explorer" id="explorer" aria-labelledby="explorer-title">
+      <div class="section-heading"><h2 id="explorer-title">場所から、つながりへ</h2><span id="exploration-progress" aria-live="polite"></span></div>
+      <p class="map-note">点線は資料に基づく関係やテーマによる比較を示します。代表位置を結んでおり、道順や配管の位置を表しません。</p>
+      <nav class="place-links" aria-label="地図の場所を選ぶ"><a href="#place-1" data-place="place-1">1 桑島化石壁</a>
+<a href="#place-2" data-place="place-2">2 百万貫の岩</a>
+<a href="#place-3" data-place="place-3">3 手取峡谷</a></nav>
+      <div class="explorer-grid" hidden>
+        <div class="map-wrap">
+          <div id="story-map" role="region" aria-label="石川県の3地点とつながりの地図"></div>
+          <p id="map-status" role="status">地図を読み込んでいます。下の解説からも場所のつながりを読めます。</p>
+          <button id="map-reset" class="map-reset" type="button" hidden>3地点を見渡す</button>
+        </div>
+        <aside id="selection" aria-label="選んだ場所とつながり" hidden>
+          <div id="selected-place"></div><div id="selected-relation" hidden></div>
+          <h3>ここから、どこへ？</h3><div id="related-places"></div>
+        </aside>
+      </div>
+      <p id="static-map-note">地図を表示するにはJavaScriptが必要です。場所のリンクから、下の解説とつながりを読めます。</p>
+      <div class="share-tools" id="share-tools" hidden>
+        <button type="button" id="share-story">このつながりを共有</button>
+        <button type="button" id="copy-story">リンクをコピー</button>
+        <p id="share-status" role="status"></p>
+        <div id="manual-share" hidden><label for="share-url">このURLを選択してコピーできます</label><input id="share-url" type="url" readonly></div>
+      </div>
+      <p class="reading-link"><a href="#places">3地点の解説をまとめて読む ↓</a></p>
+    </section>
+    <section id="places" class="story-reading" aria-labelledby="places-title">
+      <p class="eyebrow">場所に残るもの</p><h2 id="places-title">地層の記憶と、水の動きが刻む形</h2>
+      <div class="place-articles"><article id="place-1" data-lat="36.2039444" data-lng="136.6303889" data-number="1">
+  <p class="place-kicker">01 / 地層が残す生物</p><h3>桑島化石壁</h3>
+  <p>桑島化石壁では、動物や植物の化石が産出しています。これらの化石を見比べることで、かつてこの地がどのような生物や環境に包まれていたのかを考える材料となります。</p><p class="visit-note">地図は公式案内の代表位置です。現地の入口や観察場所は公式情報で確認してください。</p>
+  <p class="source">出典：<a href="https://geopark.jp/geopark/hakusan/" target="_blank" rel="noopener noreferrer">日本ジオパークネットワーク・公式紹介</a></p>
+  <p class="source">位置の出典：<a href="https://goo.gl/maps/7XszqMjnSGQ2" target="_blank" rel="noopener noreferrer">公式案内の地図で示された代表位置</a></p>
+  <a class="select-place" href="#place-1" data-place="place-1">この場所のつながりを見る →</a>
+</article>
+<article id="place-2" data-lat="36.1323333" data-lng="136.6610278" data-number="2">
+  <p class="place-kicker">02 / 洪水が動かした岩</p><h3>百万貫の岩</h3>
+  <p>百万貫の岩は、手取川の巨礫として存在しています。この岩は、洪水の際に支流から運ばれてきたものと紹介されており、水の動きによって移動した岩の姿を捉えることができます。</p><p class="visit-note">地図は公式案内の代表位置です。現地の入口や観察場所は公式情報で確認してください。</p>
+  <p class="source">出典：<a href="https://geopark.jp/geopark/hakusan/" target="_blank" rel="noopener noreferrer">日本ジオパークネットワーク・公式紹介</a></p>
+  <p class="source">位置の出典：<a href="https://goo.gl/maps/GKdUZYzLet52" target="_blank" rel="noopener noreferrer">公式案内の地図で示された代表位置</a></p>
+  <a class="select-place" href="#place-2" data-place="place-2">この場所のつながりを見る →</a>
+</article>
+<article id="place-3" data-lat="36.3443889" data-lng="136.6310833" data-number="3">
+  <p class="place-kicker">03 / 川が削った地形</p><h3>手取峡谷</h3>
+  <p>手取峡谷は、石や砂を運ぶ手取川が大地を削ってできた峡谷です。河床には甌穴が見られます。峡谷の形と、川に運ばれた百万貫の岩を見比べると、水による侵食と岩の運搬を分けて考えられます。</p><p class="visit-note">点は公式案内が示す不老橋付近の代表位置です。峡谷全体の範囲や見学入口を示すものではありません。</p>
+  <p class="source">出典：<a href="https://geopark.jp/geopark/hakusan/" target="_blank" rel="noopener noreferrer">日本ジオパークネットワーク・公式紹介</a></p>
+  <p class="source">位置の出典：<a href="https://goo.gl/maps/HtaZm4L77KM2" target="_blank" rel="noopener noreferrer">公式案内の地図で示された代表位置</a></p>
+  <a class="select-place" href="#place-3" data-place="place-3">この場所のつながりを見る →</a>
+</article></div>
+    </section>
+    <section id="relations" class="story-reading" aria-labelledby="relations-title">
+      <p class="eyebrow">場所を結ぶ理由</p><h2 id="relations-title">つながりを選んで、もう一歩</h2>
+      <ul class="relation-articles"><li id="relation-1" data-from="place-1" data-to="place-2">
+  <h3>化石の記録と、洪水による移動</h3><p>桑島化石壁の化石は昔の生物や環境を考える材料になり、百万貫の岩は洪水による移動を伝えます。比べるのは、地層に残された記録と、岩が運ばれた出来事です。この比較だけで、両地点の岩の成因が同じか違うかを確定することはできません。</p><p class="relation-kind">テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。</p>
+  <p class="source">出典：<a href="https://geopark.jp/geopark/hakusan/" target="_blank" rel="noopener noreferrer">日本ジオパークネットワーク・公式紹介</a></p>
+  <a href="#place-2" data-relation="relation-1">このつながりを見る →</a>
+</li>
+<li id="relation-2" data-from="place-2" data-to="place-3">
+  <h3>巨礫と峡谷の対比</h3><p>百万貫の岩は洪水によって運ばれてきた巨礫であり、手取峡谷は川が大地を削ってできた地形です。運ばれてきた個々の岩の存在と、川の浸食によって形作られた地形の広がりを比較することで、水がもたらす異なる変化を捉えられます。</p><p class="relation-kind">テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。</p>
+  <p class="source">出典：<a href="https://geopark.jp/geopark/hakusan/" target="_blank" rel="noopener noreferrer">日本ジオパークネットワーク・公式紹介</a></p>
+  <a href="#place-3" data-relation="relation-2">このつながりを見る →</a>
+</li></ul>
+    </section>
+    <footer class="story-footer">
+      <p>資料確認：2026-10-14。Ollamaで作成した下書きを、出典と照合して編集しています。</p>
+    </footer>
+  </main>
+</body>
+</html>

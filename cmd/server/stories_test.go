@@ -86,7 +86,13 @@ func TestAdditionalStoryThemes(t *testing.T) {
 			w := httptest.NewRecorder()
 			mux.ServeHTTP(w, httptest.NewRequest("GET", "/stories/"+slug, nil))
 			body := w.Body.String()
-			if w.Code != 200 || strings.Count(body, "data-number=") != 5 || strings.Count(body, "data-from=") != 5 || !strings.Contains(body, `data-story="`+slug+`"`) {
+			places, relations := 5, 5
+			for _, featured := range featuredStorySlugs {
+				if featured == slug {
+					places, relations = 3, 2
+				}
+			}
+			if w.Code != 200 || strings.Count(body, "data-number=") != places || strings.Count(body, "data-from=") != relations || !strings.Contains(body, `data-story="`+slug+`"`) {
 				t.Fatalf("invalid theme %s: status=%d", slug, w.Code)
 			}
 			w = httptest.NewRecorder()
@@ -103,7 +109,7 @@ func TestAdditionalStoryThemes(t *testing.T) {
 	}
 	w := httptest.NewRecorder()
 	mux.ServeHTTP(w, httptest.NewRequest("GET", "/stories", nil))
-	for _, slug := range storySlugs {
+	for _, slug := range featuredStorySlugs {
 		if !strings.Contains(w.Body.String(), "/stories/"+slug+"?from=home") {
 			t.Fatal("missing theme entry: " + slug)
 		}

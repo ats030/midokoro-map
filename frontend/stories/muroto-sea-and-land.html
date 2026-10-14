@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>室戸で海と陸の高さを読む｜みどころマップ</title>
+  <meta name="description" content="海成段丘ができる過程、隆起に対応して港を掘る仕事、深海に由来する岩が陸に現れる過程を見比べます。これらを同じ時代の出来事として結ばず、それぞれの場所に残る記録を読みます。">
+  <meta property="og:title" content="室戸で海と陸の高さを読む">
+  <meta property="og:description" content="山の上の平地、掘り下げられた港、海岸の岩。室戸では、海と陸の変化が違う形で残っています。">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" href="/vendor/leaflet.css">
+  <link rel="stylesheet" href="/stories/story.css">
+  <script src="/vendor/leaflet.js" defer></script>
+  <script src="/stories/story.js" defer></script>
+  <script src="http://ubuntu-server-app:8526/v.js" data-site="midokoro-map" defer></script>
+  <link rel="canonical" href="https://midokoro-map.ats030.workers.dev/stories/muroto-sea-and-land">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://midokoro-map.ats030.workers.dev/stories/muroto-sea-and-land">
+</head>
+<body class="story-page" data-story="muroto-sea-and-land">
+  <a class="skip-link" href="#story-main">本文へ</a>
+  <header class="site-header">
+    <a class="brand" href="/"><img src="/favicon.svg" alt="" width="28" height="28"><span>みどころマップ</span></a>
+  <nav class="story-nav" aria-label="サイト"><a href="/stories">テーマを選ぶ</a><a href="/">全国の地図</a></nav></header>
+  <main id="story-main">
+    <section class="story-lead" aria-labelledby="story-title">
+      <p class="eyebrow">土地のつながりをたどる / 高知県</p>
+      <h1 id="story-title">室戸で海と陸の高さを読む</h1>
+      <p class="lead-copy">山の上の平地、掘り下げられた港、海岸の岩。室戸では、海と陸の変化が違う形で残っています。</p>
+      <p>海成段丘ができる過程、隆起に対応して港を掘る仕事、深海に由来する岩が陸に現れる過程を見比べます。これらを同じ時代の出来事として結ばず、それぞれの場所に残る記録を読みます。</p>
+      <nav class="question-links" aria-label="気になる問いから探す"><a href="#relation-1" data-relation="relation-1">自然の隆起と人の営みの違いは？ <span aria-hidden="true">→</span></a>
+<a href="#relation-2" data-relation="relation-2">港を掘る仕事と、海底の岩の移動はどう違う？ <span aria-hidden="true">→</span></a></nav>
+    </section>
+    <section class="explorer" id="explorer" aria-labelledby="explorer-title">
+      <div class="section-heading"><h2 id="explorer-title">場所から、つながりへ</h2><span id="exploration-progress" aria-live="polite"></span></div>
+      <p class="map-note">点線は資料に基づく関係やテーマによる比較を示します。代表位置を結んでおり、道順や配管の位置を表しません。</p>
+      <nav class="place-links" aria-label="地図の場所を選ぶ"><a href="#place-1" data-place="place-1">1 枦山・西山台地</a>
+<a href="#place-2" data-place="place-2">2 室津港</a>
+<a href="#place-3" data-place="place-3">3 室戸岬</a></nav>
+      <div class="explorer-grid" hidden>
+        <div class="map-wrap">
+          <div id="story-map" role="region" aria-label="高知県の3地点とつながりの地図"></div>
+          <p id="map-status" role="status">地図を読み込んでいます。下の解説からも場所のつながりを読めます。</p>
+          <button id="map-reset" class="map-reset" type="button" hidden>3地点を見渡す</button>
+        </div>
+        <aside id="selection" aria-label="選んだ場所とつながり" hidden>
+          <div id="selected-place"></div><div id="selected-relation" hidden></div>
+          <h3>ここから、どこへ？</h3><div id="related-places"></div>
+        </aside>
+      </div>
+      <p id="static-map-note">地図を表示するにはJavaScriptが必要です。場所のリンクから、下の解説とつながりを読めます。</p>
+      <div class="share-tools" id="share-tools" hidden>
+        <button type="button" id="share-story">このつながりを共有</button>
+        <button type="button" id="copy-story">リンクをコピー</button>
+        <p id="share-status" role="status"></p>
+        <div id="manual-share" hidden><label for="share-url">このURLを選択してコピーできます</label><input id="share-url" type="url" readonly></div>
+      </div>
+      <p class="reading-link"><a href="#places">3地点の解説をまとめて読む ↓</a></p>
+    </section>
+    <section id="places" class="story-reading" aria-labelledby="places-title">
+      <p class="eyebrow">場所に残るもの</p><h2 id="places-title">海と陸の重なりを読み解く</h2>
+      <div class="place-articles"><article id="place-1" data-lat="33.349745" data-lng="134.081955" data-number="1">
+  <p class="place-kicker">01 / 自然にできた平地</p><h3>枦山・西山台地</h3>
+  <p>枦山・西山台地の平らな土地は海成段丘です。大地の隆起と海水準の変化によってできた地形として公式に紹介されています。山の上の平地を、海と陸の位置関係から読む場所です。</p><p class="visit-note">点は公式案内の地図中心を代表位置として表示しています。入口や個別の露頭の位置ではありません。</p>
+  <p class="source">出典：<a href="https://geopark.jp/geopark/muroto/" target="_blank" rel="noopener noreferrer">日本ジオパークネットワーク・公式紹介</a></p>
+  <p class="source">位置の出典：<a href="https://www.muroto-geo.jp/geomap/%E8%A5%BF%E5%B1%B1%E6%B5%B7%E6%88%90%E6%AE%B5%E4%B8%98/" target="_blank" rel="noopener noreferrer">公式案内の地図中心を代表位置として使用</a></p>
+  <a class="select-place" href="#place-1" data-place="place-1">この場所のつながりを見る →</a>
+</article>
+<article id="place-2" data-lat="33.286755" data-lng="134.148216" data-number="2">
+  <p class="place-kicker">02 / 人が手を入れた港</p><h3>室津港</h3>
+  <p>室津港では、地震に伴う隆起で港が干上がるため、人が港を掘り下げてきました。海面と町の高低差を公式解説と見比べると、港を使い続けるために人が加えた変化が読み取れます。</p><p class="visit-note">点は公式案内の地図中心を代表位置として表示しています。入口や個別の露頭の位置ではありません。</p>
+  <p class="source">出典：<a href="https://geopark.jp/geopark/muroto/" target="_blank" rel="noopener noreferrer">日本ジオパークネットワーク・公式紹介</a></p>
+  <p class="source">位置の出典：<a href="https://www.muroto-geo.jp/geomap/%E5%AE%A4%E6%B4%A5%E6%B8%AF/" target="_blank" rel="noopener noreferrer">公式案内の地図中心を代表位置として使用</a></p>
+  <a class="select-place" href="#place-2" data-place="place-2">この場所のつながりを見る →</a>
+</article>
+<article id="place-3" data-lat="33.253618" data-lng="134.174824" data-number="3">
+  <p class="place-kicker">03 / 海底に由来する岩</p><h3>室戸岬</h3>
+  <p>室戸岬には、深海で堆積した砂や泥に由来する岩があります。公式解説では、長い年月をかけて深海から押し上げられてきたと説明されています。今の海岸にある岩を、かつての海底の記録として読む場所です。</p><p class="visit-note">点は公式案内の地図中心を代表位置として表示しています。入口や個別の露頭の位置ではありません。</p>
+  <p class="source">出典：<a href="https://geopark.jp/geopark/muroto/" target="_blank" rel="noopener noreferrer">日本ジオパークネットワーク・公式紹介</a></p>
+  <p class="source">位置の出典：<a href="https://www.muroto-geo.jp/geomap/%E5%AE%A4%E6%88%B8%E5%B2%AC/" target="_blank" rel="noopener noreferrer">公式案内の地図中心を代表位置として使用</a></p>
+  <a class="select-place" href="#place-3" data-place="place-3">この場所のつながりを見る →</a>
+</article></div>
+    </section>
+    <section id="relations" class="story-reading" aria-labelledby="relations-title">
+      <p class="eyebrow">場所を結ぶ理由</p><h2 id="relations-title">つながりを選んで、もう一歩</h2>
+      <ul class="relation-articles"><li id="relation-1" data-from="place-1" data-to="place-2">
+  <h3>自然の隆起と人の営み</h3><p>枦山・西山台地が海成段丘として自然に形成されたのに対し、室津港は地震による隆起に対して人が掘り下げるという対応を行ってきました。自然の地形と、人為的な改変の対比に注目すると、それぞれの場所の成り立ちの違いが分かります。</p><p class="relation-kind">テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。</p>
+  <p class="source">出典：<a href="https://geopark.jp/geopark/muroto/" target="_blank" rel="noopener noreferrer">日本ジオパークネットワーク・公式紹介</a></p>
+  <a href="#place-2" data-relation="relation-1">このつながりを見る →</a>
+</li>
+<li id="relation-2" data-from="place-2" data-to="place-3">
+  <h3>港の改変と、海底の岩の移動</h3><p>室津港では人が港を掘り下げ、室戸岬では深海に由来する岩が陸に現れています。ここで比べるのは、港を使うための改変と、大地の長い時間の変化です。両地点を一つの移動経路や同じ時期の出来事として結ぶものではありません。</p><p class="relation-kind">テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。</p>
+  <p class="source">出典：<a href="https://geopark.jp/geopark/muroto/" target="_blank" rel="noopener noreferrer">日本ジオパークネットワーク・公式紹介</a></p>
+  <a href="#place-3" data-relation="relation-2">このつながりを見る →</a>
+</li></ul>
+    </section>
+    <footer class="story-footer">
+      <p>資料確認：2026-10-14。Ollamaで作成した下書きを、出典と照合して編集しています。</p>
+    </footer>
+  </main>
+</body>
+</html>

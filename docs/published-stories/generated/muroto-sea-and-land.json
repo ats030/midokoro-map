@@ -1,0 +1,201 @@
+{
+  "packet": {
+    "schema_version": 2,
+    "slug": "muroto-sea-and-land",
+    "title": "室戸で海と陸の高さを読む",
+    "region": "高知県",
+    "checked_at": "2026-10-14",
+    "angle": "海成段丘、掘り下げられた港、深海に由来する岩を比較する。各地点の時間尺度を同一視しない。",
+    "sources": [
+      {
+        "id": "official",
+        "url": "https://geopark.jp/geopark/muroto/",
+        "label": "日本ジオパークネットワーク・公式紹介",
+        "checked_at": "2026-10-14"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact-1",
+        "text": "枦山・西山台地の平らな土地は海成段丘で、大地の隆起と海水準の変化によってできた。",
+        "source_ids": [
+          "official"
+        ]
+      },
+      {
+        "id": "fact-2",
+        "text": "室津港では地震に伴う隆起で港が干上がるため、人が港を掘り下げてきた。",
+        "source_ids": [
+          "official"
+        ]
+      },
+      {
+        "id": "fact-3",
+        "text": "室戸岬の岩には深海で堆積した砂や泥に由来するものがあり、深海から押し上げられてきた。",
+        "source_ids": [
+          "official"
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "place-1",
+        "name": "枦山・西山台地",
+        "lat": 33.349745,
+        "lng": 134.081955,
+        "location_status": "representative",
+        "role": "自然にできた平地",
+        "visit_note": "点は公式案内の地図中心を代表位置として表示しています。入口や個別の露頭の位置ではありません。",
+        "fact_ids": [
+          "fact-1"
+        ],
+        "coordinate_source_url": "https://www.muroto-geo.jp/geomap/%E8%A5%BF%E5%B1%B1%E6%B5%B7%E6%88%90%E6%AE%B5%E4%B8%98/",
+        "coordinate_scope": "official-map-center",
+        "coordinate_checked_at": "2026-10-14"
+      },
+      {
+        "id": "place-2",
+        "name": "室津港",
+        "lat": 33.286755,
+        "lng": 134.148216,
+        "location_status": "representative",
+        "role": "人が手を入れた港",
+        "visit_note": "点は公式案内の地図中心を代表位置として表示しています。入口や個別の露頭の位置ではありません。",
+        "fact_ids": [
+          "fact-2"
+        ],
+        "coordinate_source_url": "https://www.muroto-geo.jp/geomap/%E5%AE%A4%E6%B4%A5%E6%B8%AF/",
+        "coordinate_scope": "official-map-center",
+        "coordinate_checked_at": "2026-10-14"
+      },
+      {
+        "id": "place-3",
+        "name": "室戸岬",
+        "lat": 33.253618,
+        "lng": 134.174824,
+        "location_status": "representative",
+        "role": "海底に由来する岩",
+        "visit_note": "点は公式案内の地図中心を代表位置として表示しています。入口や個別の露頭の位置ではありません。",
+        "fact_ids": [
+          "fact-3"
+        ],
+        "coordinate_source_url": "https://www.muroto-geo.jp/geomap/%E5%AE%A4%E6%88%B8%E5%B2%AC/",
+        "coordinate_scope": "official-map-center",
+        "coordinate_checked_at": "2026-10-14"
+      }
+    ],
+    "relations": [
+      {
+        "id": "relation-1",
+        "from": "place-1",
+        "to": "place-2",
+        "kind": "thematic",
+        "note": "テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。",
+        "fact_ids": [
+          "fact-1",
+          "fact-2"
+        ]
+      },
+      {
+        "id": "relation-2",
+        "from": "place-2",
+        "to": "place-3",
+        "kind": "thematic",
+        "note": "テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。",
+        "fact_ids": [
+          "fact-2",
+          "fact-3"
+        ]
+      }
+    ],
+    "forbidden_phrases": [
+      "ぜひ訪れて",
+      "歴史を感じる",
+      "魅力を感じる"
+    ]
+  },
+  "draft": {
+    "error": "",
+    "title": "室戸で海と陸の高さを読む",
+    "lead": "山の上の平地、掘り下げられた港、海岸の岩。室戸では、海と陸の変化が違う形で残っています。",
+    "intro": "海成段丘ができる過程、隆起に対応して港を掘る仕事、深海に由来する岩が陸に現れる過程を見比べます。これらを同じ時代の出来事として結ばず、それぞれの場所に残る記録を読みます。",
+    "reading_title": "海と陸の重なりを読み解く",
+    "places": [
+      {
+        "id": "place-1",
+        "body": "枦山・西山台地の平らな土地は海成段丘です。大地の隆起と海水準の変化によってできた地形として公式に紹介されています。山の上の平地を、海と陸の位置関係から読む場所です。",
+        "evidence_ids": [
+          "fact-1"
+        ]
+      },
+      {
+        "id": "place-2",
+        "body": "室津港では、地震に伴う隆起で港が干上がるため、人が港を掘り下げてきました。海面と町の高低差を公式解説と見比べると、港を使い続けるために人が加えた変化が読み取れます。",
+        "evidence_ids": [
+          "fact-2"
+        ]
+      },
+      {
+        "id": "place-3",
+        "body": "室戸岬には、深海で堆積した砂や泥に由来する岩があります。公式解説では、長い年月をかけて深海から押し上げられてきたと説明されています。今の海岸にある岩を、かつての海底の記録として読む場所です。",
+        "evidence_ids": [
+          "fact-3"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "id": "relation-1",
+        "title": "自然の隆起と人の営み",
+        "body": "枦山・西山台地が海成段丘として自然に形成されたのに対し、室津港は地震による隆起に対して人が掘り下げるという対応を行ってきました。自然の地形と、人為的な改変の対比に注目すると、それぞれの場所の成り立ちの違いが分かります。",
+        "evidence_ids": [
+          "fact-1",
+          "fact-2"
+        ]
+      },
+      {
+        "id": "relation-2",
+        "title": "港の改変と、海底の岩の移動",
+        "body": "室津港では人が港を掘り下げ、室戸岬では深海に由来する岩が陸に現れています。ここで比べるのは、港を使うための改変と、大地の長い時間の変化です。両地点を一つの移動経路や同じ時期の出来事として結ぶものではありません。",
+        "evidence_ids": [
+          "fact-2",
+          "fact-3"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "relation_id": "relation-1",
+        "label": "自然の隆起と人の営みの違いは？"
+      },
+      {
+        "relation_id": "relation-2",
+        "label": "港を掘る仕事と、海底の岩の移動はどう違う？"
+      }
+    ]
+  },
+  "provenance": {
+    "editorial_status": "edited-for-publication",
+    "editorial_actor": "AI-assisted source verification and editing; no human review-time claim",
+    "authorization": "User requested replacing current story selection with generated articles",
+    "checked_at": "2026-10-14",
+    "model": "gemma4:12b",
+    "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+    "generated_at": "2026-10-14T13:25:48.214099157Z",
+    "original_draft_sha256": "a97c6246a5e4cb05ff9f7c94268587486010135d81af99a9ca0d33d2089c4dae",
+    "original_packet_sha256": "a9c37fed950d5e72407cfb26845bf5703d755f4670d31561629dff50bb2ee5be",
+    "edits": [
+      "lead",
+      "intro",
+      "places/0/body",
+      "places/1/body",
+      "places/2/body",
+      "relations/1/title",
+      "relations/1/body",
+      "verified representative coordinates",
+      "location notes",
+      "questions edited where needed"
+    ],
+    "coordinate_policy": "Nine points use coordinates in official JGN map-link place labels; Muroto uses official site map centers explicitly labelled as representative, not exact outcrops."
+  }
+}

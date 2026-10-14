@@ -15,7 +15,10 @@ var storyEvents = map[string]bool{
 	"share-returned": true, "copy-success": true,
 }
 
-var storySlugs = []string{"arita-porcelain", "kusatsu-yumomi", "kawagoe-festival"}
+var featuredStorySlugs = []string{"muroto-sea-and-land", "oki-erosion-comparison", "shimabara-different-volcanoes", "hakusan-rock-and-water"}
+
+// Preserve legacy article URLs while featuring the edited generated stories.
+var storySlugs = append([]string{"arita-porcelain", "kusatsu-yumomi", "kawagoe-festival"}, featuredStorySlugs...)
 
 func registerStoryRoutes(mux *http.ServeMux, frontendDir string) {
 	registerStoryPage(mux, frontendDir, "/stories", "index.html")

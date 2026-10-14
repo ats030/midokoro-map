@@ -4,7 +4,7 @@ const collections = {shiseki: 'shiseki', omatsuri: 'festivals', onsen: 'onsen', 
 // Geo natural monuments use the shiseki cache scheme with their own specs; each geo key fills a shiseki response slot.
 const geoSlots = {origin: 'history', features: 'remains', access: 'access', protection: 'highlights'};
 const summaryKeyed = kind => kind === 'shiseki' || kind === 'geo';
-const slugs = ['arita-porcelain', 'kusatsu-yumomi', 'kawagoe-festival'];
+const slugs = ['arita-porcelain', 'kusatsu-yumomi', 'kawagoe-festival', 'muroto-sea-and-land', 'oki-erosion-comparison', 'shimabara-different-volcanoes', 'hakusan-rock-and-water'];
 const events = ['view', 'entry-home', 'entry-shared', 'explore', 'follow', 'share-open', 'share-returned', 'copy-success'];
 const userAgent = 'midokoro-map/1.0 (https://github.com/ats030/midokoro-map)';
 // Match Go url.PathEscape, including parentheses and punctuation used by titles.

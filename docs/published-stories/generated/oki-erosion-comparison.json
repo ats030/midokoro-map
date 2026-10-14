@@ -1,0 +1,221 @@
+{
+  "packet": {
+    "schema_version": 2,
+    "slug": "oki-erosion-comparison",
+    "title": "隠岐で削られた岩の形を比べる",
+    "region": "島根県",
+    "checked_at": "2026-10-14",
+    "angle": "波が削る海岸と、侵食でできた滝を比較する。同じ島・同じ岩質・同じ成因と決めつけない。",
+    "sources": [
+      {
+        "id": "official",
+        "url": "https://geopark.jp/geopark/oki/",
+        "label": "日本ジオパークネットワーク・公式紹介",
+        "checked_at": "2026-10-14"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact-1",
+        "text": "西ノ島の国賀海岸では、海食崖、アーチ、海食洞など波による侵食地形を観察できる。",
+        "source_ids": [
+          "official"
+        ]
+      },
+      {
+        "id": "fact-2",
+        "text": "壇鏡の滝は火山岩と火砕岩が重なる地層が侵食されてできた、張り出す崖のある滝である。",
+        "source_ids": [
+          "official"
+        ]
+      },
+      {
+        "id": "fact-3",
+        "text": "明屋海岸ではスコリア丘が波で削られて海岸になっている。流れ出した溶岩がつくった台地もある。",
+        "source_ids": [
+          "official"
+        ]
+      },
+      {
+        "id": "island-1",
+        "text": "国賀海岸は西ノ島に位置する。",
+        "source_ids": [
+          "official"
+        ]
+      },
+      {
+        "id": "island-2",
+        "text": "壇鏡の滝は島後に位置する。",
+        "source_ids": [
+          "official"
+        ]
+      },
+      {
+        "id": "island-3",
+        "text": "明屋海岸は中ノ島に位置する。",
+        "source_ids": [
+          "official"
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "place-1",
+        "name": "国賀海岸",
+        "lat": 36.0991389,
+        "lng": 132.9646944,
+        "location_status": "representative",
+        "role": "海岸の侵食",
+        "visit_note": "地図は公式案内の代表位置です。現地の入口や観察場所は公式情報で確認してください。",
+        "fact_ids": [
+          "fact-1",
+          "island-1"
+        ],
+        "coordinate_source_url": "https://goo.gl/maps/22R8NcjBTdz",
+        "coordinate_scope": "official-map-marker",
+        "coordinate_checked_at": "2026-10-14"
+      },
+      {
+        "id": "place-2",
+        "name": "壇鏡の滝",
+        "lat": 36.2410833,
+        "lng": 133.2355833,
+        "location_status": "representative",
+        "role": "滝の崖",
+        "visit_note": "地図は公式案内の代表位置です。現地の入口や観察場所は公式情報で確認してください。",
+        "fact_ids": [
+          "fact-2",
+          "island-2"
+        ],
+        "coordinate_source_url": "https://goo.gl/maps/GXfp1jSkTDz",
+        "coordinate_scope": "official-map-marker",
+        "coordinate_checked_at": "2026-10-14"
+      },
+      {
+        "id": "place-3",
+        "name": "明屋海岸",
+        "lat": 36.1107222,
+        "lng": 133.1271111,
+        "location_status": "representative",
+        "role": "火山と波",
+        "visit_note": "地図は公式案内の代表位置です。現地の入口や観察場所は公式情報で確認してください。",
+        "fact_ids": [
+          "fact-3",
+          "island-3"
+        ],
+        "coordinate_source_url": "https://goo.gl/maps/UE1vLXmwPn12",
+        "coordinate_scope": "official-map-marker",
+        "coordinate_checked_at": "2026-10-14"
+      }
+    ],
+    "relations": [
+      {
+        "id": "relation-1",
+        "from": "place-1",
+        "to": "place-2",
+        "kind": "thematic",
+        "note": "テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。",
+        "fact_ids": [
+          "fact-1",
+          "fact-2"
+        ]
+      },
+      {
+        "id": "relation-2",
+        "from": "place-2",
+        "to": "place-3",
+        "kind": "thematic",
+        "note": "テーマによる比較です。同じ成因・時代・移動経路を示すものではありません。",
+        "fact_ids": [
+          "fact-2",
+          "fact-3"
+        ]
+      }
+    ],
+    "forbidden_phrases": [
+      "ぜひ訪れて",
+      "歴史を感じる",
+      "魅力を感じる"
+    ]
+  },
+  "draft": {
+    "error": "",
+    "title": "隠岐で削られた岩の形を比べる",
+    "lead": "海食洞、滝の崖、赤い海岸。隠岐の三つの島で、岩が削られて残った形を見比べます。",
+    "intro": "国賀海岸は西ノ島、壇鏡の滝は島後、明屋海岸は中ノ島にあります。同じ島や同じ岩質という前提を置かず、公式解説にある地形と侵食の違いから読みます。",
+    "reading_title": "侵食の形が描き出す風景の差異",
+    "places": [
+      {
+        "id": "place-1",
+        "body": "国賀海岸では、海食崖やアーチ、海食洞といった、波の作用によって形作られた侵食地形を観察できます。波の力が岩を削り取った跡を、海岸線に沿って見比べることで、海による侵食の様子がわかります。",
+        "evidence_ids": [
+          "fact-1"
+        ]
+      },
+      {
+        "id": "place-2",
+        "body": "壇鏡の滝では、火山岩と火砕岩が重なる地層が侵食され、張り出す崖のある滝になっています。公式解説を手がかりに、岩の層と滝の崖の形を別々に見ていくと、どこが残り、どこが削られたかという問いが生まれます。",
+        "evidence_ids": [
+          "fact-2"
+        ]
+      },
+      {
+        "id": "place-3",
+        "body": "明屋海岸では、波によって削られたスコリア丘が海岸を形作っています。また、流れ出した溶岩が作り出した台地も存在し、火山活動と波の侵食が重なり合う地形の成り立ちを比較できます。",
+        "evidence_ids": [
+          "fact-3"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "id": "relation-1",
+        "title": "海による侵食と地層の侵食",
+        "body": "国賀海岸の波による侵食地形と、壇鏡の滝の地層の侵食を比較します。波の力が直接岩を削る海岸と、地層の重なりが侵食によって形作られた滝の崖を、それぞれ見比べることで、侵食の現れ方の違いがわかります。",
+        "evidence_ids": [
+          "fact-1",
+          "fact-2"
+        ]
+      },
+      {
+        "id": "relation-2",
+        "title": "地層の侵食と火山活動の痕跡",
+        "body": "壇鏡の滝の地層の侵食と、明屋海岸のスコリア丘や溶岩の台地を比較します。地層の重なりが作る崖の形と、火山活動の痕跡が波によって削られた海岸の形を比べることで、地形の成り立ちの違いを捉えることができます。",
+        "evidence_ids": [
+          "fact-2",
+          "fact-3"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "relation_id": "relation-1",
+        "label": "波の侵食と地層の侵食は、どのような景観の差を生んでいますか？"
+      },
+      {
+        "relation_id": "relation-2",
+        "label": "地層の侵食と火山活動の痕跡は、どのように形の違いを生んでいますか？"
+      }
+    ]
+  },
+  "provenance": {
+    "editorial_status": "edited-for-publication",
+    "editorial_actor": "AI-assisted source verification and editing; no human review-time claim",
+    "authorization": "User requested replacing current story selection with generated articles",
+    "checked_at": "2026-10-14",
+    "model": "gemma4:12b",
+    "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+    "generated_at": "2026-10-14T13:28:18.238249907Z",
+    "original_draft_sha256": "8d3e8ea446821d7c87de2e0f534f9888ad15cff9e04e48dd8a9da5379588aef6",
+    "original_packet_sha256": "f113fbd258345a60bf588d8ae627dff26261e2e9a03428f86b8c9dbfa1a68d2c",
+    "edits": [
+      "lead",
+      "intro",
+      "places/1/body",
+      "verified representative coordinates",
+      "location notes",
+      "questions edited where needed"
+    ],
+    "coordinate_policy": "Nine points use coordinates in official JGN map-link place labels; Muroto uses official site map centers explicitly labelled as representative, not exact outcrops."
+  }
+}
