@@ -1,0 +1,31 @@
+reviewed_at: '2026-10-14'
+scope: Existing local model inference and original factual notes; no model weights or website corpus redistributed.
+tools:
+  - name: Ollama
+    version: 0.32.14
+    license: MIT
+    price: No software/API licence fee for this local installation; hardware and electricity remain costs.
+    commercial_use: Permitted under MIT; preserve notice when redistributing software.
+    decision: approved
+    evidence: https://github.com/ollama/ollama/blob/v0.32.14/LICENSE
+  - name: gemma4:12b
+    digest: 4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c
+    quantization: Q4_K_M
+    license: Apache-2.0
+    price: No per-request charge for installed local inference; no new download or hosted service.
+    commercial_use: Model licence permits commercial use; output facts and third-party rights still require separate review.
+    obligations: No weights redistributed here; Apache attribution/NOTICE and modification requirements apply to redistribution; no trademark grant.
+    decision: approved
+    evidence:
+      - local /api/show licence and /api/tags digest checked
+      - https://ai.google.dev/gemma/docs/core/model_card_4
+      - https://ai.google.dev/gemma/apache_2
+source_policy:
+  owner: Japanese Geoparks Network and related organisations
+  evidence: https://geopark.jp/contact/linkpolicy.html
+  licence: All rights reserved; no open dataset licence claimed.
+  price: Public website reading; this does not grant reuse rights.
+  website_corpus_redistribution: declined
+  commercial_text_reuse: blocked without permission or applicable statutory basis.
+  adopted_scope: Source links, content hashes and independently written factual notes only; no images or website passages published or included verbatim in model prompts.
+  condition: Any future copying of source prose, images or corpus requires a separate rights review before adoption.

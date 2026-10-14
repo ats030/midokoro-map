@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "evaluated_at": "2026-10-14T13:36:36.415283+00:00",
+  "scope": "Five curated three-place geology comparisons; source text and drafts remain local and unpublished. No scheduler or production change.",
+  "model": "gemma4:12b",
+  "ollama_version": "0.32.14",
+  "options": {
+    "temperature": 0.2,
+    "seed": 42,
+    "num_ctx": 16384,
+    "num_predict": 4096,
+    "think": false
+  },
+  "generation_calls": 5,
+  "automatic_retries": 0,
+  "drafts_passing_structure_checks": 4,
+  "output_rejections": 1,
+  "ai_reviewed_drafts": 4,
+  "drafts_requiring_major_factual_revision": 2,
+  "human_approved_drafts": 0,
+  "human_review_minutes": null,
+  "same_input_reexecution": {
+    "slug": "hakusan-rock-and-water",
+    "status": "unchanged",
+    "additional_generation_attempts": 0,
+    "source_rechecked": true
+  },
+  "legacy_regressions": [
+    "arita-porcelain",
+    "kusatsu-yumomi",
+    "kawagoe-festival"
+  ],
+  "validation": {
+    "story_unittests_passed": 25,
+    "publication_audit_regressions_passed": 4,
+    "medium_code_review": "Initial findings fixed; final review found no actionable defect. Reviewer could not execute socket/tempfile tests in its read-only sandbox; main agent executed them successfully."
+  },
+  "qualification": "This is a smoke experiment, not an equal-condition benchmark: after the first failure, the error protocol was tightened. First two calls used v4; remaining three used v4.1. Implementation source-check bugs were also corrected during the experiment. No rejected call was regenerated. AI reviews are judgments, not human approval.",
+  "verdict": "Do not activate scheduled publishing. Keep human-reviewed drafts only; revise unsupported introduction/relationship premises and measure actual human editing time before the next stage.",
+  "follow_up_issue": "ats030-ay530",
+  "runs": [
+    {
+      "slug": "izu-volcanic-landforms",
+      "status": "output-rejected",
+      "fingerprint": "5f1c7f15b15d69f4df5c1dc723bc2b3b0bcec00f87e3e5043fcef5c0979e3a84",
+      "prompt_version": "midokoro-story-v4",
+      "system_prompt_sha256": "bf33f0154d2c55f1fe865169cae5c4e528c19a78894e965685311ab145cc64ec",
+      "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+      "elapsed_seconds": 104.29,
+      "eval_count": 708,
+      "source_url": "https://geopark.jp/geopark/izu_hantou/",
+      "human_review": "pending",
+      "human_minutes": null,
+      "rejection_reason": "Success error field was the string none instead of empty string; response retained locally and never adopted."
+    },
+    {
+      "slug": "muroto-sea-and-land",
+      "status": "draft",
+      "fingerprint": "8f30b6349954506c8df7b644d3991f57e95cb23e97171425d822c7542e660d53",
+      "prompt_version": "midokoro-story-v4",
+      "system_prompt_sha256": "bf33f0154d2c55f1fe865169cae5c4e528c19a78894e965685311ab145cc64ec",
+      "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+      "elapsed_seconds": 182.55,
+      "eval_count": 735,
+      "source_url": "https://geopark.jp/geopark/muroto/",
+      "human_review": "pending",
+      "human_minutes": null,
+      "ai_editorial_review": {
+        "decision": "needs-editorial-review",
+        "required_major_factual_corrections": 0,
+        "required_minor_editorial_corrections": 2,
+        "notes": [
+          "港の深さを確認すれば人の営みを捉えられる、という観察方法は資料に裏付けがないため、公式解説に沿って地形と港の位置を比べる表現へ直す。",
+          "岩の組成を見るだけで深海由来が分かるような表現は避け、公式解説を参照する読み方へ直す。"
+        ]
+      }
+    },
+    {
+      "slug": "oki-erosion-comparison",
+      "status": "draft",
+      "fingerprint": "2dcaf5acbb158e775b8f19835d803c5c7044862bcb21b0f1bb356960c2d5ff9a",
+      "prompt_version": "midokoro-story-v4.1",
+      "system_prompt_sha256": "3d7713bc1e09fd4c3decc1e2bc4b102b2b54d4f8ac8f7c20d4332f92e3c6ad7e",
+      "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+      "elapsed_seconds": 98.51,
+      "eval_count": 786,
+      "source_url": "https://geopark.jp/geopark/oki/",
+      "human_review": "pending",
+      "human_minutes": null,
+      "ai_editorial_review": {
+        "decision": "factual-revision-required",
+        "required_major_factual_corrections": 1,
+        "required_minor_editorial_corrections": 1,
+        "notes": [
+          "導入の「同じ島、同じ岩質であっても」は、この3地点に共通する前提に読める。公式情報では国賀海岸は西ノ島、壇鏡の滝は島後、明屋海岸は中ノ島であり、同じ岩質という根拠もない。入力の比較範囲へ戻す必要がある。",
+          "地層の重なりと侵食の重なり、という説明は曖昧なため、層と崖の形という具体的な比較へ直す。"
+        ]
+      }
+    },
+    {
+      "slug": "shimabara-different-volcanoes",
+      "status": "draft",
+      "fingerprint": "83ab573449f4fa09e6e2f2adc912bce471729672e5c38641b938db79422c0e2f",
+      "prompt_version": "midokoro-story-v4.1",
+      "system_prompt_sha256": "3d7713bc1e09fd4c3decc1e2bc4b102b2b54d4f8ac8f7c20d4332f92e3c6ad7e",
+      "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+      "elapsed_seconds": 85.09,
+      "eval_count": 687,
+      "source_url": "https://geopark.jp/geopark/shimabara/",
+      "human_review": "pending",
+      "human_minutes": null,
+      "ai_editorial_review": {
+        "decision": "needs-editorial-review",
+        "required_major_factual_corrections": 0,
+        "required_minor_editorial_corrections": 1,
+        "notes": [
+          "leadが説明の羅列で終わっているため、異なる火山に由来する地層を比べる目的を、です・ます調の一文に整える。"
+        ]
+      }
+    },
+    {
+      "slug": "hakusan-rock-and-water",
+      "status": "draft",
+      "fingerprint": "91236a13aa15ef711099af98fe9ce41e80b3fdda1ca03607b3fac55ffdce9208",
+      "prompt_version": "midokoro-story-v4.1",
+      "system_prompt_sha256": "3d7713bc1e09fd4c3decc1e2bc4b102b2b54d4f8ac8f7c20d4332f92e3c6ad7e",
+      "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+      "elapsed_seconds": 120.97,
+      "eval_count": 779,
+      "source_url": "https://geopark.jp/geopark/hakusan/",
+      "human_review": "pending",
+      "human_minutes": null,
+      "ai_editorial_review": {
+        "decision": "factual-revision-required",
+        "required_major_factual_corrections": 1,
+        "required_minor_editorial_corrections": 1,
+        "notes": [
+          "化石を残す地層と洪水で移動した巨礫という材料から、「岩石の異なる成り立ちを区別できる」と結論している。岩そのものの形成と、洪水による移動は別の過程であり、このメモだけでは岩の成因の違いを確定できない。関係の本文と最初の問いを、残された記録と運搬という比較に限定する。",
+          "「近年」は入力メモに年代がないため、出典で確認した年代を別の事実として追加するか、洪水時という表現に戻す。"
+        ]
+      }
+    }
+  ]
+}

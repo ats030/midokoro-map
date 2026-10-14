@@ -36,6 +36,12 @@ PUBLICATION_FILES = {
     'scripts/run_checks.py',
     'scripts/run_demo.py',
     'scripts/test_publication_audit.py',
+    'scripts/story_pipeline.py',
+    'scripts/test_story_pipeline.py',
+    'docs/story-candidates.json',
+    'docs/story-automation.md',
+    'docs/story-experiment-results.json',
+    'docs/story-tool-license.yaml',
 }
 
 PATTERNS = {

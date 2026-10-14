@@ -1141,6 +1141,36 @@
       "path": "scripts/test-geo-media.mjs",
       "sha256": "1166f2a1b4aa57699f9c0bac482c1add2f7b0aaedbcc56ffa5f537cce9c0db54",
       "mode": "100644"
+    },
+    {
+      "path": "scripts/generate-story.py",
+      "sha256": "d092f58d9be8857229f4753397caeccf3d65389985e0b52afceb8e5e6904cf6a",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/story-template.html",
+      "sha256": "fbd049cc96be6cc56b87f14c60bda68479fa575665c447bf57b07310f828be91",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/test_generate_story.py",
+      "sha256": "05a30791f4ec7f8b6eaea6656cabb2dd3fc511346ac85f1d72236f19eaa76a31",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/story-packets/arita-porcelain.json",
+      "sha256": "7ee4ed4d862141f66e7a28d1365cf8cd8eeff51f493f57745df5c9f08a1e9e1e",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/story-packets/kusatsu-yumomi.json",
+      "sha256": "7e0a49b56b2a66bef03b03ff19b20117b4f87153251868d66f4fb7d4ed673bc8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/story-packets/kawagoe-festival.json",
+      "sha256": "cd1dddab675b83b49401ba2a26b60551e649854a6279430df3b27c397006505c",
+      "mode": "100644"
     }
   ],
   "publication_adjustments": [
@@ -1158,6 +1188,16 @@
       "path": "cloudflare/worker.mjs",
       "reason": "Identify the new standalone project in the existing public User-Agent contact URL. No request/runtime logic changed.",
       "published_sha256": "421feb04764eada0decbb8b37f93d0ce40cbb8adb9ca07b6366f6eeb21bed9cd"
+    },
+    {
+      "path": "scripts/generate-story.py",
+      "reason": "Support version 2 variable-length articles, concise bodies, pending coordinates and bounded success/abstention protocol while retaining version 1 validation.",
+      "published_sha256": "b1e08ae1a810f9d7f226d0e33b119342a084a8356dc4488ec6012719780b987a"
+    },
+    {
+      "path": "scripts/story-template.html",
+      "reason": "Dynamic place count; local draft preview omits LAN telemetry and disables unverified map coordinates.",
+      "published_sha256": "c79102a60f265ab52b78f3622036350f8eb37c7bc29c1aa4cdd585f7d28cca7b"
     }
   ],
   "excluded_tests": [

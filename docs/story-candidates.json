@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "candidates": [
+    {
+      "slug": "izu-volcanic-landforms",
+      "title": "伊豆の岩を、でき方から見比べる",
+      "region": "静岡県",
+      "source_url": "https://geopark.jp/geopark/izu_hantou/",
+      "angle": "海底火山の堆積物、陸上の溶岩、火山の通り道を比較する。同一噴火でできたと結ばない。",
+      "sites": [
+        {
+          "section": "堂ヶ島・仁科港ジオサイト",
+          "name": "堂ヶ島海岸",
+          "role": "海底に残る層",
+          "claim": "堂ヶ島の崖では海底火山の噴火に伴う堆積物が層をなしており、火山灰も観察対象になる。",
+          "anchors": [
+            "海底火山",
+            "火山灰"
+          ],
+          "section_sha256": "9dfdfdf84079ce618b605429b7f1dae86d47bf2d4bf3f9ba0d9357e17602c205"
+        },
+        {
+          "section": "鉢窪山ジオサイト",
+          "name": "浄蓮の滝周辺",
+          "role": "溶岩がつくる崖",
+          "claim": "鉢窪山と丸山から出た溶岩が谷に入り、台地と浄蓮の滝の地形をつくった。滝の崖には柱状節理がある。",
+          "anchors": [
+            "鉢窪山",
+            "柱状節理"
+          ],
+          "section_sha256": "4fbe7b5393d1531c4c7ce95ba28ad9d3ef8cef0e0847c9fd8712827da394f8ec"
+        },
+        {
+          "section": "岩地・石部・雲見ジオサイト",
+          "name": "千貫門",
+          "role": "地下の通り道",
+          "claim": "千貫門は地表に現れたマグマの通り道の一部で、波に削られた穴が門の形になっている。",
+          "anchors": [
+            "千貫門",
+            "マグマ"
+          ],
+          "section_sha256": "2296f755067e11a485a74d7724a1c6dad25614364b27d5f2d4b7067efbede915"
+        }
+      ],
+      "claim_review": "AI-assisted primary-source check; human review pending",
+      "source_checked_at": "2026-10-14"
+    },
+    {
+      "slug": "muroto-sea-and-land",
+      "title": "室戸で海と陸の高さを読む",
+      "region": "高知県",
+      "source_url": "https://geopark.jp/geopark/muroto/",
+      "angle": "海成段丘、掘り下げられた港、深海に由来する岩を比較する。各地点の時間尺度を同一視しない。",
+      "sites": [
+        {
+          "section": "枦山-西山台地サイト",
+          "name": "枦山・西山台地",
+          "role": "自然にできた平地",
+          "claim": "枦山・西山台地の平らな土地は海成段丘で、大地の隆起と海水準の変化によってできた。",
+          "anchors": [
+            "海成段丘",
+            "隆起"
+          ],
+          "section_sha256": "21d2fa54ec5c9e19d3bcb093cff0cd5085ad7acde9b2d155ebff3c9f8db37369"
+        },
+        {
+          "section": "室津港サイト",
+          "name": "室津港",
+          "role": "人が手を入れた港",
+          "claim": "室津港では地震に伴う隆起で港が干上がるため、人が港を掘り下げてきた。",
+          "anchors": [
+            "室津港",
+            "掘り下げ"
+          ],
+          "section_sha256": "19843d6501ad9260d9b0c8e73852eb50fae983bdb456231428e9454f448b045c"
+        },
+        {
+          "section": "室戸岬サイト②",
+          "name": "室戸岬",
+          "role": "海底に由来する岩",
+          "claim": "室戸岬の岩には深海で堆積した砂や泥に由来するものがあり、深海から押し上げられてきた。",
+          "anchors": [
+            "深海",
+            "砂や泥"
+          ],
+          "section_sha256": "4cd8e82d30fe42502aa535ffd8335c792f954e24314143d06c107e19f9af205f"
+        }
+      ],
+      "claim_review": "AI-assisted primary-source check; human review pending",
+      "source_checked_at": "2026-10-14"
+    },
+    {
+      "slug": "oki-erosion-comparison",
+      "title": "隠岐で削られた岩の形を比べる",
+      "region": "島根県",
+      "source_url": "https://geopark.jp/geopark/oki/",
+      "angle": "波が削る海岸と、侵食でできた滝を比較する。同じ島・同じ岩質・同じ成因と決めつけない。",
+      "sites": [
+        {
+          "section": "国賀海岸",
+          "name": "国賀海岸",
+          "role": "海岸の侵食",
+          "claim": "西ノ島の国賀海岸では、海食崖、アーチ、海食洞など波による侵食地形を観察できる。",
+          "anchors": [
+            "西ノ島",
+            "海食洞"
+          ],
+          "section_sha256": "4174903b25b695c89cfc66337f8e9e5d8ff3f4150b6c9811b180b7d49bf1a782"
+        },
+        {
+          "section": "壇鏡の滝",
+          "name": "壇鏡の滝",
+          "role": "滝の崖",
+          "claim": "壇鏡の滝は火山岩と火砕岩が重なる地層が侵食されてできた、張り出す崖のある滝である。",
+          "anchors": [
+            "火山岩",
+            "侵食"
+          ],
+          "section_sha256": "6764746a6a0ef64f1b0eb17e4da2ac1be53160ce1a5c4c89606f5714d641cd26"
+        },
+        {
+          "section": "明屋海岸",
+          "name": "明屋海岸",
+          "role": "火山と波",
+          "claim": "明屋海岸ではスコリア丘が波で削られて海岸になっている。流れ出した溶岩がつくった台地もある。",
+          "anchors": [
+            "スコリア丘",
+            "溶岩台地"
+          ],
+          "section_sha256": "a7eb7acd1a50232323cb5a7ac47a9c0df4c3c02fc26d3b69436eda12c903b687"
+        }
+      ],
+      "claim_review": "AI-assisted primary-source check; human review pending",
+      "source_checked_at": "2026-10-14"
+    },
+    {
+      "slug": "shimabara-different-volcanoes",
+      "title": "島原半島の地層を、火山の違いから読む",
+      "region": "長崎県",
+      "source_url": "https://geopark.jp/geopark/shimabara/",
+      "angle": "半島初期の噴火、阿蘇由来の火砕流、初期の雲仙を比較する。半島内の岩を全て雲仙由来にしない。",
+      "sites": [
+        {
+          "section": "早崎(はやさき)海岸",
+          "name": "早崎海岸",
+          "role": "半島の始まり",
+          "claim": "早崎海岸は島原半島をつくり始めた噴火の場所として紹介され、海岸の地層が半島の成り立ちを示す。",
+          "anchors": [
+            "最初の噴火",
+            "地層"
+          ],
+          "section_sha256": "17b3ff41be26cbc168a2b968af19be584e74a51f94414ee0b99ce010164c467e"
+        },
+        {
+          "section": "原城跡(はらじょうあと)",
+          "name": "原城跡",
+          "role": "遠くの火山の堆積物",
+          "claim": "原城跡が載る丘には阿蘇山の噴火による火砕流堆積物がある。地形の由来と城の歴史は別の時間の話である。",
+          "anchors": [
+            "阿蘇山",
+            "火砕流"
+          ],
+          "section_sha256": "f43bd8bcccac1e19e8112c1ac8782ce2bcf169c96c512cd47d579108576af9aa"
+        },
+        {
+          "section": "龍石(たついし)海岸",
+          "name": "龍石海岸",
+          "role": "初期の雲仙",
+          "claim": "龍石海岸の火山扇状地の端には、雲仙火山の活動初期に由来する地層が露出している。",
+          "anchors": [
+            "火山扇状地",
+            "雲仙火山"
+          ],
+          "section_sha256": "c0230904ea6fb6cb9db512bf15bda947c51a8a684f8937a487446c7a1d528595"
+        }
+      ],
+      "claim_review": "AI-assisted primary-source check; human review pending",
+      "source_checked_at": "2026-10-14"
+    },
+    {
+      "slug": "hakusan-rock-and-water",
+      "title": "手取川で、運ばれる石と削られる岩を読む",
+      "region": "石川県",
+      "source_url": "https://geopark.jp/geopark/hakusan/",
+      "angle": "化石を含む地層、洪水で動いた岩、川が削った峡谷を比較する。巨岩と化石壁の岩を同一由来と結ばない。",
+      "sites": [
+        {
+          "section": "桑島化石壁とその産出化石",
+          "name": "桑島化石壁",
+          "role": "地層が残す生物",
+          "claim": "桑島化石壁では動物と植物の化石が産出し、昔の生物や環境を考える材料になる。",
+          "anchors": [
+            "植物化石",
+            "動物化石"
+          ],
+          "section_sha256": "38f058dd9510e2ce855754d8ce1f2c00fc17f0eeb467f097f2dc4a0c7b64893b"
+        },
+        {
+          "section": "百万貫の岩",
+          "name": "百万貫の岩",
+          "role": "洪水が動かした岩",
+          "claim": "百万貫の岩は手取川の巨礫で、洪水のときに支流から運ばれてきたと紹介されている。",
+          "anchors": [
+            "巨礫",
+            "支流"
+          ],
+          "section_sha256": "626bb44774a8873db9ef49e1456424b6df860ccd98adbede8f9eb9ff71cfe21d"
+        },
+        {
+          "section": "手取峡谷",
+          "name": "手取峡谷",
+          "role": "川が削った地形",
+          "claim": "手取峡谷は石や砂を運ぶ手取川が大地を削ってできた峡谷で、河床には甌穴が見られる。",
+          "anchors": [
+            "石や砂",
+            "甌穴"
+          ],
+          "section_sha256": "4ace83c8e9dfef6baad4f76fdc7ea202146c94c32b0777f775ea5b92d037b669"
+        }
+      ],
+      "claim_review": "AI-assisted primary-source check; human review pending",
+      "source_checked_at": "2026-10-14"
+    }
+  ]
+}
