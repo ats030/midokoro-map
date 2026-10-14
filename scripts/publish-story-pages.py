@@ -64,6 +64,7 @@ def load_bundle(path):
     writer.require(provenance.get("authorization") and provenance.get("editorial_actor"),
                    "編集者と公開指示の記録が必要です")
     writer.validate_draft(draft, packet)
+    writer.date(provenance.get("published_at"), "published_at")
     for place in packet["places"]:
         if "photo" in place:
             validate_photo(place["photo"])
@@ -105,13 +106,18 @@ def render(bundle):
 
 def index_page(bundles):
     cards = []
-    for i, bundle in enumerate(bundles, 1):
+    # Canonical order breaks same-day ties independently of caller input order.
+    ordered = sorted(bundles, key=lambda b: SLUGS.index(b["packet"]["slug"]))
+    for bundle in ordered:
+        writer.date(bundle["provenance"].get("published_at"), "published_at")
+    ordered.sort(key=lambda b: b["provenance"]["published_at"], reverse=True)
+    for bundle in ordered:
         packet, draft = bundle['packet'], bundle['draft']
         link = '/stories/' + packet['slug'] + '?from=home'
         photo = next((p["photo"] for p in packet["places"] if "photo" in p), None)
         cards.append(f'<article class="story-index-entry">'
                      + (photo_figure(photo) if photo else '') +
-                     f'<div class="story-index-copy"><p class="place-kicker">{writer.e(packet["region"])}</p><h2><a href="{link}">{writer.e(draft["title"])}</a></h2>'
+                     f'<div class="story-index-copy"><p class="place-kicker">{writer.e(packet["region"])} · <time datetime="{bundle["provenance"]["published_at"]}">{bundle["provenance"]["published_at"]} 公開</time></p><h2><a href="{link}">{writer.e(draft["title"])}</a></h2>'
                      f'<p>{writer.e(draft["lead"])}</p>'
                      f'<a class="select-place" href="{link}">{len(packet["places"])}地点のつながりをたどる →</a></div></article>')
     return f'''<!doctype html>
@@ -123,7 +129,7 @@ def index_page(bundles):
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/app.css"><link rel="stylesheet" href="/stories/story.css">
 <script src="http://ubuntu-server-app:8526/v.js" data-site="midokoro-map" defer></script></head>
 <body class="story-page story-index"><a class="skip-link" href="#story-main">本文へ</a><header class="site-header"><a class="brand" href="/"><img src="/favicon.svg" alt="" width="28" height="28"><span>みどころマップ</span></a><nav class="story-nav" aria-label="サイト"><a href="/">全国の地図</a></nav></header>
-<main id="story-main"><header class="story-index-heading"><h1>土地のつながりをたどる</h1><p>岩や地形に残る記録を、土地を見比べながら読む。</p></header><section class="story-index-list" aria-label="記事一覧">{''.join(cards)}</section></main></body></html>
+<main id="story-main"><header class="story-index-heading"><h1>土地のつながりをたどる</h1><p>岩や地形に残る記録を、土地を見比べながら読む。</p><p>新しい記事から掲載しています。</p></header><section class="story-index-list" aria-label="記事一覧">{''.join(cards)}</section></main></body></html>
 '''
 
 

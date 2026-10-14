@@ -70,6 +70,17 @@ class PublicationChecks(unittest.TestCase):
             for text in (photo['src'], photo['source_url'], photo['license_url'], photo['author'], 'loading="lazy"'):
                 self.assertIn(text, html)
 
+    def test_index_uses_publication_date_and_stable_same_day_order(self):
+        bundles = [publisher.load_bundle(publisher.ROOT / f'docs/published-stories/generated/{slug}.json') for slug in publisher.SLUGS]
+        self.assertEqual(publisher.index_page(bundles), publisher.index_page(list(reversed(bundles))))
+        for bundle in bundles[:-1]:
+            bundle['provenance']['published_at'] = '2026-10-13'
+        html = publisher.index_page(bundles)
+        self.assertLess(html.index('/stories/' + publisher.SLUGS[-1] + '?from=home'), html.index('/stories/' + publisher.SLUGS[0] + '?from=home'))
+        self.assertIn('<time datetime="2026-10-14">2026-10-14 公開</time>', html)
+        self.reject(lambda b: b['provenance'].pop('published_at'))
+        self.reject(lambda b: b['provenance'].update(published_at='2026-02-30'))
+
     def test_selection_features_only_the_four_new_articles(self):
         bundles = [publisher.load_bundle(publisher.ROOT / f'docs/published-stories/generated/{slug}.json') for slug in publisher.SLUGS]
         html = publisher.index_page(bundles)

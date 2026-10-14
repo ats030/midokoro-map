@@ -1301,8 +1301,8 @@
     },
     {
       "path": "frontend/stories/index.html",
-      "reason": "Present story selection as a compact vertical blog index; preserve article content and photo attribution.",
-      "published_sha256": "b222bd35db32d0727e1ecbb93038f99fa41c2a3e40b4758abd0a4ca32a0c59a2"
+      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
+      "published_sha256": "2ac52bb1b73cd21f720ba6f57c833760b46b12e055789026fd5d43b810477c7f"
     },
     {
       "path": "docs/generated-story-publication.md",
@@ -1311,13 +1311,13 @@
     },
     {
       "path": "scripts/publish-story-pages.py",
-      "reason": "Present story selection as a compact vertical blog index; preserve article content and photo attribution.",
-      "published_sha256": "8df8565fafc9fca415457786fae8fdb2cb1fe42f0560e17f23fe89cd029d8bf7"
+      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
+      "published_sha256": "025e12b3acb46b18ded14857a4fa3ce7cea24ff271d177cdbca78a8749d471e7"
     },
     {
       "path": "scripts/test_publish_story_pages.py",
-      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
-      "published_sha256": "9c3b0dab5b6e0c98cb67b1ecebf3c667a8f2cabb99778d7b8b6f902d48766788"
+      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
+      "published_sha256": "ad441f14bcb2d39ac61687ff6937847eb2361ed5aaca5daeae7d92be2409d721"
     },
     {
       "path": "frontend/stories/story.css",
@@ -1326,23 +1326,23 @@
     },
     {
       "path": "docs/published-stories/generated/oki-erosion-comparison.json",
-      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
-      "published_sha256": "781226df8634ddc38f43b723a216da38d65825b7c3c5afa5ff038868c9c603ca"
+      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
+      "published_sha256": "478c53e843b0989e42197e3d0589d5290e6766100503bc6c2493e088f713e24d"
     },
     {
       "path": "docs/published-stories/generated/muroto-sea-and-land.json",
-      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
-      "published_sha256": "8fa2affb16f7d456ed6e5c52d33ac5c0584f6601fb4857934f461ce1ace6be8b"
+      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
+      "published_sha256": "b271ce06e049cc9f244dd2ffccb85d6d7f1e3c45ce5e27b432d441dc094299f4"
     },
     {
       "path": "docs/published-stories/generated/shimabara-different-volcanoes.json",
-      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
-      "published_sha256": "caefa7bbc8746cc98b1ab30ce417c522c8622326b8287f081fc7678eaacb9bc6"
+      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
+      "published_sha256": "acc7f874fe9ea3288006c59779c11bb911a51a9756fa82ac76d5d86662b26392"
     },
     {
       "path": "docs/published-stories/generated/hakusan-rock-and-water.json",
-      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
-      "published_sha256": "6b6640510f8464461a40d2a84bf5a41d3837535fe6440f2782b69d8b1d2939d0"
+      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
+      "published_sha256": "8d6abcce56cccefa4ce6b9dffca644a310d6a27ed730a1153a134bbd14ee0804"
     },
     {
       "path": "frontend/stories/shimabara-different-volcanoes.html",
@@ -1366,8 +1366,8 @@
     },
     {
       "path": "DESIGN.md",
-      "reason": "Present story selection as a compact vertical blog index; preserve article content and photo attribution.",
-      "published_sha256": "4051229c5e8ba9516b994b75139af3f04169d9e8a9f572e13abadb8742ba3c03"
+      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
+      "published_sha256": "3b368ae36caab5f44a23b8f188e6af50aa1a2c836e932781d1c7a97d57418e32"
     }
   ],
   "excluded_tests": [

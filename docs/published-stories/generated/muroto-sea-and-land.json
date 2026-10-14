@@ -213,6 +213,7 @@
       "location notes",
       "questions edited where needed"
     ],
-    "coordinate_policy": "Nine points use coordinates in official JGN map-link place labels; Muroto uses official site map centers explicitly labelled as representative, not exact outcrops."
+    "coordinate_policy": "Nine points use coordinates in official JGN map-link place labels; Muroto uses official site map centers explicitly labelled as representative, not exact outcrops.",
+    "published_at": "2026-10-14"
   }
 }
