@@ -1,0 +1,12 @@
+.git/
+.local/
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.env.*
+*.db
+*.db-*
+node_modules/
+cloudflare/assets/
+docs/media/raw/

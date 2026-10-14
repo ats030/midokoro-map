@@ -1,0 +1,1295 @@
+{
+  "profile": "actual frontend with fixed fictional server responses and synthetic background tiles",
+  "assertions": [
+    "19 synthetic entries",
+    "prefecture filter",
+    "keyword filter",
+    "detail and Escape",
+    "empty results",
+    "six views switch",
+    "shared map position preserved",
+    "390px no page overflow",
+    "URL state restored",
+    "changelog stays offline",
+    "non-demo stories and encoded aliases rejected",
+    "no external requests",
+    "no page errors"
+  ],
+  "screenshots": 6,
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/"
+    },
+    {
+      "method": "GET",
+      "path": "/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/app.js"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.js"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.markercluster.js"
+    },
+    {
+      "method": "GET",
+      "path": "/favicon.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/runtime.js"
+    },
+    {
+      "method": "GET",
+      "path": "/summaries.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/config"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/explore/view.html"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.Default.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/detail-panel.css"
+    },
+    {
+      "method": "GET",
+      "path": "/workspace.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/explore/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/explore/view.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/detail-common.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/explore/model.mjs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/shiseki/shiseki/"
+    },
+    {
+      "method": "GET",
+      "path": "/api/omatsuri/festivals/"
+    },
+    {
+      "method": "GET",
+      "path": "/api/onsen/onsen/"
+    },
+    {
+      "method": "GET",
+      "path": "/api/tokusan/tokusan/"
+    },
+    {
+      "method": "GET",
+      "path": "/geo/geoparks.json"
+    },
+    {
+      "method": "GET",
+      "path": "/geo/geosites.json"
+    },
+    {
+      "method": "GET",
+      "path": "/geo/nationalparks.json"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/28/12.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/28/11.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/27/12.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/29/12.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/28/13.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/27/11.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/29/11.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/27/13.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/29/13.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/28/10.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/26/12.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/30/12.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/28/14.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/27/10.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/29/10.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/26/11.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/30/11.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/26/13.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/30/13.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/27/14.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/29/14.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/26/10.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/30/10.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/26/14.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/5/30/14.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/view.html"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.Default.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/detail-panel.css"
+    },
+    {
+      "method": "GET",
+      "path": "/workspace.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/view.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/shiseki/shiseki/"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.Default.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/detail-panel.css"
+    },
+    {
+      "method": "GET",
+      "path": "/workspace.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/api/shiseki/hotel-area/nearby"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.Default.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/detail-panel.css"
+    },
+    {
+      "method": "GET",
+      "path": "/workspace.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/onsen/view.html"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.Default.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/onsen/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/onsen/detail-panel.css"
+    },
+    {
+      "method": "GET",
+      "path": "/workspace.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/onsen/view.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/onsen/onsen/"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/omatsuri/view.html"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.Default.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/omatsuri/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/omatsuri/detail-panel.css"
+    },
+    {
+      "method": "GET",
+      "path": "/workspace.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/omatsuri/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/omatsuri/view.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/omatsuri/festivals/"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokusan/view.html"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.Default.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokusan/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokusan/detail-panel.css"
+    },
+    {
+      "method": "GET",
+      "path": "/workspace.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokusan/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokusan/view.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokusan/images.json"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokusan/furusato-affiliate.json"
+    },
+    {
+      "method": "GET",
+      "path": "/api/tokusan/tokusan/"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/tokusan/regions.json"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/geo/view.html"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.Default.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/geo/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/geo/detail-panel.css"
+    },
+    {
+      "method": "GET",
+      "path": "/workspace.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/geo/view.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/geo/media.js"
+    },
+    {
+      "method": "GET",
+      "path": "/geo/geoparks.json"
+    },
+    {
+      "method": "GET",
+      "path": "/geo/geosites.json"
+    },
+    {
+      "method": "GET",
+      "path": "/geo/nationalparks.json"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/"
+    },
+    {
+      "method": "GET",
+      "path": "/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/app.js"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.js"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.markercluster.js"
+    },
+    {
+      "method": "GET",
+      "path": "/favicon.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/runtime.js"
+    },
+    {
+      "method": "GET",
+      "path": "/summaries.js"
+    },
+    {
+      "method": "GET",
+      "path": "/api/config"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/explore/view.html"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/leaflet.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.css"
+    },
+    {
+      "method": "GET",
+      "path": "/vendor/MarkerCluster.Default.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/detail-panel.css"
+    },
+    {
+      "method": "GET",
+      "path": "/workspace.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/explore/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/shiseki/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/explore/view.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/detail-common.js"
+    },
+    {
+      "method": "GET",
+      "path": "/assets/explore/model.mjs"
+    },
+    {
+      "method": "GET",
+      "path": "/api/shiseki/shiseki/"
+    },
+    {
+      "method": "GET",
+      "path": "/api/omatsuri/festivals/"
+    },
+    {
+      "method": "GET",
+      "path": "/api/onsen/onsen/"
+    },
+    {
+      "method": "GET",
+      "path": "/api/tokusan/tokusan/"
+    },
+    {
+      "method": "GET",
+      "path": "/geo/geoparks.json"
+    },
+    {
+      "method": "GET",
+      "path": "/geo/geosites.json"
+    },
+    {
+      "method": "GET",
+      "path": "/geo/nationalparks.json"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/442/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/441/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/443/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/205.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/206.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/204.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/440/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/demo-tiles/9/444/207.svg"
+    },
+    {
+      "method": "GET",
+      "path": "/changelog"
+    },
+    {
+      "method": "GET",
+      "path": "/tokens.css"
+    },
+    {
+      "method": "GET",
+      "path": "/app.css"
+    },
+    {
+      "method": "GET",
+      "path": "/stories/arita-porcelain.html"
+    },
+    {
+      "method": "GET",
+      "path": "/%2Fstories/arita-porcelain.html"
+    }
+  ],
+  "external_requests": [],
+  "page_errors": []
+}

@@ -1,0 +1,116 @@
+{
+  "reviewed_at": "2026-10-14",
+  "scope": "Standalone source portfolio with original synthetic fixture data. No new hosted services, model weights, external image datasets or hosting plans adopted.",
+  "development_tools": [
+    {
+      "tool": "pytest",
+      "plan_or_version": "9.1.1",
+      "decision": "approved",
+      "price": {
+        "condition": "Existing local open-source package; no hosted service subscription introduced"
+      },
+      "license": {
+        "spdx": "MIT",
+        "source": "https://github.com/pytest-dev/pytest/blob/main/LICENSE",
+        "installed_distribution_evidence": [
+          {
+            "distribution_path": "pytest-9.1.1.dist-info/licenses/LICENSE",
+            "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b"
+          }
+        ]
+      },
+      "commercial_use": {
+        "allowed": true,
+        "evidence": "Official license and installed exact-version license metadata"
+      },
+      "restrictions": [
+        "Retain license and required notices when redistributing the library; package is installed separately in this repository"
+      ],
+      "adoption": "Retain existing tooling for reproducible local tests and browser capture"
+    },
+    {
+      "tool": "playwright",
+      "plan_or_version": "1.61.0",
+      "decision": "approved",
+      "price": {
+        "condition": "Existing local open-source package; no hosted service subscription introduced"
+      },
+      "license": {
+        "spdx": "Apache-2.0",
+        "source": "https://github.com/microsoft/playwright/blob/main/LICENSE",
+        "installed_distribution_evidence": [
+          {
+            "distribution_path": "playwright-1.61.0.dist-info/licenses/LICENSE",
+            "sha256": "7fab1461b41970ff376f1c9303a637076bfaaeb71cd12dd3a1c44aaf59a1a2b9"
+          }
+        ]
+      },
+      "commercial_use": {
+        "allowed": true,
+        "evidence": "Official license and installed exact-version license metadata"
+      },
+      "restrictions": [
+        "Retain license and required notices when redistributing the library; package is installed separately in this repository"
+      ],
+      "adoption": "Retain existing tooling for reproducible local tests and browser capture"
+    }
+  ],
+  "bundled": [
+    {
+      "tool": "Leaflet",
+      "plan_or_version": "1.9.4",
+      "decision": "approved",
+      "price": "No fee for the bundled library",
+      "license": "BSD-2-Clause",
+      "commercial_use": true,
+      "source": "https://github.com/Leaflet/Leaflet/blob/v1.9.4/LICENSE",
+      "condition": "Retain bundled copyright and licence unchanged"
+    },
+    {
+      "tool": "Leaflet.markercluster",
+      "plan_or_version": "1.5.3",
+      "decision": "approved",
+      "price": "No fee for the bundled library",
+      "license": "MIT",
+      "commercial_use": true,
+      "source": "https://github.com/Leaflet/Leaflet.markercluster/blob/v1.5.3/MIT-LICENCE.txt",
+      "condition": "Retain bundled copyright and licence unchanged"
+    }
+  ],
+  "existing_build_dependencies": [
+    {
+      "tool": "Go",
+      "plan_or_version": "1.25.0",
+      "decision": "approved",
+      "price": "Open-source local runtime; no fee",
+      "license": "BSD-3-Clause",
+      "commercial_use": true,
+      "source": "https://go.dev/LICENSE",
+      "condition": "Installed separately; retain notices if redistributed"
+    },
+    {
+      "tool": "modernc.org/sqlite",
+      "plan_or_version": "v1.29.10",
+      "decision": "approved",
+      "price": "Open-source Go module; no fee",
+      "license": "BSD-3-Clause",
+      "commercial_use": true,
+      "source": "https://gitlab.com/cznic/sqlite/-/blob/v1.29.10/LICENSE",
+      "condition": "Installed through pinned Go module files; docs/sqlite-LICENSE retained; transitive module notices remain applicable"
+    },
+    {
+      "tool": "Pillow",
+      "plan_or_version": "12.2.0",
+      "decision": "approved",
+      "price": "Existing open-source local package; no fee",
+      "license": "MIT-CMU",
+      "commercial_use": true,
+      "source": "https://github.com/python-pillow/Pillow/blob/main/LICENSE",
+      "condition": "Installed separately; retain notices if redistributed"
+    }
+  ],
+  "data_decision": {
+    "decision": "approved",
+    "basis": "Fixtures, descriptions, polygons and tiles generated for this demonstration. No external catalog, photos, model output cache or real map tiles distributed as fixture material."
+  }
+}

@@ -1,0 +1,18 @@
+:host {
+  /* Designation badges use an ink tone (--color-ink nudged for protan deltaE) and
+     differ by fill/border: no hue stays deltaE >= 8 from all marker colors. */
+  --color-designation: #122838;
+  --color-category-religious: #790e11;
+  --color-category-castle: #194162;
+  --color-category-bridge: #007083;
+  --color-category-burial: #946300;
+  --color-category-archaeological: #8f4929;
+  --color-category-historic: #654f65;
+  --color-category-garden: #58734c;
+  --color-category-scenic: #266a56;
+  --color-category-port: #0774bb;
+  --color-category-former: #b74295;
+  --color-category-building: #5b3f32;
+  --color-category-industrial: #383c41;
+  --color-category-other: #6a6e72;
+}

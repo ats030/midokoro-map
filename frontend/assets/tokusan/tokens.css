@@ -1,0 +1,20 @@
+:host {
+  --color-located: #305f86;
+  /* カテゴリ別マーカーカラー (16種、scripts/check-palette.py で検証) */
+  --color-cat-sa: #7e4e33;   /* 酒・醸造 */
+  --color-cat-te: #3a4049;   /* 茶・飲料 */
+  --color-cat-ui: #304fa7;   /* 魚介 */
+  --color-cat-sa2: #616c00;  /* 農産 */
+  --color-cat-am: #89638a;   /* 砂糖・和菓子 */
+  --color-cat-ko: #936642;   /* 穀物・調味料 */
+  --color-cat-ry: #724c47;   /* 料理・惣菜 */
+  --color-cat-ta: #4c527d;   /* 陶磁器 */
+  --color-cat-or: #980b59;   /* 織物 */
+  --color-cat-ri: #483836;   /* 漆器 */
+  --color-cat-kg: #3c5d67;   /* その他工芸 */
+  --color-cat-nk: #89645a;   /* 畜産・乳製品 */
+  --color-cat-sz: #3d3d20;   /* 木材・自然素材 */
+  --color-cat-se: #6a66ae;   /* 生活用品 */
+  --color-cat-ka: #582175;   /* 花卉 */
+  --color-cat-none: #6a6e72; /* 未分類 */
+}

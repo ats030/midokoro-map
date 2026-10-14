@@ -1,0 +1,1169 @@
+{
+  "snapshot_date": "2026-10-14",
+  "basis": "Committed code only; no operational history, production databases, external photographs, summary caches or uncommitted files.",
+  "files": [
+    {
+      "path": "cloudflare/worker.mjs",
+      "sha256": "a381ea37d4f397e7f70f7281aca51ca326a8dc09dae765fa1f5c05f15a91f9e8",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/cloudflare-export/main.go",
+      "sha256": "a108f8ed2e3f9eb08ab80a294ce3d7efdd4ab4447d98599057d63b1845108103",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/server/gzip.go",
+      "sha256": "afb004da97afe09487f9eb8932ad5e075b87b112dbd84d00f17130b614297874",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/server/gzip_test.go",
+      "sha256": "c4c5c6039beb6f5ba4dbc6beee3e7c4d148c82c8648112a6b9cecf70bde2e913",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/server/main.go",
+      "sha256": "f52a40a87744c9dd73d19c41adb938dd0925c464dcb6050e4e27981763d27486",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/server/main_test.go",
+      "sha256": "19fafbb54d77d2891dde7c961fe85cdcc6781bf7c591f5964eb516a087491d35",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/server/stories.go",
+      "sha256": "3235d28e1f0715679ddafb3bbf5c46c5dbe0e62bcd0e886f2f23fba3dedbcde3",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/server/stories_test.go",
+      "sha256": "3146d434c570019da262c3dbabc4c3326d17cdd84086f4f6d09a3cd3b7a5917c",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/server/summaries.go",
+      "sha256": "abd353234767ddde8c75bbac9ccead5841df30efe76c86d631f30d56ef4c2405",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/server/summaries_test.go",
+      "sha256": "4212eb5b53c8bd0c00f12bb260268e6846b00c9dc7003d2f4ae2bee7cc4d50ae",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/warm-all/export.go",
+      "sha256": "7eb9ce26ad334f01498dc745013ffdf04a4467bda044d1cddaf7ffef67f28ec2",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/warm-all/export_test.go",
+      "sha256": "175daa0ae97c9014836a58b54752375dedae60993d16fa539396c130c8f60b59",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/warm-all/main.go",
+      "sha256": "ff4d908e1ebb1da5d7fa1dfe144cc9e6e2b0be13b8bf7e579ce401363ae73937",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/warm-all/main_test.go",
+      "sha256": "88457e012847e76889cff6001549ba54be116688f00ae035d3e0cb3870b80749",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/warm-geo/main.go",
+      "sha256": "76fec356ba3fd44148bef47471f93a9b217baaa4dc9295971681f64e431d5815",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/warm-omatsuri/main.go",
+      "sha256": "fe60ccc6044d38ace14890854aa121cb28af6dc1e76f95821059f15a4fe419b9",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/warm-onsen/main.go",
+      "sha256": "26a571b95f646601980d15f18d9f929f33c0ad3fbcefe70e6b314a7d80a56e19",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/warm-shiseki/main.go",
+      "sha256": "4cfef519cd1dcd469d826992837efbafcb40803d2e157955823b22e0a7bbeb43",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/warm-tokusan-official/main.go",
+      "sha256": "3b36c8838b63738c49e491a5b9bef96183771e92f8abb9f140feca6bda948a5a",
+      "mode": "100644"
+    },
+    {
+      "path": "cmd/warm-tokusan/main.go",
+      "sha256": "f2681f695c55ccf3540010d4fe8ff1ca45c00ae16d6933341acee350c92fbf34",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/sqlite-LICENSE",
+      "sha256": "c6fe05491a60ae13bcd223088d2705e36dede24e5587226231d2459ada5c4822",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/app.css",
+      "sha256": "3cb5eef3e76beef1da715548aebf443134affeafeb2760f3bb3fb2c890708e2d",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/app.js",
+      "sha256": "82161000ea3355e06ed11eb3e3fe63cb47f9c440f099bf85375e3f5175bd5d08",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/detail-common.js",
+      "sha256": "3ae73b761cfffd03285bd149093be81a08497ac66f4ad253ac9beb358f4aed5c",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/explore/app.css",
+      "sha256": "ce2ca8a8d0cc62edeba4969db0fd7542775f5655d53c3fd33da1786e55eb5b01",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/explore/model.mjs",
+      "sha256": "cc9ea2158714bf20892ec3e37dce5c3ecf8fd9ddb9eaa0005e32c523426cc30d",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/explore/view.html",
+      "sha256": "e31c2cbdde6d327c6d7d311c888ec5a2c1eaa91ad83ea96b9d96da0a453787ae",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/explore/view.js",
+      "sha256": "25a2cc2726f69fdcf9a8799ec89097e23907a4b88ca09a631bd5d36151402e09",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/geo/app.css",
+      "sha256": "8c90cf4bd4e40c3d1eb225fb37cfd7aecb4d4f344a4eda70dea1acd3708c4592",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/geo/detail-panel.css",
+      "sha256": "38592d491713e5a3d0ea2ce18a5243c2a75a16e2d82b6a5750e2f5ac948913d9",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/geo/media.js",
+      "sha256": "a3314ff69b40281e47d49a1ecbd42db5e45e025901e24a4803af2cbd92958e03",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/geo/package.json",
+      "sha256": "48e847860dd4f0907ce91e346dbb00a4a12213163ad3d80a953c343eb9a11979",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/geo/view.html",
+      "sha256": "5ab5aa200ef3c4ce36108c388d06eacc9523676d75e3d042b377c005db8c0526",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/geo/view.js",
+      "sha256": "299be7ded60fed79a8d84eeff3da73265c24861fe396d5639d7ae24a009866d4",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/omatsuri/app.css",
+      "sha256": "90b17b2855dacb12484a6e5171d0c8e248a141869c83e1ad66a45cdd76ff89fd",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/omatsuri/detail-panel.css",
+      "sha256": "de40c78526f7a51c0df1ec23402d20c797a5cc3d93e500367b697d620974050c",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/omatsuri/favicon.svg",
+      "sha256": "6f4e379dee9c3815ebbc9fcdaf58b5a5cadc6c816b1b3a25f8caa75cae269b94",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/omatsuri/tokens.css",
+      "sha256": "dff188d378bec5258fe71c59184eb9f8baaad38b27d0b2db42bb30d228fec4b8",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/omatsuri/view.html",
+      "sha256": "dac0eb62ba38c385e69f5d01cadd8b40be38a8f9030a7a5724ec23bc3df13816",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/omatsuri/view.js",
+      "sha256": "57413981f64092668c77ec83ddc515a59a65253fb404910d589b6cf306e25aba",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/onsen/app.css",
+      "sha256": "b6bf019f29dcd44086a9afc836f7c48166f65c2846202621f0db5cb31c8f5636",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/onsen/detail-panel.css",
+      "sha256": "bfd0418fedb7e333afefd1a2b8c2fa5ce792f15d6fdf611ba7eb028217b204da",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/onsen/favicon.svg",
+      "sha256": "89d702db268df1764bc72cbcf7986d75527f41c8fbd5514bf90ead594b122d1a",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/onsen/view.html",
+      "sha256": "f105a86d340a9477e89d78cd25c8eb0d7f9f8b6680956073c66b9456fcb108e8",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/onsen/view.js",
+      "sha256": "3861f0035c73c8156a923ebc500d4698b08dc2ce53a77dc5eb5abdd343d81bb6",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/shiseki/app.css",
+      "sha256": "a9b5f2f3fd779a4097387bf3bbde27b1fca01086db17d7c6c7788861180b6856",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/shiseki/detail-panel.css",
+      "sha256": "047e7f8a2f87667b214717cc093aa321463a1948e49fb66dfabd734d69f6905c",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/shiseki/favicon.svg",
+      "sha256": "47344351379069e7e0d104fd093dad306754a92101c40aa64552f187dbd2dbb1",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/shiseki/tokens.css",
+      "sha256": "fa2fe99421a0a4ee595fc6647ac9b2a65018ba62b202e391dd3609cdc4bc9674",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/shiseki/view.html",
+      "sha256": "7acb281fd2b77b65bb4331f77281f861c0fd3f12e3eab25e5c0aa4fef4b1b299",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/shiseki/view.js",
+      "sha256": "d19b5eeaaa8f6790ce2ce088288a882990999ffb1ffd36a2c7f2525f5e193852",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/tokusan/app.css",
+      "sha256": "ed905c6bdd1fd9d46d918d5617ac53c873e26fcf6e350f8dc6d4a789219bf4e5",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/tokusan/detail-panel.css",
+      "sha256": "793858d0528cb39ae35a9512f3b7c26a35434113c9071c4d4c14bd28d9f2d0bb",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/tokusan/favicon.svg",
+      "sha256": "5559166e15988715f00296d37ed1c31287b555c3b8257f3e462e0989e57c960e",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/tokusan/tokens.css",
+      "sha256": "98fab63ff827b939199434fcedccff2cdb3f60ae0738dbbffb51d270c8e8289c",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/tokusan/view.html",
+      "sha256": "e51ecb11b7641eb91b06068749b7abd61f9351a85400b3a7952c9569334f01a0",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/assets/tokusan/view.js",
+      "sha256": "dbe17b233e35d41a9aad231e5aa9a0ffdebae515979e50267c4eb9b31df5c2d1",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/changelog.html",
+      "sha256": "2279658d0ac53c78a29055633d3ddd432ab5bd42186a5fa132af805622b29ba7",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/favicon.svg",
+      "sha256": "3c91324edc29b5a278367006a89892eb3086b6985cee6e5183078e510d1eb9d3",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/index.html",
+      "sha256": "0d2ba3361c7b9eee5a5f4fa17a575760d930066bde6af44132fb30ba551a1152",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/runtime.js",
+      "sha256": "aa65af8c35cd195decef364fcbc458af62163038237705511ff0ef4814e56bd9",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/arita-porcelain.html",
+      "sha256": "31292ab83d6283f334794b250cd316879e2e14abb6846a4bf4f62a45a355a815",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/index.html",
+      "sha256": "7e5cb9b7758914ff2203977cab7eed3711daee2e3f803ca1f367151757aa2e4d",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/kawagoe-festival.html",
+      "sha256": "63737b347dffc00f1bcd0d32a8c346d6a8e92e2729fd674bd2d6b8976c125fec",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/kusatsu-yumomi.html",
+      "sha256": "a9daa8171b18e01ff91a203f763e964a23be1989d1a267b6c2166e0a98832c44",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/story.css",
+      "sha256": "160e773289fa03928ecfc0c440f181463add3f4b51a8cc993af561ee4aa60df4",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/story.js",
+      "sha256": "caf961685b2f3b598d69ba7da5ffd1dc2aeb24d95897c04b075eb5e135ceec21",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/summaries.js",
+      "sha256": "7224e27266bd88cb182cf6066cab96726cf6b55e05aff79a50cdddf1302a96c1",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/tokens.css",
+      "sha256": "0ac3836c3ab77b145ac63f57b199281172d1b0490666d57b030cace57aa565c2",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/MarkerCluster.Default.css",
+      "sha256": "61258232d98d64dc2a7b1e02130d67421bc5b9bda5994eef70228ff97570c170",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/MarkerCluster.css",
+      "sha256": "614dea0a98ff3f4ead74f04918f6b1d1b9ba435c25b5fc23b21a394d1e3e4d87",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/images/layers-2x.png",
+      "sha256": "066daca850d8ffbef007af00b06eac0015728dee279c51f3cb6c716df7c42edf",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/images/layers.png",
+      "sha256": "1dbbe9d028e292f36fcba8f8b3a28d5e8932754fc2215b9ac69e4cdecf5107c6",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/images/marker-icon-2x.png",
+      "sha256": "00179c4c1ee830d3a108412ae0d294f55776cfeb085c60129a39aa6fc4ae2528",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/images/marker-icon.png",
+      "sha256": "574c3a5cca85f4114085b6841596d62f00d7c892c7b03f28cbfa301deb1dc437",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/images/marker-shadow.png",
+      "sha256": "264f5c640339f042dd729062cfc04c17f8ea0f29882b538e3848ed8f10edb4da",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/leaflet-LICENSE",
+      "sha256": "bbc959aaef7488b38942e7f05cfd1244351f8bce54261951ea17dd7cf60f894b",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/leaflet.css",
+      "sha256": "337bfca5cabd03b39815b2700febe2b3b7edf55921c59cd49f88ecb328212303",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/leaflet.js",
+      "sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/leaflet.markercluster.js",
+      "sha256": "1e4e1d22972a3926f48598e0caf14e3fe7049835d428a344fed4f9e3665b3508",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/vendor/markercluster-LICENSE",
+      "sha256": "3133dacd38250bd1f524d8166cc60a016a382522e062fce143691c65bf5e4b3d",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/workspace.css",
+      "sha256": "e36790c7a4d0ccd2a2d8cc658cf03b8f1361745dbff6c28d820f7d19fd9cfd20",
+      "mode": "100644"
+    },
+    {
+      "path": "go.mod",
+      "sha256": "2ca11c89cfcb03eccd7078d337b6619c33e3c6690c30bb98642bf5360110f7d2",
+      "mode": "100644"
+    },
+    {
+      "path": "go.sum",
+      "sha256": "678982061e2f31ffeba6a2581b2d5eaeb38ed4be4aa6e9f7a55eb71fd66ce849",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/geo/routes.go",
+      "sha256": "76ffcfc5a36755f1bbd57cd82bf2b1b5bd54e828cb92680a354bdb006d01c0ea",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/handlers/commons_search_handler.go",
+      "sha256": "a229078b2d14a0a565223c0d6e52ce2bef63a3d1831cc5947306157d92cd576f",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/handlers/festival_handler.go",
+      "sha256": "854414b402e5c992c452472a7c28f51faa42fcdb758ebfb3bbcc017747176dc9",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/handlers/festival_handler_test.go",
+      "sha256": "c23a412ed737e02b8370087a89a730023a2d3f33ea7b05402e117d4afcc83b15",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/handlers/geocoding_handler.go",
+      "sha256": "53445e466c1d1d555a191d42515e0ba484f23c21a6179b612662519b812ab454",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/handlers/geocoding_handler_test.go",
+      "sha256": "c39e5115c81b94e297b5128a439cf1e16b4d8967a13ba5cd8ad07f3e76fd9487",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/handlers/hotel_area_handler.go",
+      "sha256": "f9c86c9492fce1998b4bba3bbdb5a08f6ace497e2c32fac4cc699be71579fa5c",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/handlers/hotel_area_handler_test.go",
+      "sha256": "2f9fd87286fcff0da13eab803edeb481e7cde2b79aa1b1e608fc7272c9c3b255",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/handlers/wikidata_handler.go",
+      "sha256": "ec33bbbec59625169b51befed5fc391ecda8be845211ec4deb60004aae767c82",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/handlers/wikipedia_content_handler.go",
+      "sha256": "c05269af57d36690cbd40692601ec56b9ec96b596c21eb42de81af65ecbebb62",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/handlers/wikipedia_content_handler_test.go",
+      "sha256": "8daaa7383d6bb862f848f028434da2537e2b17f33bb6f35c5928481cc00ce9d8",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/routes.go",
+      "sha256": "01e90be905c352ec5e25952aae49861fddc6cd5edf2c927c28b799fa752f873d",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/cloudflare_export.go",
+      "sha256": "22df74c2e5d50f9607c9703878cb2daeb03b0c5e522b04826ddddcdc17fc6fcd",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/commons_attribution.go",
+      "sha256": "7099247b11dee94c3fec5c35691c126cfe5d928fa48d0ae64ad69c1b5753af80",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/commons_attribution_test.go",
+      "sha256": "a521bd7fec33a59721f28d6d68ae4311815d37cbb9b34a935c8bb8ea8afecabf",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/commons_search.go",
+      "sha256": "f46dfbda919126d9e3a46a4995e6a7f48c449f11580e00f768b6caea46563ef9",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/commons_search_test.go",
+      "sha256": "2e359324daf99ba6fd739cf12e528a783c664df4430b887078b2132e12fd2464",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/festival_service.go",
+      "sha256": "933deb25d969fc76308b613b64e141a7f74b43796bbc571f61662b81e0b0a628",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/festival_service_test.go",
+      "sha256": "e4c7b02adbc9e3412dd266adaaff7965d8cfd271dfa9fd9381e6ca3a72030651",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/geocoding_service.go",
+      "sha256": "14b4893ba957af385d3a9115bb34da34f08e078f91e76fdf1a2dc777bad93fd4",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/geocoding_service_test.go",
+      "sha256": "abb220671a54e4767555ddefd67834819e59fe71dbf517a78b213a6797d1b13d",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/hotel_area_service.go",
+      "sha256": "0a9baae84fd375bd9ca0e5f9bf06b7422533e4b9a34ae50db288f86be6c6df50",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/hotel_area_service_test.go",
+      "sha256": "df23983be9e825fb598630748106031c7621eb71298be8a3bdfd7ec1fbfeb2e0",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/llm.go",
+      "sha256": "b95876b449408804de8ec2d2896b7613632df7a381aa900c868f8ecee33434d6",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/prepared_empty_test.go",
+      "sha256": "dc71fddf2dff89256b61888b1ef08ae514f533efdf3dc137816da1fd3f58ecb8",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/prepared_summary.go",
+      "sha256": "87c11eca84101ff2a4926004e8f7d50e81b9e0ffe1744e3efccdd59d64375d23",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/retry.go",
+      "sha256": "5590ff39324419e5aaacbaeb8daa78a92c1c7bfdb919afd604c6cbcd7eb23506",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/retry_test.go",
+      "sha256": "6b359420e3334a37e5217ca415d4f4575e6f0fb42746f00abe6a8b5ba69a580f",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/summary_cache.go",
+      "sha256": "ccfef6189e4564ff63d2530412ea0cab33809e0f46b0cc19a2a5e30b67ee4e18",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/user_agent.go",
+      "sha256": "ab6455b1c895c4160b7b738b9069c656806c013f4a730e9bb5b34e18b7b7f63a",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/warmed_headings_test.go",
+      "sha256": "349129bfefd4f0ba81ca09c340c28602ca6f1b11cc3ddd19f165da4bccf3a535",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/wikidata_service.go",
+      "sha256": "8258bb2afb19783a410825c30ea4ff4705ea4788cf0bbae8adbae3fb66ef9f32",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/wikidata_service_test.go",
+      "sha256": "ac5b5990631996fb500e952ae9d35398944e810c681cdf47ff86e3c3ddfa3906",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/wikipedia_content.go",
+      "sha256": "5ee8bcacd241b5949218bada9aae74174af1b2c297b69b9248d28c8cecd41d29",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/omatsuri/services/wikipedia_content_test.go",
+      "sha256": "f0b5d1afa994b3f843ea33961bb8299e3cab4a61e871c905f68d65d27bcbc29d",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/handlers/geocoding_handler.go",
+      "sha256": "30094cb9901fcc5805558d78039cae1bd19cf14130cf30bcec8d001f61cb8b44",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/handlers/geocoding_handler_test.go",
+      "sha256": "c39e5115c81b94e297b5128a439cf1e16b4d8967a13ba5cd8ad07f3e76fd9487",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/handlers/hotel_area_handler.go",
+      "sha256": "d64f9591d25502d4fbfc8730c6a329cf322ff6ad2c143f59918e307ad26b686e",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/handlers/hotel_area_handler_test.go",
+      "sha256": "128e6c82bc621de576618597448bd12b0506cf1218ff4694a68d1578002d4230",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/handlers/onsen_handler.go",
+      "sha256": "e645579a2ab73b2f44aa93db01aa8ff1f931831b57d26a3025b4772a1a5f572b",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/handlers/onsen_handler_test.go",
+      "sha256": "c20e1ee97988eae5d0506fa7420489b0114a224e383617cde7754deb4b4fd0e0",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/handlers/wikidata_handler.go",
+      "sha256": "0a70c130fced1b1f0c675c3b7a3c56a46aef0ad3e64848612198551adadeb293",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/handlers/wikipedia_content_handler.go",
+      "sha256": "c1d0a61410175d8628d90d85ac3d3468cda982187d10e9e4c338cdcf4414c8ec",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/handlers/wikipedia_content_handler_test.go",
+      "sha256": "7dd355dc2362a919e97d91943a4d717876b5c0107d861101d326ff490a2b30e5",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/routes.go",
+      "sha256": "a42d443986b422c116586314c45efdb87927fe0c8878537a30eb7a28145eca8a",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/cache_sanitize.go",
+      "sha256": "b22f976507a18e655d2f2638d57fbed934fcf22d2a7fdeae4ef8d8dcde70957a",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/cloudflare_export.go",
+      "sha256": "22df74c2e5d50f9607c9703878cb2daeb03b0c5e522b04826ddddcdc17fc6fcd",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/commons_attribution.go",
+      "sha256": "3b949d31e6161f4795e3d3d389cbf427e8a9aa99ed009363d29f325f285eed4b",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/commons_attribution_test.go",
+      "sha256": "362ca930dc24f462baaabed9a4624c1b408996b64303180ec5b49e07cae10928",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/flatten_test.go",
+      "sha256": "7fc4fb763497e8bf144f9853edcc26ca6347713d6dd2a884492eaf8a3c124e3a",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/geocoding_service.go",
+      "sha256": "49724f90c136437b515b6aaa4bb34beed1d70d55cf7e567e19a5ed3fe5ed2a95",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/geocoding_service_test.go",
+      "sha256": "7897ba98af1b76bd40d14e84dfe8af692f6fa204c68e88410b801d9c0278cf3c",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/hotel_area_service.go",
+      "sha256": "0a9baae84fd375bd9ca0e5f9bf06b7422533e4b9a34ae50db288f86be6c6df50",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/hotel_area_service_test.go",
+      "sha256": "e146663a1bd67523fd9f16f315a9efd1aa46a12caf64758295329fd7378cfe07",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/llm.go",
+      "sha256": "70478bbc7a3b740db08b90747b790ce332dd1498776e083cd70419130892403b",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/municipality_fallback.go",
+      "sha256": "dfc753a7f5c641eb4415d082bfea6891cbb7e64da54593bf780038f49b38f8ac",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/municipality_fallback_test.go",
+      "sha256": "f963682b898d252c2d0933bda9ef08b52fc624256620f7a3a669e786a25a147a",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/onsen_service.go",
+      "sha256": "6be2f818621b0b677580ede07b6c84eef12e492aec668614e469c72e901eca60",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/onsen_service_test.go",
+      "sha256": "e6a998c03f572ebce2fb92a0fc3db55ab9a472e0dc8c1fb3f36b29d5ae5bce28",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/prepared_empty_test.go",
+      "sha256": "dc71fddf2dff89256b61888b1ef08ae514f533efdf3dc137816da1fd3f58ecb8",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/prepared_error_test.go",
+      "sha256": "1ae74b6f85e7ef29aa512123014b26c49d657d0d74c5433109429f29904dd170",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/prepared_source_test.go",
+      "sha256": "46a75136c50d5cf5ff2ccc212fcc5fb27b21f04680172964616599d07a297c40",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/prepared_summary.go",
+      "sha256": "ba2a4fde910efc4b4d9e23e283a73ee200c814511ce13464500ae303f0b88aa5",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/summary_cache.go",
+      "sha256": "6593b2222803b1186ba01519964390224aa1cfefa1da1ab26a8004e3bd60473f",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/summary_cache_test.go",
+      "sha256": "a634d668fd2eed7b9c977a64675de7246fc0c304906ed41b5310fa2b342659aa",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/user_agent.go",
+      "sha256": "ab6455b1c895c4160b7b738b9069c656806c013f4a730e9bb5b34e18b7b7f63a",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/warmed_headings_test.go",
+      "sha256": "6fcc0193e6f37309f477cde3bac331528d0fb05d1098138fb2a779bb036de044",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/wikidata_service.go",
+      "sha256": "c5d3aa6cd25e684d7e7baded9a1b308bda68a518d686429dd1c9d2be24ac318b",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/wikidata_service_test.go",
+      "sha256": "0fa4061e9acafa9c91d6a59a2d8f60063b36d3a995e225595292ad648000b471",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/wikipedia_content.go",
+      "sha256": "b280df07d4091474c49048eb1a2cef5e86393ec1a9981c2b8959abd2fadcab28",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/wikipedia_content_corruption_test.go",
+      "sha256": "7a9c5723fb37ce10901bf24735f287e373039a85edcf40da9144715e0b3f83e9",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/wikipedia_content_test.go",
+      "sha256": "5471b64653026bd387eb5ec0374903ea451bf0260f4a5d366a3db8d9f4277ebb",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/wikipedia_links.go",
+      "sha256": "44bd4cb53073a0346f1b06df9afd0e7c161e5b7c8375609b13ca79597fa1eb88",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/onsen/services/wikipedia_links_test.go",
+      "sha256": "cd7567368280a84ab917439d34fff549235682221a9d530ef75d90a87c9dc16b",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/config.go",
+      "sha256": "b54596d593244c617406a6af18465168929860523d3685c2406fb4a6a0aea22f",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/config_test.go",
+      "sha256": "6bc548045c2b48f79a2bc815b4df7463d14ee10fa0447a92aa6cd632578abe5f",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/hotel_area_service.go",
+      "sha256": "2208c6548d9261b6fa572c64c2d40745cc8785b75f872ff4a78cd82d1b2f2020",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/json_extract.go",
+      "sha256": "b135022bbd1881f440f2890edf0972a298ff0e8bed5f1e1c686f4035c7d516f2",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/json_extract_test.go",
+      "sha256": "acb03f9d79c4232b1952f6cb8e364ebed8e945af5c0edfa48175dc295b6dc844",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/prepared_summary.go",
+      "sha256": "6f9a69e9ff67b17b165844bfecc49dfdce4a80a31c5b4272b2b47667d782bb43",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/prepared_summary_test.go",
+      "sha256": "765e247882562c2e471a542f0c93fd654a97a00f621fd241827a418be54e6563",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/published_summary.go",
+      "sha256": "1394bc9b32e3269af5f4d9ef302833ebea00b574d6e8b612448940fa6a1f1e03",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/summary_roster.go",
+      "sha256": "95f0ace272c582876ec976e85cd4956df03536ecfcf66b69060f8b2b27878ebd",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/summary_roster_test.go",
+      "sha256": "5558627912c8a1a7d2ba513dbfc858f10876f13276e9cd05d450828d8223340a",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/summary_timeout.go",
+      "sha256": "bcd2ac3292b2386c450ec73f5eb165027c34e772ab7c6d0a708700cf67d15886",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shared/summary_timeout_test.go",
+      "sha256": "23cb2340f4254fd6f3423f0204c1969d247c5e78b091bc27861ef41c3f4648e9",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/handlers/geocoding_handler.go",
+      "sha256": "025e76397084d62cba679a15d2b0495cf51496da7da61bb42ad03fd0761bc125",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/handlers/geocoding_handler_test.go",
+      "sha256": "c39e5115c81b94e297b5128a439cf1e16b4d8967a13ba5cd8ad07f3e76fd9487",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/handlers/hotel_area_handler.go",
+      "sha256": "43ec08113a5acca32ef1fa86ea00049ff85c7837996ffc26c52e1b057f830665",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/handlers/hotel_area_handler_test.go",
+      "sha256": "5d4b55c9d68786d2ce9885180abfc0cfecc9222e28a49efb772105416483b3f2",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/handlers/jalan_handler.go",
+      "sha256": "025a5081711462338a288c79e99c17e2cd735ce65b199913a9321308baa96082",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/handlers/jalan_handler_test.go",
+      "sha256": "10870292346a7ba01bcbd072cbbc6ac2160f9e701bc08d63aae3b3bd5db582f8",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/handlers/shiseki_handler.go",
+      "sha256": "1eaf7a1a77c86f399fb25630cdace92bdb579c572f4977248b2895ac6dc51332",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/handlers/shiseki_handler_test.go",
+      "sha256": "78d865cdc64d6b20b2f08714f9d8369015c3b5cf5d04a9fcc59c7124029007dc",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/handlers/wikidata_handler.go",
+      "sha256": "768385cd83c99f8e4ad2b155a15d3361b71ae1c0476fbab93199f0aaeef0a754",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/handlers/wikipedia_content_handler.go",
+      "sha256": "5a22e3f3255ab0d3d188fec2e59b8b0e70682b78b90cef75a1a036f37af6ff65",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/handlers/wikipedia_content_handler_test.go",
+      "sha256": "578ebd7d7735c97a2fd9c339fb5a31010e6ac835cc9abdea5478a130a70883f4",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/routes.go",
+      "sha256": "a12ae2baef68084cb1ad6f40b1e11a1c13eacef52b914d0bf1a42ad0307ea27d",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/commons_attribution.go",
+      "sha256": "f3bb2e65ac018b88603c34a659616380dd480a9bc1076bdb010f4dcae5006418",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/commons_attribution_test.go",
+      "sha256": "9a03d27e4b585e10a2386547480ef038d7e2bf1418f8aa205b8fc7a00c3e9e62",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/geocoding_service.go",
+      "sha256": "2ac0e27a8c9c633acdee9e9c582128a6dec8842ca0c0aac813f7c02c2542c670",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/geocoding_service_test.go",
+      "sha256": "1d382b37289c5c85c5d1fbf10baf613efc51f0f2133a559e2e8e4d39fa6559bc",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/hotel_area_service.go",
+      "sha256": "0a9baae84fd375bd9ca0e5f9bf06b7422533e4b9a34ae50db288f86be6c6df50",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/hotel_area_service_test.go",
+      "sha256": "e778e1f9936be3d88d9e2c94f40082bdd58216fa15a0084fd12ed7130e9842c8",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/jalan_service.go",
+      "sha256": "579652cce69e37a700b179f0d380c8cd606defe9001698ffdbc8269bcc3ae4a9",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/jalan_service_test.go",
+      "sha256": "3d733c26b1a3183d830c81bdfd3b1e12323b4ca4d20d19d4ebd9a5cab343360f",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/llm.go",
+      "sha256": "821abf8cafaa39ffc8d3e873f2498a77aed9805674afc678bb498bda0ef4e9e3",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/prepared_summary.go",
+      "sha256": "0269fb5908a4dabb25c2395b68c051a58bdba61c8036cf9d9a2ad839c983ce4d",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/prepared_summary_test.go",
+      "sha256": "fbc2ae72636d9be08393aca3e251004c75726a452f1901f6a9e1e8a9411a994b",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/section_profile.go",
+      "sha256": "d531b407d23189e35940ed273c5f08e36bcfa886a009901378dfdda3f3dada2f",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/section_profile_test.go",
+      "sha256": "8b7136425fc56d4c97efb3af0892fc1673794d233c6d578a18f0d50797f26349",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/shiseki_service.go",
+      "sha256": "5584fdb4099c31482186ec47de051c12539512d2a6e54f91e5e96361e01d0ec2",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/shiseki_service_test.go",
+      "sha256": "edadd0eef31ebb53b95472342d0e2196987143695c57265b06bd0a0a4247052d",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/summary_cache.go",
+      "sha256": "87bac8e4a1bc8f5b22d055f80886e484d43846cfa8e2b0cc1f75b63c47ddbbc7",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/summary_cache_test.go",
+      "sha256": "2638ca1313e6d25644721990119e2f3ea7c032b50dd4fd82506603ca799bd247",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/user_agent.go",
+      "sha256": "ab6455b1c895c4160b7b738b9069c656806c013f4a730e9bb5b34e18b7b7f63a",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/wikidata_service.go",
+      "sha256": "41c590f0ef98cc9f109b26c2e4fe977890daa978d17b095b2104dfbd02def3ec",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/wikidata_service_test.go",
+      "sha256": "451f5f6b22faa8f58fd2a53b8df847b6fa0f295e51eb4a9499b241f61ced84d6",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/wikipedia_content.go",
+      "sha256": "c058f1a4421f7ac65f4f73b1190958d7e20940b444043188e0d13621b39dfe1b",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/wikipedia_content_test.go",
+      "sha256": "e37f890b307d72f819a02008f11eba07fefe260dfc56fadca4ab6732712e80df",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/wikipedia_links.go",
+      "sha256": "33f51d33183e38d50b3a72c39513ed44660ca5b54a5799b372d799f45ebeeb23",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/shiseki/services/wikipedia_links_test.go",
+      "sha256": "569b847ea99fda3f7c35e7d9a068fa26bf46ab723305cd19196581cb41ada790",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/handlers/tokusan_handler.go",
+      "sha256": "6e42c3f5e32e6d5a8e8d5f06cd08c995e580d35b3f3dfa61ff413003dd9b4e72",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/handlers/tokusan_handler_test.go",
+      "sha256": "2b741bd322077ad882e43997b479571dda6138cd4030360ac8be0f05b6a37d3e",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/handlers/wikidata_handler.go",
+      "sha256": "93dab25dec5c585b0df74ccde093877ca7e75fae5d70998cdc76fad45a73f0c5",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/routes.go",
+      "sha256": "89e86b0b4b33819e2591dbdb86a58f31a18de2f4186c9ee169346720d1527d25",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/affiliate.go",
+      "sha256": "3469901276f0bcf9ad01e948ef40d925cd72d9fcf2ecbb0ef0ab0da369e09f43",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/affiliate_test.go",
+      "sha256": "c0fd7d71ace88d70fef99ca2970022d595a1435258da97eef71069a011851505",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/cloudflare_export.go",
+      "sha256": "22df74c2e5d50f9607c9703878cb2daeb03b0c5e522b04826ddddcdc17fc6fcd",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/commons_attribution.go",
+      "sha256": "e0255380059175b0b90ee3a1f7a8ae442232ba962b314250d5f87995b07af406",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/llm.go",
+      "sha256": "e9b06081aadc8fe3e8a2dc0d42080e5eebbd2f8591ce23dc39e582d6abd2eaf4",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/official_summary.go",
+      "sha256": "972b3665880ae9ee50252724e3061f667fa3e7e1042ee759060b9cf307466bd6",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/prepared_empty_test.go",
+      "sha256": "dc71fddf2dff89256b61888b1ef08ae514f533efdf3dc137816da1fd3f58ecb8",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/prepared_summary.go",
+      "sha256": "a8708b47aad1aa723b760ab9b231941b4b211ff2bbebe5d7957fe0dceda1e738",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/prepared_summary_test.go",
+      "sha256": "f382c6d0411f5113a25c945c58520b2c5a019e96fa87aa28ae19699e671065b7",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/retry.go",
+      "sha256": "cdf7185165a482948a266303dc2d0691559887c8f6dd0cccc164f2e50a2b7394",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/summary_cache.go",
+      "sha256": "86035793465983a62dd297cc8d5767fffef3bdfea32954d91c6eec30f168a851",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/tokusan_service.go",
+      "sha256": "d99f2d33d77fc969edccb790abb0d4ea18de42c22777b89b8ede48a0721d51bf",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/user_agent.go",
+      "sha256": "ab6455b1c895c4160b7b738b9069c656806c013f4a730e9bb5b34e18b7b7f63a",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/wikidata_service.go",
+      "sha256": "a68f5fb468b98497840386a79fed581839c6bd35041d952611d7e3f8beaf55b5",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/wikidata_service_test.go",
+      "sha256": "4afe43493f5a7683b35a37b866e3140a55abf4db0e4134faee7d172398a31aa8",
+      "mode": "100644"
+    },
+    {
+      "path": "internal/tokusan/services/wikipedia_sections.go",
+      "sha256": "aad7756af469434b7bffffff9229a81bf6b336bec629311106fa2f826d988714",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/test-explore.mjs",
+      "sha256": "c8610cdab9b9cf90f614b2fcd950541c71f136c8df77f3f2001c4265fdd8fa62",
+      "mode": "100644"
+    },
+    {
+      "path": "scripts/test-geo-media.mjs",
+      "sha256": "1166f2a1b4aa57699f9c0bac482c1add2f7b0aaedbcc56ffa5f537cce9c0db54",
+      "mode": "100644"
+    }
+  ],
+  "publication_adjustments": [
+    {
+      "path": "internal/shared/config.go",
+      "reason": "Identify the new standalone project in the existing public User-Agent contact URL. No request/runtime logic changed.",
+      "published_sha256": "162cec17e1df747df12a84ec92b4b19b8ccb574b8e671cb7b25bb66868cc75ff"
+    },
+    {
+      "path": "internal/omatsuri/services/geocoding_service.go",
+      "reason": "Identify the new standalone project in the existing public User-Agent contact URL. No request/runtime logic changed.",
+      "published_sha256": "1dd20d423fb17b78c16d5d459e3c16392298d11e8925aa23cde2686a3f6bb612"
+    },
+    {
+      "path": "cloudflare/worker.mjs",
+      "reason": "Identify the new standalone project in the existing public User-Agent contact URL. No request/runtime logic changed.",
+      "published_sha256": "421feb04764eada0decbb8b37f93d0ce40cbb8adb9ca07b6366f6eeb21bed9cd"
+    }
+  ],
+  "excluded_tests": [
+    {
+      "path": "internal/tokusan/services/tokusan_service_test.go",
+      "reason": "Requires 1919 production catalog rows and named real item; original dataset not redistributed."
+    }
+  ]
+}

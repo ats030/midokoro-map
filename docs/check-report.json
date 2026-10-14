@@ -1,0 +1,25 @@
+{
+  "profile": "isolated temporary checkout with synthetic SQLite; no production catalog",
+  "go_pass_events": 351,
+  "go_skips": [
+    {
+      "package": "midokoro-map/internal/omatsuri/services",
+      "test": "TestNewFestivalService"
+    },
+    {
+      "package": "midokoro-map/internal/onsen/services",
+      "test": "TestNewOnsenService"
+    },
+    {
+      "package": "midokoro-map/internal/omatsuri/services",
+      "test": "TestDataIntegrity"
+    },
+    {
+      "package": "midokoro-map/internal/onsen/services",
+      "test": "TestDataIntegrity"
+    }
+  ],
+  "go_build": "pass",
+  "javascript_tests": "pass",
+  "go_version": "go version go1.25.0 linux/amd64"
+}
