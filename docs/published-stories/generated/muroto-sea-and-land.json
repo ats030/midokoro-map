@@ -81,7 +81,24 @@
         ],
         "coordinate_source_url": "https://www.muroto-geo.jp/geomap/%E5%AE%A4%E6%88%B8%E5%B2%AC/",
         "coordinate_scope": "official-map-center",
-        "coordinate_checked_at": "2026-10-14"
+        "coordinate_checked_at": "2026-10-14",
+        "photo": {
+          "src": "/stories/photos/cape-muroto.jpg",
+          "width": 960,
+          "height": 720,
+          "alt": "岩と海が見える室戸岬の海岸",
+          "caption": "室戸岬の海岸風景（2010年撮影）。",
+          "author": "Motokoka",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cape_Muroto,_Muroto_city_01.jpg",
+          "source_file": "File:Cape Muroto, Muroto city 01.jpg",
+          "sha256": "da5d9a3b90e8d6a6bab12cbddd91bd287a1294486953727be84321f047d4a38c",
+          "modification": "Wikimedia提供の縮小版（960px）。トリミングなし。",
+          "checked_at": "2026-10-14",
+          "reuse_status": "approved",
+          "commercial_use": true
+        }
       }
     ],
     "relations": [

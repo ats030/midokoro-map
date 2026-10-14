@@ -1,0 +1,73 @@
+{
+  "scope": "Four manually selected, verified-place Commons photographs; no automatic image selection or whole-repository licence grant.",
+  "images": [
+    {
+      "file": "/stories/photos/cape-muroto.jpg",
+      "source_file": "File:Cape Muroto, Muroto city 01.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cape_Muroto,_Muroto_city_01.jpg",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Cape_Muroto%2C_Muroto_city_01.jpg/960px-Cape_Muroto%2C_Muroto_city_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_sha1": "b5aaafcdcaa943292e09a5d9b12af5232b6356d5",
+      "local_sha256": "da5d9a3b90e8d6a6bab12cbddd91bd287a1294486953727be84321f047d4a38c",
+      "bytes": 141807,
+      "author": "Motokoka",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "cost": "No licence fee; hosting/network costs remain.",
+      "commercial_use": true,
+      "conditions": "Attribution, source and licence link, resize notice; BY-SA photographs redistributed under their original same licence. No endorsement claimed.",
+      "decision": "approved",
+      "checked_at": "2026-10-14"
+    },
+    {
+      "file": "/stories/photos/kuniga-coast.jpg",
+      "source_file": "File:Matengai Cliff at Kuniga coast, Nishinoshima.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Matengai_Cliff_at_Kuniga_coast,_Nishinoshima.jpg",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Matengai_Cliff_at_Kuniga_coast%2C_Nishinoshima.jpg/960px-Matengai_Cliff_at_Kuniga_coast%2C_Nishinoshima.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_sha1": "8576122a8129454bb19d27c260fb74b101ff12f0",
+      "local_sha256": "2abb0651796b2b110abae43d7f140a88521efdba587233cc9731c3fef11e76fa",
+      "bytes": 196903,
+      "author": "Yuvalr",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "cost": "No licence fee; hosting/network costs remain.",
+      "commercial_use": true,
+      "conditions": "Attribution, source and licence link, resize notice; BY-SA photographs redistributed under their original same licence. No endorsement claimed.",
+      "decision": "approved",
+      "checked_at": "2026-10-14"
+    },
+    {
+      "file": "/stories/photos/tedori-gorge.jpg",
+      "source_file": "File:Tedorikyou.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tedorikyou.jpg",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Tedorikyou.jpg/960px-Tedorikyou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_sha1": "f581ad81541db08df8301e2b2a1eb45bf64496b2",
+      "local_sha256": "550fbf0269379ce016bcf5936a3ce083795c9395cbc0f52a7acea8583b121612",
+      "bytes": 195168,
+      "author": "紫煙",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "cost": "No licence fee; hosting/network costs remain.",
+      "commercial_use": true,
+      "conditions": "Attribution, source and licence link, resize notice; BY-SA photographs redistributed under their original same licence. No endorsement claimed.",
+      "decision": "approved",
+      "checked_at": "2026-10-14"
+    },
+    {
+      "file": "/stories/photos/hara-castle.jpg",
+      "source_file": "File:原城跡 - panoramio (2).jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E5%9F%8E%E8%B7%A1_-_panoramio_(2).jpg",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/%E5%8E%9F%E5%9F%8E%E8%B7%A1_-_panoramio_%282%29.jpg/960px-%E5%8E%9F%E5%9F%8E%E8%B7%A1_-_panoramio_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_sha1": "7e079f1ee34898065f804d8972fbeb8a597e546c",
+      "local_sha256": "65edcb5a745bd5d3e8a567e3dd71dff1726542236d086f0baf457562bfdfd38f",
+      "bytes": 164156,
+      "author": "shikabane taro",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "cost": "No licence fee; hosting/network costs remain.",
+      "commercial_use": true,
+      "conditions": "Attribution, source and licence link, resize notice; BY-SA photographs redistributed under their original same licence. No endorsement claimed.",
+      "decision": "approved",
+      "checked_at": "2026-10-14"
+    }
+  ]
+}

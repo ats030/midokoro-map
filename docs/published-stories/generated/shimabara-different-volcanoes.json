@@ -66,7 +66,24 @@
         ],
         "coordinate_source_url": "https://goo.gl/maps/zDaHLySJatN2",
         "coordinate_scope": "official-map-marker",
-        "coordinate_checked_at": "2026-10-14"
+        "coordinate_checked_at": "2026-10-14",
+        "photo": {
+          "src": "/stories/photos/hara-castle.jpg",
+          "width": 960,
+          "height": 637,
+          "alt": "原城跡の風景",
+          "caption": "原城跡の風景（2012年撮影）。",
+          "author": "shikabane taro",
+          "license": "CC BY 3.0",
+          "license_url": "https://creativecommons.org/licenses/by/3.0/",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E5%9F%8E%E8%B7%A1_-_panoramio_(2).jpg",
+          "source_file": "File:原城跡 - panoramio (2).jpg",
+          "sha256": "65edcb5a745bd5d3e8a567e3dd71dff1726542236d086f0baf457562bfdfd38f",
+          "modification": "Wikimedia提供の縮小版（960px）。トリミングなし。",
+          "checked_at": "2026-10-14",
+          "reuse_status": "approved",
+          "commercial_use": true
+        }
       },
       {
         "id": "place-3",

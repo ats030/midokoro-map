@@ -81,7 +81,24 @@
         ],
         "coordinate_source_url": "https://goo.gl/maps/HtaZm4L77KM2",
         "coordinate_scope": "official-map-marker",
-        "coordinate_checked_at": "2026-10-14"
+        "coordinate_checked_at": "2026-10-14",
+        "photo": {
+          "src": "/stories/photos/tedori-gorge.jpg",
+          "width": 960,
+          "height": 720,
+          "alt": "手取峡谷を流れる川と綿ヶ滝",
+          "caption": "手取峡谷と綿ヶ滝（2011年撮影）。写真の場所は、地図の代表位置として示す不老橋とは異なります。",
+          "author": "紫煙",
+          "license": "CC BY-SA 3.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Tedorikyou.jpg",
+          "source_file": "File:Tedorikyou.jpg",
+          "sha256": "550fbf0269379ce016bcf5936a3ce083795c9395cbc0f52a7acea8583b121612",
+          "modification": "Wikimedia提供の縮小版（960px）。トリミングなし。",
+          "checked_at": "2026-10-14",
+          "reuse_status": "approved",
+          "commercial_use": true
+        }
       }
     ],
     "relations": [

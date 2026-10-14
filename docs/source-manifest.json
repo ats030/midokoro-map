@@ -1,6 +1,6 @@
 {
   "snapshot_date": "2026-10-14",
-  "basis": "Committed code only; no operational history, production databases, external photographs, summary caches or uncommitted files.",
+  "basis": "Committed code only; no operational history, production databases, external photographs, summary caches or uncommitted files. Later story photos are individually licensed and documented in docs/story-photo-license-review.json.",
   "files": [
     {
       "path": "cloudflare/worker.mjs",
@@ -1236,6 +1236,31 @@
       "path": "docs/published-stories/generated/hakusan-rock-and-water.json",
       "sha256": "1961952eda2ee1761d40d81ce10fbde9f307b5218509229b8d71aba78085c56c",
       "mode": "100644"
+    },
+    {
+      "path": "docs/story-photo-license-review.json",
+      "sha256": "6f35254b6f585f10ffdb9b3afc8db62b49a2e273a29ec026f1f05ea64b8d91b6",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/photos/kuniga-coast.jpg",
+      "sha256": "2abb0651796b2b110abae43d7f140a88521efdba587233cc9731c3fef11e76fa",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/photos/tedori-gorge.jpg",
+      "sha256": "550fbf0269379ce016bcf5936a3ce083795c9395cbc0f52a7acea8583b121612",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/photos/hara-castle.jpg",
+      "sha256": "65edcb5a745bd5d3e8a567e3dd71dff1726542236d086f0baf457562bfdfd38f",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/photos/cape-muroto.jpg",
+      "sha256": "da5d9a3b90e8d6a6bab12cbddd91bd287a1294486953727be84321f047d4a38c",
+      "mode": "100644"
     }
   ],
   "publication_adjustments": [
@@ -1276,13 +1301,68 @@
     },
     {
       "path": "frontend/stories/index.html",
-      "reason": "Replace story selection with four sourced edited generated articles and retain legacy routes; preserve standalone project User-Agent where applicable.",
-      "published_sha256": "91bde2dde905a897a494b1c5263f28eabbda72b706f1d3d99c49a274a49f4e2c"
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "f824a56bca6b75fc8c93d5c875f8decf55bcf90846f6099f4dbf05fbadbc81db"
     },
     {
       "path": "docs/generated-story-publication.md",
       "reason": "Describe runnable standalone checks separately from the operational snapshot-dependent Worker checks.",
       "published_sha256": "8642c30d9a177d9a55c49f167a9f50d95dd3061d281b136effee40c41395dfe2"
+    },
+    {
+      "path": "scripts/publish-story-pages.py",
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "e57110ac2c79dab4881ba3e056262773d3a184627dea2c510106b4940efb2dfb"
+    },
+    {
+      "path": "scripts/test_publish_story_pages.py",
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "9c3b0dab5b6e0c98cb67b1ecebf3c667a8f2cabb99778d7b8b6f902d48766788"
+    },
+    {
+      "path": "frontend/stories/story.css",
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "ce0616e20dcff04562eb6efc890a006b0dc45df468c422f5e358751d297b2f19"
+    },
+    {
+      "path": "docs/published-stories/generated/oki-erosion-comparison.json",
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "781226df8634ddc38f43b723a216da38d65825b7c3c5afa5ff038868c9c603ca"
+    },
+    {
+      "path": "docs/published-stories/generated/muroto-sea-and-land.json",
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "8fa2affb16f7d456ed6e5c52d33ac5c0584f6601fb4857934f461ce1ace6be8b"
+    },
+    {
+      "path": "docs/published-stories/generated/shimabara-different-volcanoes.json",
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "caefa7bbc8746cc98b1ab30ce417c522c8622326b8287f081fc7678eaacb9bc6"
+    },
+    {
+      "path": "docs/published-stories/generated/hakusan-rock-and-water.json",
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "6b6640510f8464461a40d2a84bf5a41d3837535fe6440f2782b69d8b1d2939d0"
+    },
+    {
+      "path": "frontend/stories/shimabara-different-volcanoes.html",
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "c6e3a4e6fe30efb4a7e2324b9569d41ebaccfcb5f6c5d70180cc4f32f8888e91"
+    },
+    {
+      "path": "frontend/stories/hakusan-rock-and-water.html",
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "6a1627fd1c4a3a619f6cf5d4e7656351c05a67004805ec18730d33c6a95ce19b"
+    },
+    {
+      "path": "frontend/stories/muroto-sea-and-land.html",
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "0c2670f59d35c00f43cd3354dd039181484475f8bb91d6ab057b11908af74dee"
+    },
+    {
+      "path": "frontend/stories/oki-erosion-comparison.html",
+      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
+      "published_sha256": "c208d3ae7f1420d48d6d3230cf34e274dfb8a7bc1c92339b6e2c28dfdfc60c50"
     }
   ],
   "excluded_tests": [

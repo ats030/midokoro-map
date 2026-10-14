@@ -52,6 +52,24 @@ class PublicationChecks(unittest.TestCase):
         self.reject(lambda b: b['draft']['relations'][0].update(evidence_ids=['invented']))
         self.reject(lambda b: b['packet']['places'][0].update(lat=float('nan')))
 
+    def test_photo_requires_local_verified_licensed_bytes(self):
+        for change in ({'src': 'https://example.com/photo.jpg'},
+                       {'src': '/stories/photos/../secret.jpg'},
+                       {'license': 'CC BY-NC 4.0'}, {'author': ''},
+                       {'sha256': '0' * 64}, {'reuse_status': 'pending'},
+                       {'license_url': 'https://example.com/license'}):
+            with self.subTest(change=change):
+                self.reject(lambda b: b['packet']['places'][0]['photo'].update(change))
+
+    def test_photos_and_attribution_survive_static_render(self):
+        for slug in publisher.SLUGS:
+            bundle = publisher.load_bundle(publisher.ROOT / f'docs/published-stories/generated/{slug}.json')
+            photo = next(p['photo'] for p in bundle['packet']['places'] if 'photo' in p)
+            html = publisher.render(bundle)
+            self.assertEqual(html.count('<figure class="story-photo">'), 1)
+            for text in (photo['src'], photo['source_url'], photo['license_url'], photo['author'], 'loading="lazy"'):
+                self.assertIn(text, html)
+
     def test_selection_features_only_the_four_new_articles(self):
         bundles = [publisher.load_bundle(publisher.ROOT / f'docs/published-stories/generated/{slug}.json') for slug in publisher.SLUGS]
         html = publisher.index_page(bundles)

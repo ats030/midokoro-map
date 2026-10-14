@@ -30,6 +30,11 @@
 #selection p{font-size:.88rem}
 #selection .select-place{display:none}
 .source,.visit-note,.relation-kind{font-size:.78rem!important;color:var(--color-ink-2)}
+.story-photo{margin:1rem 0}
+.story-photo img{display:block;width:100%;max-width:100%;height:auto;border-radius:3px;background:var(--color-paper-2)}
+.story-photo figcaption{margin-top:.5rem;font-size:.78rem;line-height:1.65;color:var(--color-ink-2);overflow-wrap:anywhere}
+.story-photo figcaption span{display:block}
+.photo-credit{margin-top:.25rem}
 .relation-kind{border-left:2px solid var(--color-accent);padding-left:.75rem}
 #selected-relation{border-block:1px solid var(--color-rule);padding:.75rem 0;margin:1rem 0}
 .related-link{display:block;padding:.75rem 0;border-top:1px solid var(--color-rule);text-decoration:none;font-size:.85rem;line-height:1.6}

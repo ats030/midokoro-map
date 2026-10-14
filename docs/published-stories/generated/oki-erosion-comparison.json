@@ -73,7 +73,24 @@
         ],
         "coordinate_source_url": "https://goo.gl/maps/22R8NcjBTdz",
         "coordinate_scope": "official-map-marker",
-        "coordinate_checked_at": "2026-10-14"
+        "coordinate_checked_at": "2026-10-14",
+        "photo": {
+          "src": "/stories/photos/kuniga-coast.jpg",
+          "width": 960,
+          "height": 640,
+          "alt": "海に面した国賀海岸の摩天崖と草地",
+          "caption": "国賀海岸の摩天崖（2016年撮影）。",
+          "author": "Yuvalr",
+          "license": "CC BY-SA 4.0",
+          "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Matengai_Cliff_at_Kuniga_coast,_Nishinoshima.jpg",
+          "source_file": "File:Matengai Cliff at Kuniga coast, Nishinoshima.jpg",
+          "sha256": "2abb0651796b2b110abae43d7f140a88521efdba587233cc9731c3fef11e76fa",
+          "modification": "Wikimedia提供の縮小版（960px）。トリミングなし。",
+          "checked_at": "2026-10-14",
+          "reuse_status": "approved",
+          "commercial_use": true
+        }
       },
       {
         "id": "place-2",
