@@ -109,11 +109,11 @@ def index_page(bundles):
         packet, draft = bundle['packet'], bundle['draft']
         link = '/stories/' + packet['slug'] + '?from=home'
         photo = next((p["photo"] for p in packet["places"] if "photo" in p), None)
-        cards.append(f'<article><p class="place-kicker">{i:02} / {writer.e(packet["region"])}</p>'
+        cards.append(f'<article class="story-index-entry">'
                      + (photo_figure(photo) if photo else '') +
-                     f'<h2><a href="{link}">{writer.e(draft["title"])}</a></h2>'
+                     f'<div class="story-index-copy"><p class="place-kicker">{writer.e(packet["region"])}</p><h2><a href="{link}">{writer.e(draft["title"])}</a></h2>'
                      f'<p>{writer.e(draft["lead"])}</p>'
-                     f'<a class="select-place" href="{link}">{len(packet["places"])}地点のつながりをたどる →</a></article>')
+                     f'<a class="select-place" href="{link}">{len(packet["places"])}地点のつながりをたどる →</a></div></article>')
     return f'''<!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>土地のつながりをたどる｜みどころマップ</title>
@@ -122,8 +122,8 @@ def index_page(bundles):
 <meta property="og:description" content="室戸、隠岐、島原半島、手取川。気になる問いから、地形の違いをたどる。"><meta property="og:url" content="{ORIGIN}/stories">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/app.css"><link rel="stylesheet" href="/stories/story.css">
 <script src="http://ubuntu-server-app:8526/v.js" data-site="midokoro-map" defer></script></head>
-<body class="story-page"><a class="skip-link" href="#story-main">本文へ</a><header class="site-header"><a class="brand" href="/"><img src="/favicon.svg" alt="" width="28" height="28"><span>みどころマップ</span></a><nav class="story-nav" aria-label="サイト"><a href="/">全国の地図</a></nav></header>
-<main id="story-main"><section class="story-lead"><p class="eyebrow">土地のつながりをたどる</p><h1>その場所を、<br>もう一つの場所から知る。</h1><p class="lead-copy">岩は何を残し、水は何を動かした？<br>気になる問いから、3つの場所を見比べる地図へ。</p><p>点線はテーマによる比較です。同じ成因や時代、訪問順を示すものではありません。</p></section><section class="story-reading" aria-label="テーマを選ぶ"><div class="place-articles">{''.join(cards)}</div></section></main></body></html>
+<body class="story-page story-index"><a class="skip-link" href="#story-main">本文へ</a><header class="site-header"><a class="brand" href="/"><img src="/favicon.svg" alt="" width="28" height="28"><span>みどころマップ</span></a><nav class="story-nav" aria-label="サイト"><a href="/">全国の地図</a></nav></header>
+<main id="story-main"><header class="story-index-heading"><h1>土地のつながりをたどる</h1><p>岩や地形に残る記録を、土地を見比べながら読む。</p></header><section class="story-index-list" aria-label="記事一覧">{''.join(cards)}</section></main></body></html>
 '''
 
 

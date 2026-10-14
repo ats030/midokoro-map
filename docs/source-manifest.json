@@ -1301,8 +1301,8 @@
     },
     {
       "path": "frontend/stories/index.html",
-      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
-      "published_sha256": "f824a56bca6b75fc8c93d5c875f8decf55bcf90846f6099f4dbf05fbadbc81db"
+      "reason": "Present story selection as a compact vertical blog index; preserve article content and photo attribution.",
+      "published_sha256": "b222bd35db32d0727e1ecbb93038f99fa41c2a3e40b4758abd0a4ca32a0c59a2"
     },
     {
       "path": "docs/generated-story-publication.md",
@@ -1311,8 +1311,8 @@
     },
     {
       "path": "scripts/publish-story-pages.py",
-      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
-      "published_sha256": "e57110ac2c79dab4881ba3e056262773d3a184627dea2c510106b4940efb2dfb"
+      "reason": "Present story selection as a compact vertical blog index; preserve article content and photo attribution.",
+      "published_sha256": "8df8565fafc9fca415457786fae8fdb2cb1fe42f0560e17f23fe89cd029d8bf7"
     },
     {
       "path": "scripts/test_publish_story_pages.py",
@@ -1321,8 +1321,8 @@
     },
     {
       "path": "frontend/stories/story.css",
-      "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
-      "published_sha256": "ce0616e20dcff04562eb6efc890a006b0dc45df468c422f5e358751d297b2f19"
+      "reason": "Present story selection as a compact vertical blog index; preserve article content and photo attribution.",
+      "published_sha256": "50991794a32e6bf770e90d9ca76c6d24ccff980ed1a874cf3282acedbcae06c8"
     },
     {
       "path": "docs/published-stories/generated/oki-erosion-comparison.json",
@@ -1363,6 +1363,11 @@
       "path": "frontend/stories/oki-erosion-comparison.html",
       "reason": "Add individually licensed, locally hosted story photographs with attribution and validation.",
       "published_sha256": "c208d3ae7f1420d48d6d3230cf34e274dfb8a7bc1c92339b6e2c28dfdfc60c50"
+    },
+    {
+      "path": "DESIGN.md",
+      "reason": "Present story selection as a compact vertical blog index; preserve article content and photo attribution.",
+      "published_sha256": "4051229c5e8ba9516b994b75139af3f04169d9e8a9f572e13abadb8742ba3c03"
     }
   ],
   "excluded_tests": [

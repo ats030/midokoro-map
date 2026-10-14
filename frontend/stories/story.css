@@ -65,3 +65,19 @@
 .calendar-list{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:1rem 2rem;margin-top:1rem}
 .calendar-list li{padding-bottom:1rem;border-bottom:1px solid var(--color-rule)}
 .calendar-source{font-size:.85rem;color:var(--color-ink-2);overflow-wrap:anywhere}
+
+.story-index main{max-width:960px;padding-bottom:3rem}
+.story-index-heading{padding:2.5rem 0 1.5rem;border-bottom:1px solid var(--color-rule)}
+.story-index-heading h1{font-size:clamp(1.6rem,3vw,2.2rem);margin:0 0 .75rem}
+.story-index-heading p{margin:0;color:var(--color-ink-2)}
+.story-index-entry{display:grid;grid-template-columns:180px minmax(0,1fr);gap:1rem 1.5rem;padding:1.75rem 0;border-bottom:1px solid var(--color-rule)}
+.story-index-entry .story-photo{display:contents}
+.story-index-entry .story-photo img{grid-column:1;grid-row:1;width:180px;align-self:start}
+.story-index-copy{grid-column:2;grid-row:1}
+.story-index-copy .place-kicker{margin:0 0 .5rem}
+.story-index-copy p{margin:.5rem 0 .75rem}
+.story-index-entry .story-photo figcaption{grid-column:1/-1;grid-row:2;margin:0;font-size:.7rem}
+.story-index-entry .story-photo figcaption span{display:inline}
+.story-index-entry .photo-credit{margin-left:.5rem}
+.story-index-entry h2 a:hover{color:var(--color-accent)}
+@media(max-width:540px){.story-index-entry{grid-template-columns:88px minmax(0,1fr);gap:.75rem 1rem;padding:1.25rem 0}.story-index-entry .story-photo img{width:88px}.story-index-entry h2{font-size:1.05rem}.story-index-copy p{font-size:.9rem}.story-index-heading{padding:1.75rem 0 1.25rem}}
