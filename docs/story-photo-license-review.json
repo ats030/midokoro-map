@@ -1,5 +1,5 @@
 {
-  "scope": "Four manually selected, verified-place Commons photographs; no automatic image selection or whole-repository licence grant.",
+  "scope": "Individually verified-place Commons photographs; no automatic image selection or whole-repository licence grant.",
   "images": [
     {
       "file": "/stories/photos/cape-muroto.jpg",
@@ -68,6 +68,23 @@
       "conditions": "Attribution, source and licence link, resize notice; BY-SA photographs redistributed under their original same licence. No endorsement claimed.",
       "decision": "approved",
       "checked_at": "2026-10-14"
+    },
+    {
+      "file": "/stories/photos/tomioka-cocoon-warehouse.jpg",
+      "source_file": "File:Tomioka Silk Mill East Cocoon Warehouse05.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tomioka_Silk_Mill_East_Cocoon_Warehouse05.jpg",
+      "thumbnail_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Tomioka_Silk_Mill_East_Cocoon_Warehouse05.jpg/960px-Tomioka_Silk_Mill_East_Cocoon_Warehouse05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original_sha1": "1fb8c92b886df9f1b29279f3cdecead196c8ab2b",
+      "local_sha256": "703ba3ec28c68f6f8164fb91650a34de1ed3de10748b6434162aeb97bc827e0e",
+      "bytes": 224272,
+      "author": "Hasec",
+      "license": "Public domain (PD-self)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "cost": "No licence fee; hosting/network costs remain.",
+      "commercial_use": true,
+      "conditions": "Copyright holder released own photograph worldwide, with unconditional any-purpose fallback permission. Source/author shown voluntarily. The Commons-provided 960px version is unmodified. No endorsement claimed.",
+      "decision": "approved",
+      "checked_at": "2026-10-15"
     }
   ]
 }

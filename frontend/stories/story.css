@@ -81,3 +81,5 @@
 .story-index-entry .photo-credit{margin-left:.5rem}
 .story-index-entry h2 a:hover{color:var(--color-accent)}
 @media(max-width:540px){.story-index-entry{grid-template-columns:88px minmax(0,1fr);gap:.75rem 1rem;padding:1.25rem 0}.story-index-entry .story-photo img{width:88px}.story-index-entry h2{font-size:1.05rem}.story-index-copy p{font-size:.9rem}.story-index-heading{padding:1.75rem 0 1.25rem}}
+
+.story-index-entry.no-photo .story-index-copy{grid-column:1/-1}

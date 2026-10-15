@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>群馬の絹産業を、蚕を育てる技術から読む｜みどころマップ</title>
+  <meta name="description" content="旧富岡製糸場は製糸、田島弥平旧宅と高山社跡は養蚕の技術を知る手がかりになります。同じ絹産業に関わっていても、建物が担った仕事は異なります。工場、住居を兼ねた蚕室、技術を指導した場所を順に比較します。">
+  <meta property="og:title" content="群馬の絹産業を、蚕を育てる技術から読む">
+  <meta property="og:description" content="繭から糸を取る工場と、蚕を育てる家。群馬の三つの場所を、建物の使い方と技術を教える仕組みから見比べます。">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/tokens.css">
+  <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" href="/vendor/leaflet.css">
+  <link rel="stylesheet" href="/stories/story.css">
+  <script src="/vendor/leaflet.js" defer></script>
+  <script src="/stories/story.js" defer></script>
+  <script src="http://ubuntu-server-app:8526/v.js" data-site="midokoro-map" defer></script>
+  <link rel="canonical" href="https://midokoro-map.ats030.workers.dev/stories/gunma-silk-and-sericulture">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://midokoro-map.ats030.workers.dev/stories/gunma-silk-and-sericulture">
+</head>
+<body class="story-page" data-story="gunma-silk-and-sericulture">
+  <a class="skip-link" href="#story-main">本文へ</a>
+  <header class="site-header">
+    <a class="brand" href="/"><img src="/favicon.svg" alt="" width="28" height="28"><span>みどころマップ</span></a>
+  <nav class="story-nav" aria-label="サイト"><a href="/stories">テーマを選ぶ</a><a href="/">全国の地図</a></nav></header>
+  <main id="story-main">
+    <section class="story-lead" aria-labelledby="story-title">
+      <p class="eyebrow">土地のつながりをたどる / 群馬県</p>
+      <h1 id="story-title">群馬の絹産業を、蚕を育てる技術から読む</h1>
+      <p class="lead-copy">繭から糸を取る工場と、蚕を育てる家。群馬の三つの場所を、建物の使い方と技術を教える仕組みから見比べます。</p>
+      <p>旧富岡製糸場は製糸、田島弥平旧宅と高山社跡は養蚕の技術を知る手がかりになります。同じ絹産業に関わっていても、建物が担った仕事は異なります。工場、住居を兼ねた蚕室、技術を指導した場所を順に比較します。</p>
+      <nav class="question-links" aria-label="気になる問いから探す"><a href="#relation-1" data-relation="relation-1">製糸と養蚕では、建物の構造や役割にどのような違いがありますか？ <span aria-hidden="true">→</span></a>
+<a href="#relation-2" data-relation="relation-2">清涼育と清温育には、どのような技術的な違いがありますか？ <span aria-hidden="true">→</span></a></nav>
+    </section>
+    <section class="explorer" id="explorer" aria-labelledby="explorer-title">
+      <div class="section-heading"><h2 id="explorer-title">場所から、つながりへ</h2><span id="exploration-progress" aria-live="polite"></span></div>
+      <p class="map-note">点線は資料に基づく関係やテーマによる比較を示します。代表位置を結んでおり、道順や配管の位置を表しません。</p>
+      <nav class="place-links" aria-label="地図の場所を選ぶ"><a href="#tomioka" data-place="tomioka">1 旧富岡製糸場</a>
+<a href="#tajima" data-place="tajima">2 田島弥平旧宅</a>
+<a href="#takayama" data-place="takayama">3 高山社跡</a></nav>
+      <div class="explorer-grid" hidden>
+        <div class="map-wrap">
+          <div id="story-map" role="region" aria-label="群馬県の3地点とつながりの地図"></div>
+          <p id="map-status" role="status">地図を読み込んでいます。下の解説からも場所のつながりを読めます。</p>
+          <button id="map-reset" class="map-reset" type="button" hidden>3地点を見渡す</button>
+        </div>
+        <aside id="selection" aria-label="選んだ場所とつながり" hidden>
+          <div id="selected-place"></div><div id="selected-relation" hidden></div>
+          <h3>ここから、どこへ？</h3><div id="related-places"></div>
+        </aside>
+      </div>
+      <p id="static-map-note">地図を表示するにはJavaScriptが必要です。場所のリンクから、下の解説とつながりを読めます。</p>
+      <div class="share-tools" id="share-tools" hidden>
+        <button type="button" id="share-story">このつながりを共有</button>
+        <button type="button" id="copy-story">リンクをコピー</button>
+        <p id="share-status" role="status"></p>
+        <div id="manual-share" hidden><label for="share-url">このURLを選択してコピーできます</label><input id="share-url" type="url" readonly></div>
+      </div>
+      <p class="reading-link"><a href="#places">3地点の解説をまとめて読む ↓</a></p>
+    </section>
+    <section id="places" class="story-reading" aria-labelledby="places-title">
+      <p class="eyebrow">場所に残るもの</p><h2 id="places-title">製糸と養蚕、技術と建物の違い</h2>
+      <div class="place-articles"><article id="tomioka" data-lat="36.25516925" data-lng="138.88752019" data-number="1">
+  <p class="place-kicker">01 / 繭から糸を取る</p><h3>旧富岡製糸場</h3><figure class="story-photo"><img src="/stories/photos/tomioka-cocoon-warehouse.jpg" alt="煉瓦の壁と白い木組みが見える富岡製糸場の東置繭所" width="960" height="720" loading="lazy" decoding="async"><figcaption><span>旧富岡製糸場の東置繭所（2010年撮影）。</span><span class="photo-credit">写真：Hasec / <a href="https://commons.wikimedia.org/wiki/Template:PD-self" target="_blank" rel="noopener noreferrer">Public domain</a> / <a href="https://commons.wikimedia.org/wiki/File:Tomioka_Silk_Mill_East_Cocoon_Warehouse05.jpg" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a>。Wikimedia提供の縮小版（960px）。トリミングなし。</span></figcaption></figure>
+  <p>旧富岡製糸場では、繰糸所で繭から糸を取り、東西の置繭所で繭を乾燥・貯蔵しました。木の骨組みと煉瓦の壁を組み合わせた建物は、仕事ごとに役割が分かれています。各地から集まった工女が技術を学び、帰郷後に地元で教えたことにも、工場を拠点とする技術の広がりが見えます。</p><p class="visit-note">公式案内の代表位置です。入口や公開範囲を保証するものではありません。建物の内部公開・工事状況・見学条件は各施設の公式案内を確認してください。</p>
+  <p class="source">出典：<a href="https://kunishitei.bunka.go.jp/heritage/detail/102/00004005" target="_blank" rel="noopener noreferrer">文化庁・旧富岡製糸場</a></p>
+  <p class="source">位置の出典：<a href="https://kunishitei.bunka.go.jp/heritage/detail/102/00004005" target="_blank" rel="noopener noreferrer">公式案内の地図で示された代表位置</a></p>
+  <a class="select-place" href="#tomioka" data-place="tomioka">この場所のつながりを見る →</a>
+</article>
+<article id="tajima" data-lat="36.2466311" data-lng="139.239117" data-number="2">
+  <p class="place-kicker">02 / 空気の循環で蚕を育てる</p><h3>田島弥平旧宅</h3>
+  <p>田島弥平が体系化した清涼育は、蚕を育てる空間の空気の循環を重視しました。旧宅の主屋は一階が住居、二階が蚕室で、屋根には換気のための櫓があります。糸を取る機械ではなく、蚕を育てる家の構造に目を向ける場所です。ここで扱った蚕種は、カイコの卵を指します。</p><p class="visit-note">公式案内の代表位置です。入口や公開範囲を保証するものではありません。建物の内部公開・工事状況・見学条件は各施設の公式案内を確認してください。</p>
+  <p class="source">出典：<a href="https://kunishitei.bunka.go.jp/heritage/detail/401/00003760" target="_blank" rel="noopener noreferrer">文化庁・田島弥平旧宅</a> / <a href="https://www.city.isesaki.lg.jp/isesaki_life/3/2/5795.html" target="_blank" rel="noopener noreferrer">伊勢崎市・田島弥平旧宅</a></p>
+  <p class="source">位置の出典：<a href="https://www.city.isesaki.lg.jp/isesaki_life/3/2/5795.html" target="_blank" rel="noopener noreferrer">公式案内の地図中心を代表位置として使用</a></p>
+  <a class="select-place" href="#tajima" data-place="tajima">この場所のつながりを見る →</a>
+</article>
+<article id="takayama" data-lat="36.20334808" data-lng="139.03174382" data-number="3">
+  <p class="place-kicker">03 / 育てる技術を教える</p><h3>高山社跡</h3>
+  <p>高山社跡は、高山長五郎が清温育を研究し、指導した場所です。清温育は清涼育と温暖育を折衷し、蚕の育ち方に応じて温度や換気を調整しました。高山社は蚕業学校を開き、生徒の受け入れや指導者の派遣も行っています。飼育の方法と、それを各地へ教える仕組みを合わせて読むことができます。</p><p class="visit-note">公式案内の代表位置です。入口や公開範囲を保証するものではありません。建物の内部公開・工事状況・見学条件は各施設の公式案内を確認してください。</p>
+  <p class="source">出典：<a href="https://kunishitei.bunka.go.jp/heritage/detail/401/00003640" target="_blank" rel="noopener noreferrer">文化庁・高山社跡</a></p>
+  <p class="source">位置の出典：<a href="https://kunishitei.bunka.go.jp/heritage/detail/401/00003640" target="_blank" rel="noopener noreferrer">公式案内の地図で示された代表位置</a></p>
+  <a class="select-place" href="#takayama" data-place="takayama">この場所のつながりを見る →</a>
+</article></div>
+    </section>
+    <section id="relations" class="story-reading" aria-labelledby="relations-title">
+      <p class="eyebrow">場所を結ぶ理由</p><h2 id="relations-title">つながりを選んで、もう一歩</h2>
+      <ul class="relation-articles"><li id="relation-1" data-from="tomioka" data-to="tajima">
+  <h3>糸を取る工場と、蚕を育てる家</h3><p>旧富岡製糸場では繭を扱う仕事が繰糸所と置繭所に分かれ、田島弥平旧宅では住居と蚕室が一つの主屋に収まっています。製糸と養蚕の違いを、建物の使い方から比較できます。この二地点の間で繭を直接運んでいたことを示す線ではありません。</p><p class="relation-kind">資料に記載された役割と技術の比較です。地点間の繭の納入経路や訪問順を表す線ではありません。</p>
+  <p class="source">出典：<a href="https://kunishitei.bunka.go.jp/heritage/detail/102/00004005" target="_blank" rel="noopener noreferrer">文化庁・旧富岡製糸場</a> / <a href="https://kunishitei.bunka.go.jp/heritage/detail/401/00003760" target="_blank" rel="noopener noreferrer">文化庁・田島弥平旧宅</a> / <a href="https://www.city.isesaki.lg.jp/isesaki_life/3/2/5795.html" target="_blank" rel="noopener noreferrer">伊勢崎市・田島弥平旧宅</a></p>
+  <a href="#tajima" data-relation="relation-1">このつながりを見る →</a>
+</li>
+<li id="relation-2" data-from="tajima" data-to="takayama">
+  <h3>清涼育と清温育を、換気と温度から比べる</h3><p>田島弥平の清涼育は空気の循環を重視し、高山長五郎の清温育は蚕の育ち方に応じた温度や換気の調整を行いました。同じ養蚕でも、飼育環境を整える考え方には違いがあります。二つの場所を見比べる際は、技術の名前を同じものとして扱わず、それぞれが何を調整したかに注目します。</p><p class="relation-kind">資料に記載された役割と技術の比較です。地点間の繭の納入経路や訪問順を表す線ではありません。</p>
+  <p class="source">出典：<a href="https://kunishitei.bunka.go.jp/heritage/detail/401/00003760" target="_blank" rel="noopener noreferrer">文化庁・田島弥平旧宅</a> / <a href="https://www.city.isesaki.lg.jp/isesaki_life/3/2/5795.html" target="_blank" rel="noopener noreferrer">伊勢崎市・田島弥平旧宅</a> / <a href="https://kunishitei.bunka.go.jp/heritage/detail/401/00003640" target="_blank" rel="noopener noreferrer">文化庁・高山社跡</a></p>
+  <a href="#takayama" data-relation="relation-2">このつながりを見る →</a>
+</li></ul>
+    </section>
+    <footer class="story-footer">
+      <p>資料確認：2026-10-15。Ollamaで作成した下書きを、出典と照合して編集しています。</p>
+    </footer>
+  </main>
+</body>
+</html>

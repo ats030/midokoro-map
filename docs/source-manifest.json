@@ -1261,6 +1261,26 @@
       "path": "frontend/stories/photos/cape-muroto.jpg",
       "sha256": "da5d9a3b90e8d6a6bab12cbddd91bd287a1294486953727be84321f047d4a38c",
       "mode": "100644"
+    },
+    {
+      "path": "docs/published-stories/generated/gunma-silk-and-sericulture.json",
+      "sha256": "aecb306cdc918c2993f7d2b8f9f338fbd33d053a78063eae92cf51afa5090cd8",
+      "mode": "100644"
+    },
+    {
+      "path": "docs/published-stories/gunma-silk-review.json",
+      "sha256": "be404cb21bb95aca399cbce32fb323c000f3b81611aa84ce7af4d5ad494f90eb",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/gunma-silk-and-sericulture.html",
+      "sha256": "ad7f9c2c5011119e05e422900715c441fa16f25aa4026fef20b01f7639706fc3",
+      "mode": "100644"
+    },
+    {
+      "path": "frontend/stories/photos/tomioka-cocoon-warehouse.jpg",
+      "sha256": "703ba3ec28c68f6f8164fb91650a34de1ed3de10748b6434162aeb97bc827e0e",
+      "mode": "100644"
     }
   ],
   "publication_adjustments": [
@@ -1276,8 +1296,8 @@
     },
     {
       "path": "cloudflare/worker.mjs",
-      "reason": "Replace story selection with four sourced edited generated articles and retain legacy routes; preserve standalone project User-Agent where applicable.",
-      "published_sha256": "c6981b1b8ae1d780b6a2a2b9e241f646633a01d50f1957d57a4133a27af323fc"
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "0213f61725bda27daaf118dd22bee07c529252fda3ec2410bf851d32b1be6acb"
     },
     {
       "path": "scripts/generate-story.py",
@@ -1291,8 +1311,8 @@
     },
     {
       "path": "cmd/server/stories.go",
-      "reason": "Replace story selection with four sourced edited generated articles and retain legacy routes; preserve standalone project User-Agent where applicable.",
-      "published_sha256": "672fd08eb453cf4730250b169648470d55bac67d7700afd6ace24edc6290bb97"
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "8960423a014598e71fdf5fdce00116733578db49a435f659761f24e57fd97386"
     },
     {
       "path": "cmd/server/stories_test.go",
@@ -1301,28 +1321,28 @@
     },
     {
       "path": "frontend/stories/index.html",
-      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
-      "published_sha256": "2ac52bb1b73cd21f720ba6f57c833760b46b12e055789026fd5d43b810477c7f"
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "83087ae55ff5868e9a1ffc7cbe94266511c124bd1ee6455f345df4bda4cd501e"
     },
     {
       "path": "docs/generated-story-publication.md",
-      "reason": "Describe runnable standalone checks separately from the operational snapshot-dependent Worker checks.",
-      "published_sha256": "8642c30d9a177d9a55c49f167a9f50d95dd3061d281b136effee40c41395dfe2"
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "cc73bf2c82d8330c5deeb250cc3044a155bcf87426aad5a06de02fb9aa6d51f1"
     },
     {
       "path": "scripts/publish-story-pages.py",
-      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
-      "published_sha256": "025e12b3acb46b18ded14857a4fa3ce7cea24ff271d177cdbca78a8749d471e7"
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "9b2c195164ba21520bd139fc272034a12b78d11cb9681e679de9d90353322815"
     },
     {
       "path": "scripts/test_publish_story_pages.py",
-      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
-      "published_sha256": "ad441f14bcb2d39ac61687ff6937847eb2361ed5aaca5daeae7d92be2409d721"
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "96c7ea581adf3a128186b0fcd8f6db6bc99deeba98fe113247081750e3e6f1ed"
     },
     {
       "path": "frontend/stories/story.css",
-      "reason": "Present story selection as a compact vertical blog index; preserve article content and photo attribution.",
-      "published_sha256": "50991794a32e6bf770e90d9ca76c6d24ccff980ed1a874cf3282acedbcae06c8"
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "b8723750ef2a7b804e363bc3c9d5daf1bb6d9b4e61fa51304676779d14280eb0"
     },
     {
       "path": "docs/published-stories/generated/oki-erosion-comparison.json",
@@ -1366,8 +1386,38 @@
     },
     {
       "path": "DESIGN.md",
-      "reason": "Order the story index by explicit publication date descending with deterministic same-day ordering.",
-      "published_sha256": "3b368ae36caab5f44a23b8f188e6af50aa1a2c836e932781d1c7a97d57418e32"
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "8570c0b9acc54f2ef36445c3ad5a352b589f73ae3bd8587f0b48a7abe5873af2"
+    },
+    {
+      "path": "docs/published-stories/generated/gunma-silk-and-sericulture.json",
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "aecb306cdc918c2993f7d2b8f9f338fbd33d053a78063eae92cf51afa5090cd8"
+    },
+    {
+      "path": "docs/published-stories/gunma-silk-review.json",
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "be404cb21bb95aca399cbce32fb323c000f3b81611aa84ce7af4d5ad494f90eb"
+    },
+    {
+      "path": "docs/story-photo-license-review.json",
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "8ede3434bc31b30bafbb7e1489564bc0b39fe792ccb98fbbb3208862ad486022"
+    },
+    {
+      "path": "frontend/sitemap.xml",
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "a049a9e75952618cca6e03a8ec4d0395ba723f404503020bf4a21b3f18f88bfa"
+    },
+    {
+      "path": "frontend/stories/gunma-silk-and-sericulture.html",
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "ad7f9c2c5011119e05e422900715c441fa16f25aa4026fef20b01f7639706fc3"
+    },
+    {
+      "path": "frontend/stories/photos/tomioka-cocoon-warehouse.jpg",
+      "reason": "Add source-checked Gunma silk/sericulture article, verified coordinates and public-domain photo; retain standalone contact URL where applicable.",
+      "published_sha256": "703ba3ec28c68f6f8164fb91650a34de1ed3de10748b6434162aeb97bc827e0e"
     }
   ],
   "excluded_tests": [

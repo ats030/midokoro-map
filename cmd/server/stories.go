@@ -15,7 +15,7 @@ var storyEvents = map[string]bool{
 	"share-returned": true, "copy-success": true,
 }
 
-var featuredStorySlugs = []string{"muroto-sea-and-land", "oki-erosion-comparison", "shimabara-different-volcanoes", "hakusan-rock-and-water"}
+var featuredStorySlugs = []string{"muroto-sea-and-land", "oki-erosion-comparison", "shimabara-different-volcanoes", "hakusan-rock-and-water", "gunma-silk-and-sericulture"}
 
 // Preserve legacy article URLs while featuring the edited generated stories.
 var storySlugs = append([]string{"arita-porcelain", "kusatsu-yumomi", "kawagoe-festival"}, featuredStorySlugs...)

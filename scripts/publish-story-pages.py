@@ -8,13 +8,14 @@ import re
 
 ROOT = Path(__file__).resolve().parents[1]
 SLUGS = ("muroto-sea-and-land", "oki-erosion-comparison",
-         "shimabara-different-volcanoes", "hakusan-rock-and-water")
+         "shimabara-different-volcanoes", "hakusan-rock-and-water", "gunma-silk-and-sericulture")
 ORIGIN = "https://midokoro-map.ats030.workers.dev"
 spec = importlib.util.spec_from_file_location("story_writer", ROOT / "scripts/generate-story.py")
 writer = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(writer)
 
 PHOTO_LICENSES = {
+    "Public domain": "https://commons.wikimedia.org/wiki/Template:PD-self",
     "CC BY 3.0": "https://creativecommons.org/licenses/by/3.0/",
     "CC BY-SA 3.0": "https://creativecommons.org/licenses/by-sa/3.0/",
     "CC BY-SA 4.0": "https://creativecommons.org/licenses/by-sa/4.0/",
@@ -115,7 +116,7 @@ def index_page(bundles):
         packet, draft = bundle['packet'], bundle['draft']
         link = '/stories/' + packet['slug'] + '?from=home'
         photo = next((p["photo"] for p in packet["places"] if "photo" in p), None)
-        cards.append(f'<article class="story-index-entry">'
+        cards.append('<article class="story-index-entry' + ('' if photo else ' no-photo') + '">'
                      + (photo_figure(photo) if photo else '') +
                      f'<div class="story-index-copy"><p class="place-kicker">{writer.e(packet["region"])} · <time datetime="{bundle["provenance"]["published_at"]}">{bundle["provenance"]["published_at"]} 公開</time></p><h2><a href="{link}">{writer.e(draft["title"])}</a></h2>'
                      f'<p>{writer.e(draft["lead"])}</p>'
@@ -123,13 +124,13 @@ def index_page(bundles):
     return f'''<!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>土地のつながりをたどる｜みどころマップ</title>
-<meta name="description" content="室戸、隠岐、島原半島、手取川。岩や地形に残る記録を、3地点の比較から読む4つの地図。">
+<meta name="description" content="室戸、隠岐、島原半島、手取川。自然・歴史・文化・暮らしの記録を、3地点の比較から読む地図。">
 <link rel="canonical" href="{ORIGIN}/stories"><meta property="og:type" content="website"><meta property="og:title" content="土地のつながりをたどる">
-<meta property="og:description" content="室戸、隠岐、島原半島、手取川。気になる問いから、地形の違いをたどる。"><meta property="og:url" content="{ORIGIN}/stories">
+<meta property="og:description" content="気になる問いから、自然・歴史・文化・暮らしの違いをたどる。"><meta property="og:url" content="{ORIGIN}/stories">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/app.css"><link rel="stylesheet" href="/stories/story.css">
 <script src="http://ubuntu-server-app:8526/v.js" data-site="midokoro-map" defer></script></head>
 <body class="story-page story-index"><a class="skip-link" href="#story-main">本文へ</a><header class="site-header"><a class="brand" href="/"><img src="/favicon.svg" alt="" width="28" height="28"><span>みどころマップ</span></a><nav class="story-nav" aria-label="サイト"><a href="/">全国の地図</a></nav></header>
-<main id="story-main"><header class="story-index-heading"><h1>土地のつながりをたどる</h1><p>岩や地形に残る記録を、土地を見比べながら読む。</p><p>新しい記事から掲載しています。</p></header><section class="story-index-list" aria-label="記事一覧">{''.join(cards)}</section></main></body></html>
+<main id="story-main"><header class="story-index-heading"><h1>土地のつながりをたどる</h1><p>自然・歴史・文化・暮らしの記録を、土地を見比べながら読む。</p><p>新しい記事から掲載しています。</p></header><section class="story-index-list" aria-label="記事一覧">{''.join(cards)}</section></main></body></html>
 '''
 
 

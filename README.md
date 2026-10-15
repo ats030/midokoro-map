@@ -110,7 +110,7 @@ python3 -m venv .venv
 「土地のつながりをたどる」の下書き生成を、Ollamaで試せる[実験用の処理](docs/story-automation.md)も収録しています。
 候補の選択、公式資料の変更検査、1件の生成、非公開プレビューを分けています。
 定期生成と自動公開は有効にしていません。
-出典と照合して編集した4記事は、[公開アプリのテーマ一覧](https://midokoro-map.ats030.workers.dev/stories)から読めます。
+出典と照合して編集した5記事は、[公開アプリのテーマ一覧](https://midokoro-map.ats030.workers.dev/stories)から読めます。
 原稿と公開範囲は[生成記事の公開記録](docs/generated-story-publication.md)に収録しています。
 
 この公開版の整理、説明文、展示と検証のスクリプトには生成AIを利用しています。
@@ -121,4 +121,4 @@ AI要約の入力管理や失敗時の扱いは、コードとテストから評
 第三者のコードの通知は[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)、元のソースと公開用変更は[source-manifest.json](docs/source-manifest.json)を参照してください。
 プロジェクト全体へのオープンソース再利用ライセンスは、この公開では設定していません。
 
-記事用の写真4枚は個別に利用条件を確認して収録しています。各写真に撮影者・出典・ライセンスを表示しています。詳細は [写真の利用条件](docs/story-photo-license-review.json) を参照してください。
+記事用の写真5枚は個別に利用条件を確認して収録しています。各写真に撮影者・出典・ライセンスを表示しています。詳細は [写真の利用条件](docs/story-photo-license-review.json) を参照してください。

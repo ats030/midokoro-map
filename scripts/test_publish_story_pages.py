@@ -64,7 +64,11 @@ class PublicationChecks(unittest.TestCase):
     def test_photos_and_attribution_survive_static_render(self):
         for slug in publisher.SLUGS:
             bundle = publisher.load_bundle(publisher.ROOT / f'docs/published-stories/generated/{slug}.json')
-            photo = next(p['photo'] for p in bundle['packet']['places'] if 'photo' in p)
+            photos = [p['photo'] for p in bundle['packet']['places'] if 'photo' in p]
+            if not photos:
+                self.assertNotIn('<figure class="story-photo">', publisher.render(bundle))
+                continue
+            photo = photos[0]
             html = publisher.render(bundle)
             self.assertEqual(html.count('<figure class="story-photo">'), 1)
             for text in (photo['src'], photo['source_url'], photo['license_url'], photo['author'], 'loading="lazy"'):
@@ -73,6 +77,7 @@ class PublicationChecks(unittest.TestCase):
     def test_index_uses_publication_date_and_stable_same_day_order(self):
         bundles = [publisher.load_bundle(publisher.ROOT / f'docs/published-stories/generated/{slug}.json') for slug in publisher.SLUGS]
         self.assertEqual(publisher.index_page(bundles), publisher.index_page(list(reversed(bundles))))
+        bundles[-1]['provenance']['published_at'] = '2026-10-14'
         for bundle in bundles[:-1]:
             bundle['provenance']['published_at'] = '2026-10-13'
         html = publisher.index_page(bundles)
@@ -81,7 +86,7 @@ class PublicationChecks(unittest.TestCase):
         self.reject(lambda b: b['provenance'].pop('published_at'))
         self.reject(lambda b: b['provenance'].update(published_at='2026-02-30'))
 
-    def test_selection_features_only_the_four_new_articles(self):
+    def test_selection_features_all_published_articles(self):
         bundles = [publisher.load_bundle(publisher.ROOT / f'docs/published-stories/generated/{slug}.json') for slug in publisher.SLUGS]
         html = publisher.index_page(bundles)
         self.assertEqual(html, (publisher.ROOT / 'frontend/stories/index.html').read_text())

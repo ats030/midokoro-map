@@ -1,0 +1,53 @@
+{
+  "reviewed_at": "2026-10-15",
+  "reviewer": "AI-assisted source audit, not human approval",
+  "verdict": "edited for individually requested publication",
+  "facts": [
+    {
+      "claim": "旧富岡製糸場は、明治政府が設立した器械製糸の模範工場である。繰糸所では繭から糸を取り、東西の置繭所では繭を乾燥・貯蔵した。これらの建物は木造の骨組みに煉瓦の壁を組み合わせている。各地から集まった工女は製糸技術を学び、帰郷後に地元で技術の指導にあたった。",
+      "source_ids": [
+        "tomioka"
+      ],
+      "status": "assert",
+      "action": "Keep within source scope; do not infer direct supplies or shared school location."
+    },
+    {
+      "claim": "田島弥平は空気の循環を重視する清涼育を体系化した。田島弥平旧宅の主屋は住居と蚕室を兼ね、屋根に換気のための櫓を備える。主屋の一階は居住用、二階は蚕室として使われた。清涼育は蚕種の生産技術でもあり、蚕種はカイコの卵を指す。旧宅は群馬県伊勢崎市境島村にある。",
+      "source_ids": [
+        "tajima",
+        "isesaki"
+      ],
+      "status": "assert",
+      "action": "Keep within source scope; do not infer direct supplies or shared school location."
+    },
+    {
+      "claim": "高山社跡は、高山長五郎が養蚕法の清温育を研究し、指導した場所である。清温育は、清涼育と温暖育を折衷し、蚕の育ち方に応じて蚕室の温度や換気を調整する方法である。高山社は蚕業学校を開き、各地から生徒を受け入れるとともに指導者を派遣した。高山社跡は群馬県藤岡市にある。",
+      "source_ids": [
+        "takayama"
+      ],
+      "status": "assert",
+      "action": "Keep within source scope; do not infer direct supplies or shared school location."
+    }
+  ],
+  "uncertainties": [
+    "Replace unsupported progression from individual technique to wider teaching with direct comparison of methods; Tajima also trained learners.",
+    "Avoid implying that the surviving Takayama site was the location of the main sericulture school.",
+    "Do not assert direct cocoon supply or transport routes among the three sites.",
+    "Omit conflicting dates for the founding of the predecessor Takayama organisation (1870/1873 in official pages).",
+    "Use the Isesaki city map representative point for Tajima; Cultural Agency page map centre is several kilometres away.",
+    "Include one public-domain photograph with source and author."
+  ],
+  "licence_review": {
+    "official_source_policy": "https://kunishitei.bunka.go.jp/top/policy",
+    "scope": "Original concise factual notes only; source website corpus and images not redistributed.",
+    "photograph": "docs/story-photo-license-review.json",
+    "build_tool": {
+      "name": "Go 1.25.0",
+      "license": "BSD-3-Clause",
+      "cost": "No licence fee; existing project toolchain version only.",
+      "commercial_use": true,
+      "source": "https://go.dev/LICENSE",
+      "archive_sha256": "2852af0cb20a13139b3448992e69b868e50ed0f8a1e5940ee1de9e19a123b613"
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "packet": {
+    "schema_version": 2,
+    "slug": "gunma-silk-and-sericulture",
+    "title": "群馬の絹産業を、蚕を育てる技術から読む",
+    "region": "群馬県",
+    "checked_at": "2026-10-15",
+    "angle": "繭から糸を取る製糸と、カイコを育てる養蚕を区別し、建物と技術教育の違いを比べる。三地点間の繭の直接納入・輸送経路・同じ工場組織を推測しない。清涼育と清温育は異なる技術。建物の室内温湿度や稼働設備を今も体験できるとは書かない。",
+    "sources": [
+      {
+        "id": "tomioka",
+        "url": "https://kunishitei.bunka.go.jp/heritage/detail/102/00004005",
+        "label": "文化庁・旧富岡製糸場",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "tajima",
+        "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/00003760",
+        "label": "文化庁・田島弥平旧宅",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "takayama",
+        "url": "https://kunishitei.bunka.go.jp/heritage/detail/401/00003640",
+        "label": "文化庁・高山社跡",
+        "checked_at": "2026-10-15"
+      },
+      {
+        "id": "isesaki",
+        "url": "https://www.city.isesaki.lg.jp/isesaki_life/3/2/5795.html",
+        "label": "伊勢崎市・田島弥平旧宅",
+        "checked_at": "2026-10-15"
+      }
+    ],
+    "facts": [
+      {
+        "id": "tomioka-facts",
+        "text": "旧富岡製糸場は、明治政府が設立した器械製糸の模範工場である。繰糸所では繭から糸を取り、東西の置繭所では繭を乾燥・貯蔵した。これらの建物は木造の骨組みに煉瓦の壁を組み合わせている。各地から集まった工女は製糸技術を学び、帰郷後に地元で技術の指導にあたった。",
+        "source_ids": [
+          "tomioka"
+        ]
+      },
+      {
+        "id": "tajima-facts",
+        "text": "田島弥平は空気の循環を重視する清涼育を体系化した。田島弥平旧宅の主屋は住居と蚕室を兼ね、屋根に換気のための櫓を備える。主屋の一階は居住用、二階は蚕室として使われた。清涼育は蚕種の生産技術でもあり、蚕種はカイコの卵を指す。旧宅は群馬県伊勢崎市境島村にある。",
+        "source_ids": [
+          "tajima",
+          "isesaki"
+        ]
+      },
+      {
+        "id": "takayama-facts",
+        "text": "高山社跡は、高山長五郎が養蚕法の清温育を研究し、指導した場所である。清温育は、清涼育と温暖育を折衷し、蚕の育ち方に応じて蚕室の温度や換気を調整する方法である。高山社は蚕業学校を開き、各地から生徒を受け入れるとともに指導者を派遣した。高山社跡は群馬県藤岡市にある。",
+        "source_ids": [
+          "takayama"
+        ]
+      }
+    ],
+    "places": [
+      {
+        "id": "tomioka",
+        "name": "旧富岡製糸場",
+        "role": "繭から糸を取る",
+        "lat": 36.25516925,
+        "lng": 138.88752019,
+        "location_status": "representative",
+        "coordinate_scope": "official-map-marker",
+        "coordinate_source_url": "https://kunishitei.bunka.go.jp/heritage/detail/102/00004005",
+        "coordinate_checked_at": "2026-10-15",
+        "visit_note": "公式案内の代表位置です。入口や公開範囲を保証するものではありません。建物の内部公開・工事状況・見学条件は各施設の公式案内を確認してください。",
+        "fact_ids": [
+          "tomioka-facts"
+        ],
+        "photo": {
+          "src": "/stories/photos/tomioka-cocoon-warehouse.jpg",
+          "width": 960,
+          "height": 720,
+          "alt": "煉瓦の壁と白い木組みが見える富岡製糸場の東置繭所",
+          "caption": "旧富岡製糸場の東置繭所（2010年撮影）。",
+          "author": "Hasec",
+          "license": "Public domain",
+          "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Tomioka_Silk_Mill_East_Cocoon_Warehouse05.jpg",
+          "source_file": "File:Tomioka Silk Mill East Cocoon Warehouse05.jpg",
+          "sha256": "703ba3ec28c68f6f8164fb91650a34de1ed3de10748b6434162aeb97bc827e0e",
+          "modification": "Wikimedia提供の縮小版（960px）。トリミングなし。",
+          "checked_at": "2026-10-15",
+          "reuse_status": "approved",
+          "commercial_use": true
+        }
+      },
+      {
+        "id": "tajima",
+        "name": "田島弥平旧宅",
+        "role": "空気の循環で蚕を育てる",
+        "lat": 36.2466311,
+        "lng": 139.239117,
+        "location_status": "representative",
+        "coordinate_scope": "official-map-center",
+        "coordinate_source_url": "https://www.city.isesaki.lg.jp/isesaki_life/3/2/5795.html",
+        "coordinate_checked_at": "2026-10-15",
+        "visit_note": "公式案内の代表位置です。入口や公開範囲を保証するものではありません。建物の内部公開・工事状況・見学条件は各施設の公式案内を確認してください。",
+        "fact_ids": [
+          "tajima-facts"
+        ]
+      },
+      {
+        "id": "takayama",
+        "name": "高山社跡",
+        "role": "育てる技術を教える",
+        "lat": 36.20334808,
+        "lng": 139.03174382,
+        "location_status": "representative",
+        "coordinate_scope": "official-map-marker",
+        "coordinate_source_url": "https://kunishitei.bunka.go.jp/heritage/detail/401/00003640",
+        "coordinate_checked_at": "2026-10-15",
+        "visit_note": "公式案内の代表位置です。入口や公開範囲を保証するものではありません。建物の内部公開・工事状況・見学条件は各施設の公式案内を確認してください。",
+        "fact_ids": [
+          "takayama-facts"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "id": "relation-1",
+        "from": "tomioka",
+        "to": "tajima",
+        "kind": "thematic",
+        "note": "資料に記載された役割と技術の比較です。地点間の繭の納入経路や訪問順を表す線ではありません。",
+        "fact_ids": [
+          "tomioka-facts",
+          "tajima-facts"
+        ]
+      },
+      {
+        "id": "relation-2",
+        "from": "tajima",
+        "to": "takayama",
+        "kind": "thematic",
+        "note": "資料に記載された役割と技術の比較です。地点間の繭の納入経路や訪問順を表す線ではありません。",
+        "fact_ids": [
+          "tajima-facts",
+          "takayama-facts"
+        ]
+      }
+    ],
+    "forbidden_phrases": [
+      "ぜひ訪れて",
+      "歴史を感じる",
+      "魅力を感じる"
+    ]
+  },
+  "draft": {
+    "error": "",
+    "title": "群馬の絹産業を、蚕を育てる技術から読む",
+    "lead": "繭から糸を取る工場と、蚕を育てる家。群馬の三つの場所を、建物の使い方と技術を教える仕組みから見比べます。",
+    "intro": "旧富岡製糸場は製糸、田島弥平旧宅と高山社跡は養蚕の技術を知る手がかりになります。同じ絹産業に関わっていても、建物が担った仕事は異なります。工場、住居を兼ねた蚕室、技術を指導した場所を順に比較します。",
+    "reading_title": "製糸と養蚕、技術と建物の違い",
+    "places": [
+      {
+        "id": "tomioka",
+        "body": "旧富岡製糸場では、繰糸所で繭から糸を取り、東西の置繭所で繭を乾燥・貯蔵しました。木の骨組みと煉瓦の壁を組み合わせた建物は、仕事ごとに役割が分かれています。各地から集まった工女が技術を学び、帰郷後に地元で教えたことにも、工場を拠点とする技術の広がりが見えます。",
+        "evidence_ids": [
+          "tomioka-facts"
+        ]
+      },
+      {
+        "id": "tajima",
+        "body": "田島弥平が体系化した清涼育は、蚕を育てる空間の空気の循環を重視しました。旧宅の主屋は一階が住居、二階が蚕室で、屋根には換気のための櫓があります。糸を取る機械ではなく、蚕を育てる家の構造に目を向ける場所です。ここで扱った蚕種は、カイコの卵を指します。",
+        "evidence_ids": [
+          "tajima-facts"
+        ]
+      },
+      {
+        "id": "takayama",
+        "body": "高山社跡は、高山長五郎が清温育を研究し、指導した場所です。清温育は清涼育と温暖育を折衷し、蚕の育ち方に応じて温度や換気を調整しました。高山社は蚕業学校を開き、生徒の受け入れや指導者の派遣も行っています。飼育の方法と、それを各地へ教える仕組みを合わせて読むことができます。",
+        "evidence_ids": [
+          "takayama-facts"
+        ]
+      }
+    ],
+    "relations": [
+      {
+        "id": "relation-1",
+        "title": "糸を取る工場と、蚕を育てる家",
+        "body": "旧富岡製糸場では繭を扱う仕事が繰糸所と置繭所に分かれ、田島弥平旧宅では住居と蚕室が一つの主屋に収まっています。製糸と養蚕の違いを、建物の使い方から比較できます。この二地点の間で繭を直接運んでいたことを示す線ではありません。",
+        "evidence_ids": [
+          "tomioka-facts",
+          "tajima-facts"
+        ]
+      },
+      {
+        "id": "relation-2",
+        "title": "清涼育と清温育を、換気と温度から比べる",
+        "body": "田島弥平の清涼育は空気の循環を重視し、高山長五郎の清温育は蚕の育ち方に応じた温度や換気の調整を行いました。同じ養蚕でも、飼育環境を整える考え方には違いがあります。二つの場所を見比べる際は、技術の名前を同じものとして扱わず、それぞれが何を調整したかに注目します。",
+        "evidence_ids": [
+          "tajima-facts",
+          "takayama-facts"
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "relation_id": "relation-1",
+        "label": "製糸と養蚕では、建物の構造や役割にどのような違いがありますか？"
+      },
+      {
+        "relation_id": "relation-2",
+        "label": "清涼育と清温育には、どのような技術的な違いがありますか？"
+      }
+    ]
+  },
+  "provenance": {
+    "editorial_status": "edited-for-publication",
+    "editorial_actor": "AI-assisted official-source verification and factual editing; no human-review time claimed",
+    "authorization": "User requested an additional generated story on 2026-10-15.",
+    "published_at": "2026-10-15",
+    "checked_at": "2026-10-15",
+    "generation": {
+      "model": "gemma4:12b",
+      "model_digest": "4eb23ef187e2c5462566d6a1d3bbbc2f1346d0b4327cbb66d58fffbcc9b2b05c",
+      "prompt_version": "midokoro-story-v4.1",
+      "generated_at": "2026-10-15T13:42:52.155082759Z",
+      "packet_sha256": "5f418f1c7b0fb67e8e628731dd0dd9b28ab5dc43719951e5f5e228497f753e94",
+      "elapsed_seconds": 682.24
+    },
+    "source_snapshots": [
+      {
+        "source": "tajima",
+        "sha256": "34e37fdca4d5eb349b04671109b8dd0fa224e898d7273ccadd50b56067a9b4a5"
+      },
+      {
+        "source": "takayama",
+        "sha256": "3cd742f147b6f23531ec5c96137a2be7bcfdf3289c7434936103a0e395c513de"
+      },
+      {
+        "source": "tomioka",
+        "sha256": "6fc3352a0daa095c522f6bca212aefadec017fc1564f2b194eb264c1c754f708"
+      }
+    ],
+    "editorial_changes": [
+      "Replace unsupported progression from individual technique to wider teaching with direct comparison of methods; Tajima also trained learners.",
+      "Avoid implying that the surviving Takayama site was the location of the main sericulture school.",
+      "Do not assert direct cocoon supply or transport routes among the three sites.",
+      "Omit conflicting dates for the founding of the predecessor Takayama organisation (1870/1873 in official pages).",
+      "Use the Isesaki city map representative point for Tajima; Cultural Agency page map centre is several kilometres away.",
+      "Include one public-domain photograph with source and author."
+    ]
+  }
+}
